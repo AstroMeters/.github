@@ -6,4 +6,4 @@ AstroMeters aims to propel astronomy forward through the use of cutting-edge tec
 
 We are closely connected to the astronomical community and actively listen to the needs and feedback of both professional and amateur astronomers. This collaboration enables us to continually develop and enhance our devices to meet the highest standards of quality and performance. We take pride in our ability to contribute to the advancement of astronomy and support scientific research in space.
 
-We warmly invite you to join our AstroMeters team. Explore our projects, discover new technologies, engage in discussions, and contribute your ideas and experiences. Together, we can make significant strides in astronomy and unravel the mysteries of the universe. Thank you for your support and interest in AstroMeters.
+We warmly invite you to join our AstroMeters team. Explore our projects, discover new technologies, engage in [discussions](https://github.com/orgs/AstroMeters/discussions), and contribute your ideas and experiences. Together, we can make significant strides in astronomy and unravel the mysteries of the universe. Thank you for your support and interest in AstroMeters.
