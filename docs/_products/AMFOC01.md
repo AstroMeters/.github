@@ -6,13 +6,6 @@ product_code: AMFOC01
 layout: product
 image: '/images/products/AMFOC01/AMFOC01_boards.jpg'
 price: xxx Eur
-features:
-    - label: 'Ultra-Precise Focusing AMFOC01 combines micro-stepping Trimatic driver for vibration-free, precise focusing.'
-      icon: fa-location-arrow
-    - label: 'Adaptable Power Supply AMFOC01's 9-16V range suits various sources, including lead-acid or li-ion batteries, via standard coaxial DC connector.'
-      icon: fa-grin-stars
-    - label: 'Effortless Control AMFOC01 offers USB-C connectivity, manual control, and red OLED display for intuitive interface.'
-      icon: fa-fighter-jet
 ---
 
 
