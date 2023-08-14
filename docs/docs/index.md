@@ -4,7 +4,7 @@ title: AstroMeters documentation
 subtitle: Learn how to behave with AstroMeters instruments.
 menubar: docs_menu
 show_sidebar: false
-toc: true
+toc: false
 nav_order: 0
 hero_image: '/images/docs.jpg'
 ---

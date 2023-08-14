@@ -2,7 +2,6 @@
   items:
     - name: AstroMeters documentation
       link: /docs
-    - name: Configuration
 
 - label: AMFOC01
   link: /docs/AMFOC01/
