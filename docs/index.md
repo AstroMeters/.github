@@ -2,12 +2,14 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: home
+layout: page
 title: AstroMeters.eu
+subtitle: AstroMeters home page
 nav_order: 0
+show_sidebar: true
 ---
 
-# Welcome to the [AstroMeters](https://www.astrometers.eu) documentation page.
+# Welcome to the [AstroMeters](https://www.astrometers.eu) home page.
 
 Here, you will find useful information about AstroMeters products. You can discover their specifications, instructions on how to handle your AstroMeters device, how to set it up and use it with your astronomical assembly.
 
