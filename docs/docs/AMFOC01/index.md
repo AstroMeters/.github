@@ -1,10 +1,10 @@
 ---
 layout: page
-title: AMFOC01
-subtitle: Advanced focuser for astronomy telescopes
+title: AstroMeters documentation page
+subtitle: 'AMFOC01: Advanced focuser for astronomy telescopes'
 menubar: docs_menu
 show_sidebar: false
-toc: true
+toc: false
 ---
 
 
@@ -12,7 +12,7 @@ AMFOC01 is a highly sophisticated focuser primarily designed for astronomical te
 
 The device is equipped with an red OLED display and four buttons for easy user interaction. It can be connected to a computer via USB-C and controlled using software compatible with the [MoonLight](https://indilib.org/devices/focusers/moonlite-focuser.html) protocol, such as [KStars](https://edu.kde.org/kstars/) or [INDI](https://www.indilib.org/) or it can be used without computer in manual or temperature-tracking mode.
 
-### Key Features
+## Key Features
 
 - **High precision and smooth operation:** Thanks to the use of the micro-stepping driver [TMC5130](https://www.trinamic.com/products/integrated-circuits/details/tmc5130/) and the [RP2040](https://www.raspberrypi.org/products/rp2040/) processor, the focuser provides smooth and quiet operation, ensuring high focusing accuracy without vibrations transferred to the assembly.
 - **Power flexibility:** The focuser can be powered in the voltage range of 9-16V, making it compatible with lead-acid batteries (e.g., car batteries) or car onboard voltage. Powering is realized through a coaxial DC connector 5.5/2.1.
@@ -24,3 +24,24 @@ AMFOC01 is designed to be easily connectable to a wide range of astronomical tel
 Project is fully open-source. This means that all software, firmware, and hardware design are publicly available and can be modified according to the user's needs. We are also offering custom modification on request.
 
 AMFOC01 can be used in a variety of scenarios where precise focusing of optical systems is needed. This device is primarily intended for astronomical telescopes but can also be used in other optical devices.
+
+
+## AMFOC01 description
+
+1. USB interface with USB-C
+1. RJ12 connector from wire hand controller
+1. MiniDIN connector for motor 
+1. Power input - coaxial DC connector, 12V
+
+## Initial setup 
+
+
+
+
+
+### Manual usage
+
+
+
+
+### Computer usage 

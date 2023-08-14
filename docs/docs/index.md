@@ -1,6 +1,6 @@
 ---
 layout: page
-title: AstroMeters documentation
+title: AstroMeters documentation page
 subtitle: Learn how to behave with AstroMeters instruments.
 menubar: docs_menu
 show_sidebar: false

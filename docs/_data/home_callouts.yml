@@ -12,7 +12,7 @@ items:
     call_to_action_link: /docs/
   - title: Expert Support
     subtitle: With us, you'll have access to expert support and advice to fully utilize the potential of your observation setups for exploring the whole space above you.
-    icon: fa-users
+    icon: fa-user
     icon_brand: true
     call_to_action_name: Discuss with us!
     call_to_action_link: https://github.com/orgs/AstroMeters/discussions
