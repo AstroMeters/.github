@@ -4,7 +4,7 @@ subtitle: Advanced Focuser for Astronomical Telescopes
 description:  AMFOC01 is Open-source accurate focuser for astronomical telescopes with USB-C interface. A perfect tool for precise image focusing. Focuser can be controlled from your computer or trought the manual wire controller. Ideal for amateur and professional astronomers with a desire to improve your observational skills. 
 product_code: AMFOC01
 layout: product
-image: ''
+image: '/images/products/AMFOC01/AMFOC01_boards.jpg'
 price: xxx Eur
 features:
     - label: 'Ultra-Precise Focusing: AMFOC01 combines micro-stepping Trimatic driver for vibration-free, precise focusing.'
