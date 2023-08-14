@@ -1,11 +1,13 @@
 ---
 layout: page
 title: AstroMeters.eu
-subtitle: 'AstroMeters: high-quality components for your observation assembly'
+subtitle: 'AstroMeters: high-quality components for your telescope assembly'
 nav_order: 0
 show_sidebar: false
 callouts: home_callouts
 hero_image: images/man_night.jpg
+hero_link: /products/
+hero_link_text: Explore our products!
 ---
 
 AstroMeters is a brand that specializes in the development, manufacturing, and sale of components designed for astronomical observations and telescope assemblys. Our goal is to ensure that your observations are not only precise but also fulfilling. We aim to enable you to fully harness the potential of your telescope and entire observation assembly.

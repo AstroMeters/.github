@@ -34,4 +34,5 @@ collections:
     output: true
     layout: product
     image: ''
+    hero_image: '/images/docs.jpg'
     show_sidebar: false

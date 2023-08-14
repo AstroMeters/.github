@@ -1,6 +1,6 @@
-- name: Docs
-  link: /docs/
 - name: Products
   link: /products/
+- name: Docs
+  link: /docs/
 - name: About
   link: /about/
