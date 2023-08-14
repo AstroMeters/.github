@@ -1,0 +1,12 @@
+style: is-light
+items:
+  - title: Precise Observation
+    subtitle: We offer components designed with precision in mind, allowing you to uncover incredible details of the universe.
+    icon: fa-scale-balanced
+  - title: Wide Range of Options
+    subtitle: Our wide range of components enables you to create an observation setup according to your individual preferences and needs.
+    icon: fa-screwdriver-wrench
+  - title: Expert Support
+    subtitle: With us, you'll have access to expert support and advice to fully utilize the potential of your observation setups for exploring the whole space above you.
+    icon: fa-circle-question
+    icon_brand: true
