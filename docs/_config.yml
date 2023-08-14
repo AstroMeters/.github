@@ -27,3 +27,11 @@ plugins:
   - jekyll-seo-tag
   - kramdown-parser-gfm
   - jekyll-redirect-from
+
+
+collections:
+  products: 
+    output: true
+    layout: product
+    image: ''
+    show_sidebar: false
