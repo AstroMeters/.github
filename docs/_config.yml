@@ -3,6 +3,8 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+
+lang: en
 title: AstroMeters.eu 
 email: romandvorak@mlab.cz
 description: >- # this means to ignore newlines until "baseurl:"
@@ -11,10 +13,17 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://astrometers.eu"
 #twitter_username: jekyllrb
 github_username:  AstroMeters
+permalink: pretty
+theme_color: '#1c305c'
 
 # Build settings
 markdown: kramdown
 #theme: just-the-docs
 remote_theme: chrisrhymes/bulma-clean-theme
 plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
   - jekyll-feed
+  - jekyll-seo-tag
+  - kramdown-parser-gfm
+  - jekyll-redirect-from
