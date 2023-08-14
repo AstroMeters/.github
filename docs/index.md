@@ -4,15 +4,16 @@
 
 layout: page
 title: AstroMeters.eu
-subtitle: AstroMeters home page
+subtitle: AstroMeters: high-quality components for your observation assembly
 nav_order: 0
-show_sidebar: true
+show_sidebar: false
+callouts: home_callouts
 ---
 
-# Welcome to the [AstroMeters](https://www.astrometers.eu) home page.
+# Welcome to AstroMeters.eu
 
-Here, you will find useful information about AstroMeters products. You can discover their specifications, instructions on how to handle your AstroMeters device, how to set it up and use it with your astronomical assembly.
+AstroMeters is a brand that specializes in the development, manufacturing, and sale of components designed for astronomical observations and telescope assemblys. Our goal is to ensure that your observations are not only precise but also fulfilling. We aim to enable you to fully harness the potential of your telescope and entire observation assembly.
 
-At AstroMeters, our team strives to provide the best solutions for your needs. If you have any uncertainties, feel free to contact us through the [discuss](https://github.com/orgs/AstroMeters/discussions) with your problem.
+At AstroMeters, we bring you high-quality components that we use ourselves in our own astronomical observations. Every product we carry under the AstroMeters brand has undergone our own testing and evaluation to ensure its performance and reliability.
 
-AstroMeters is a team of people, hardware, and software developers with a deep passion for astronomy. We decided to create these products because we were not entirely satisfied with the current solutions available in the market. Therefore, we would appreciate it if you could share your user experiences while using our products. Your feedback is highly valuable to us and will help us continuously improve our offerings.
+We take pride in being able to offer you our own experiences and passion for astronomy so that you can achieve unforgettable experiences while observing stars and the cosmos. We thank you for choosing AstroMeters as your partner on this incredible journey of exploring the infinite.
