@@ -6,6 +6,7 @@ menubar: docs_menu
 show_sidebar: false
 toc: true
 nav_order: 0
+hero_image: '/images/docs.jpg'
 ---
 
 # Welcome to the [AstroMeters](https://www.astrometers.eu) documentation page.
