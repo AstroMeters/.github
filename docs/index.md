@@ -1,10 +1,7 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: page
 title: AstroMeters.eu
-subtitle: AstroMeters: high-quality components for your observation assembly
+subtitle: 'AstroMeters: high-quality components for your observation assembly'
 nav_order: 0
 show_sidebar: false
 callouts: home_callouts
