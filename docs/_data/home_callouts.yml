@@ -2,13 +2,17 @@ style: is-light
 items:
   - title: Precise Observation
     subtitle: We offer components designed with precision in mind, allowing you to uncover incredible details of the universe.
-    icon: fa-scale-balanced
+    icon: fa-gears
+    call_to_action_name: Browse our products
+    call_to_action_link: /products/
   - title: Wide Range of Options
     subtitle: Our wide range of components enables you to create an observation setup according to your individual preferences and needs.
     icon: fa-wrench
+    call_to_action_name: See documentation
+    call_to_action_link: /docs/
   - title: Expert Support
     subtitle: With us, you'll have access to expert support and advice to fully utilize the potential of your observation setups for exploring the whole space above you.
-    icon: fa-circle-question
+    icon: fa-comments
     icon_brand: true
-    call_to_action_name: Write to us!
+    call_to_action_name: Discuss with us!
     call_to_action_link: https://github.com/orgs/AstroMeters/discussions
