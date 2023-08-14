@@ -1,0 +1,20 @@
+- label: Getting Started
+  items:
+    - name: AstroMeters documentation
+      link: /docs
+    - name: Configuration
+
+- label: AMFOC01
+  link: /docs/AMFOC01/
+  items:
+    - name: General description
+      link: /docs/AMFOC01/
+    - name: Firmware
+      link: /docs/AMFOC01/firmware/
+    - name: Focuser handling
+      link: /docs/AMFOC01/handling/
+
+- label: USBMOUNT01
+  items:
+    - name: USBMOUNT01 general description
+      link: /docs/USBMOUNT01/
