@@ -32,16 +32,25 @@ AMFOC01 can be used in a variety of scenarios where precise focusing of optical 
 1. RJ12 connector from wire hand controller
 1. MiniDIN connector for motor 
 1. Power input - coaxial DC connector, 12V
-
-## Initial setup 
-
-
+1. OLED red display
+1. Four interface buttons (BACK, SET, LEFT, RIGHT)
 
 
 
-### Manual usage
+## Usage
+A unique feature of the AMFOC01 focuser is its versatility, allowing it to be used for manual visual observation, astrophotography with just a camera, or in complex telescope setups controlled by a computer. Thanks to its design, AMFOC01 can cater to all of these possibilities.
 
+In the following section, you will discover key features tailored for specific types of observation.
 
+### Robotic Observing
+AMFOC01 can be connected to your computer via USB-C, allowing you to control your telescope's focusing mechanism. The recommended tool for controlling the focuser is the INDI system and the EKOS interface within the KStars planetarium software.
 
+The focuser currently supports the MoonLite protocol, making it seamless to integrate into existing setups without the need for software updates. Through the MoonLite protocol, you can retrieve the current position of the focuser and send commands for adjustments. Equipped with a thermometer, the focuser can perform automatic focusing corrections based on temperature changes.
 
-### Computer usage 
+### Autonomous Operation
+Many astrophotographers observe without connecting a computer. They need the ability to focus or refocus based on temperature or the optical filter in use. This is where AMFOC01 proves invaluable. With its intuitive user interface and wide voltage input range, you can seamlessly integrate AMFOC into your setup and enjoy very sharp images. 
+
+Utilizing the wired controller, you can achieve precise and rapid focusing without introducing vibrations or movements to the optical system. Enabling the temperature correction, you can let the focuser automatically refocus throughout your observation session, ensuring consistently sharp images.
+
+### Visual Observing
+Do you enjoy observing celestial objects with the naked eye trough telescope? It's a wonderful pursuit. However, changing eyepieces often requires significant refocusing, potentially causing the object to slip out of view, especially when switching to eyepieces with smaller focal lengths. This is where the AMFOC system comes to your aid. You can easily store your eyepieces in the AMFOC system, allowing the focuser to be adjusted with a single click, ensuring the object remains beautifully sharp even with a new eyepiece. You can then fine-tune the focus according to your eye's preference. Simple, isn't it? :)
