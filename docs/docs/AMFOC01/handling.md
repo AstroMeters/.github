@@ -36,8 +36,23 @@ The focuser will automatically initiate itself upon power connection through eit
 After startup, a system initialization will occur, configuring the individual components. Upon successful initialization, the introductory screen will be displayed on the OLED.
 
 #### Introductory Screen
-On the introductory screen, you will find basic information about the focuser. In clear columns, you'll observe the status of USB connection and the 12V power source.
+On the introductory screen, you will find basic information about the focuser. In two columns, you'll observe the status of USB connection and the 12V power source.
 
-On the next line, you'll see the motor's status (whether it's rotating or stationary) and its position in steps. In the event of disconnected power, the position will be zero, and the motor will not rotate.
+On the next line, you'll see the motor's status (whether it's rotating or stationary) and its position in steps. In the state of disconnected 12V power, the position will be zero, and the motor will not rotate.
 
 The current temperature is displayed on the third line.
+
+
+Now, by using the side arrows, you switch between individual focuser functions. Among these, you'll encounter the introductory screen, followed by Manual Focuser Control, the Rapid Focusing Tool, and Focuser Settings. To activate each function, press the 'SET' button on the respective page.
+
+
+#### Manual focus
+This page serves for easy manual focusing using the buttons. By pressing the 'SET' button, you adjust the focusing speed in increments of 10 steps. While holding the arrow buttons, you perform the actual focusing, moving in the respective direction.
+
+#### Eyepiece mode
+
+
+#### Configuration
+In the settings, you can modify the fundamental behavior of the focuser. Currently, within the settings, you can adjust four aspects.
+
+By pressing the 'SET' button, you select the parameter you want to adjust (actual parameter is marked with arrow). Subsequently, you use the arrow buttons to toggle its value. Upon exiting the menu (using the 'BACK' button), the settings will be permanently stored in the internal memory. This configuration will persist even after the focuser is restarted.

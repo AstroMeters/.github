@@ -54,3 +54,22 @@ Utilizing the wired controller, you can achieve precise and rapid focusing witho
 
 ### Visual Observing
 Do you enjoy observing celestial objects with the naked eye trough telescope? It's a wonderful pursuit. However, changing eyepieces often requires significant refocusing, potentially causing the object to slip out of view, especially when switching to eyepieces with smaller focal lengths. This is where the AMFOC system comes to your aid. You can easily store your eyepieces in the AMFOC system, allowing the focuser to be adjusted with a single click, ensuring the object remains beautifully sharp even with a new eyepiece. You can then fine-tune the focus according to your eye's preference. Simple, isn't it? :)
+
+## Construction
+The focuser's electronics are of our proprietary design, development, and manufacturing. No Chinese modules are utilized within the focuser, ensuring both its robustness and high quality. Thanks to the ingenious electronics design, the focuser provides exceptionally smooth focusing, without introducing undesirable vibrations to your setup.
+
+<p align="center">
+  <img alt="Light" src="/images/products/AMFOC01/AMFOC01-top.png" width="49%">
+  <img alt="Dark" src="/images/products/AMFOC01/AMFOC01-bottom.png" width="49%">
+</p>
+
+
+The focuser includes a high-quality red OLED display, offering a quick overview of the focuser's status while not disturbing your night vision adaptation.
+
+Equipped with an integrated thermometer, the focuser can also accommodate an external thermometer for more precise temperature readings.
+
+As the actuating component, a stepper motor terminated with a 4-pin miniDIN connector is assumed. The connector wiring is as follows:
+
+> PICTURE OF motor WIRING
+
+> TODO: Add possible motor parameters.
