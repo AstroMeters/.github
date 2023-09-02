@@ -5,7 +5,7 @@ description:  AMFOC01 is Open-source accurate focuser for astronomical telescope
 product_code: AMFOC01
 layout: product
 image: '/images/products/AMFOC01/AMFOC01_boards.jpg'
-price: xxx Eur
+price: 128 Eur
 ---
 
 
