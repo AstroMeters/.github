@@ -1,34 +1,55 @@
----
+
+--------------
 title: AMFOC01
 subtitle: Advanced Focuser for Astronomical Telescopes
-description:  AMFOC01 is Open-source accurate focuser for astronomical telescopes with USB-C interface. A perfect tool for precise image focusing. Focuser can be controlled from your computer or trought the manual wire controller. Ideal for amateur and professional astronomers with a desire to improve your observational skills. 
-product_code: AMFOC01
+description: AMFOC01 is an open-source, high-precision focuser for astronomical telescopes with USB-C connectivity. This advanced tool enables perfect, vibration-free focusing—whether controlled from your computer or via a simple manual controller. The ideal solution for both amateur and professional astronomers looking to achieve ultimate accuracy in their observations.
+product\_code: AMFOC01
 layout: product
-image: '/images/products/AMFOC01/AMFOC01_boards.jpg'
+image: '/images/products/AMFOC01/AMFOC01\_boards.jpg'
 price: 253 Eur
----
+--------------
+
+**AMFOC01 – Advanced Open-Source Telescope Focuser**
+
+Take your astronomical imaging and observing to the next level with the AMFOC01—an advanced focuser designed for demanding astronomers and tinkerers. Engineered for precise, smooth, and ultra-quiet focusing, AMFOC01 uses the state-of-the-art TMC5130 micro-stepping driver and RP2040 processor to eliminate vibration and guarantee repeatable results, night after night.
+
+Although AMFOC01 is built primarily for astronomical telescopes, its flexible, adaptable design means it can serve in a wide range of optical applications, including scientific and DIY setups. Full open-source hardware, firmware, and software ensure total freedom for modifications and custom integrations.
 
 
-AMFOC01 is an advanced and highly sophisticated focuser designed to elevate your astronomical observation experience. While primarily intended for use with telescopes, its versatile design also makes it compatible with various optical devices. This cutting-edge focuser integrates state-of-the-art technologies, including the high-quality micro-stepping driver TMC5130 for stepper motors and the RP2040 processor, ensuring precision and quiet operation without the disturbances caused by traditional motor control methods.
+### Key Features
 
-### Key Features:
+* **Smooth, High-Precision Focusing:**
+  The combination of TMC5130 micro-stepping and the modern RP2040 processor guarantees gentle, accurate, and silent focus adjustments—no more image shifts or motor jitters.
+* **Universal Power Compatibility:**
+  Operates on 9–16 V DC, so you can power it from a car battery, field supply, or observatory setup. Uses a standard 5.5/2.1 mm coaxial connector.
+* **User-Friendly Interface:**
+  Large red OLED display with four intuitive buttons makes manual focusing a breeze—even in complete darkness. Connect to your computer via USB-C and control AMFOC01 with any MoonLite-compatible software (such as KStars/INDI/Ekos).
+* **Real-Time Temperature Compensation:**
+  Built-in thermometer enables automatic focus correction as ambient temperature changes—perfect for astrophotography and long observing sessions.
+* **Manual or Automated Control:**
+  Enjoy the freedom to focus using either the convenient hand controller or advanced automation from your favorite astronomy software.
 
- * **Smooth Precision**: With the micro-stepping driver TMC5130 and the RP2040 processor, AMFOC01 guarantees seamless and quiet operation, delivering precise focusing accuracy without transmitting vibrations to the optical assembly.
- * **Flexible Power Options**: AMFOC01 can be powered within the 9-16V voltage range, accommodating various power sources such as lead-acid batteries or car onboard voltage. Power is conveniently supplied via a coaxial DC connector (5.5/2.1).
- * **Intuitive Interaction**: Equipped with a red OLED display and four user-friendly buttons, AMFOC01 ensures intuitive control. While it can connect to a computer via USB-C for compatibility with MoonLight protocol software, please note that USB-C cannot power the motor.
- * **Temperature Compensation**: Integrated temperature monitoring allows AMFOC01 to account for ambient temperature changes, enhancing its precision by compensating for temperature-related focusing shifts.
+
+<p align="center">
+  <img alt="AMFOC01 Top" src="/images/products/AMFOC01/amfoc_schema.png" width="80%">
+</p>
 
 
-### Versatility and Adaptability:
-AMFOC01 is designed for seamless integration with a wide array of astronomical telescopes. Custom mechanical adapters can be created using 3D printing to ensure compatibility with specific telescope models and optical systems.
+### Versatility & Integration
 
-### Open-Source Advantage:
-AMFOC01 is a fully open-source project. This empowers users to access and modify all aspects, including software, firmware, and hardware design. Custom modifications can also be tailored upon request.
+AMFOC01 is ready to integrate with nearly any telescope or optical system. 3D-printable mechanical adapters can be created to fit your specific setup, and the compact design is easy to mount. Whether you’re retrofitting an older telescope or building a new imaging rig, AMFOC01 gives you the flexibility and reliability you need.
 
-### Technical Documentation:
-For more detailed technical information and comprehensive instructions, please refer to the [documentation](/docs/AMFOC01/).
 
-### Applications:
-Beyond its primary role in astronomical telescopes, AMFOC01 finds its utility in diverse optical systems where precise focusing is paramount. Whether you're an amateur stargazer or a seasoned astronomer, AMFOC01's versatility makes it an indispensable tool for elevating your observation pursuits.
+### 100% Open Source
 
-Embrace the precision and innovation of AMFOC01 and embark on a journey of enhanced astronomical exploration.
+This project is completely open-source—including hardware, firmware, and control software. You’re free to inspect, modify, and extend every aspect. We also offer support and can provide custom modifications for unique applications.
+
+
+### Documentation
+
+Find technical details, pinouts, setup guides, and troubleshooting tips in the [official documentation](/docs/AMFOC01/).
+
+
+### Who is it for?
+
+AMFOC01 is the perfect focuser for anyone who demands reliable, accurate focusing—whether you’re an amateur exploring the night sky, an astrophotographer seeking pinpoint stars, or a researcher with special optical needs.
