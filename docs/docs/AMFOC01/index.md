@@ -43,7 +43,11 @@ The AMFOC01 focuser includes:
 5. **Red OLED display**
 6. **Four interface buttons:** BACK, SET, LEFT, RIGHT
 
----
+
+
+<p align="center">
+  <img alt="AMFOC01 Top" src="/images/products/AMFOC01/amfoc_schema.png" width="80%">
+</p>
 
 ## Usage Scenarios
 
