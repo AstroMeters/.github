@@ -4,7 +4,7 @@ subtitle: Advanced Focuser for Astronomical Telescopes
 description: AMFOC01 is an open-source, high-precision focuser for astronomical telescopes with USB-C connectivity. This advanced tool enables perfect, vibration-free focusing—whether controlled from your computer or via a simple manual controller. The ideal solution for both amateur and professional astronomers looking to achieve ultimate accuracy in their observations.
 product\_code: AMFOC01
 layout: product
-image: '/images/products/AMFOC01/AMFOC01\_boards.jpg'
+image: '/images/products/AMFOC01/AMFOC01_boards.jpg'
 price: 253 Eur
 ---
 
@@ -30,7 +30,7 @@ Although AMFOC01 is built primarily for astronomical telescopes, its flexible, a
 
 
 <p align="center">
-  <img alt="AMFOC01 Top" src="/images/products/AMFOC01/amfoc_schema.png" width="80%">
+  <img alt="AMFOC01 Top" src="/images/products/AMFOC01/amfoc_schema.png" width="60%">
 </p>
 
 
