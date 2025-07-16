@@ -1,7 +1,8 @@
 source "https://rubygems.org"
 
 gem "jekyll"
-gem "bulma-clean-theme"
+# gem "bulma-clean-theme"
+gem "bulma-clean-theme", git: "https://github.com/roman-dvorak/bulma-clean-theme.git", branch: "Buy_it_button"
 gem "jekyll-sitemap"
 gem "jekyll-paginate"
 gem "jekyll-feed"
