@@ -10,7 +10,7 @@ permalink: pretty
 theme_color: '#1c305c'
 
 markdown: kramdown
-remote_theme: chrisrhymes/bulma-clean-theme
+theme: bulma-clean-theme
 plugins:
   - jekyll-sitemap
   - jekyll-paginate
