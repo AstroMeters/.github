@@ -1,3 +1,13 @@
+---
+layout: page
+title: AstroMeters documentation page
+subtitle: 'AMUSBMOUNT01 – EQmod USB-C Converter Documentation'
+menubar: docs_menu
+show_sidebar: false
+toc: false
+---
+
+
 # AMUSBMOUNT01 – EQmod USB-C Converter Documentation
 
 **AMUSBMOUNT01** – an innovative USB-C to RJ45 converter designed to unlock the full potential of your Skywatcher mount. Here you will find setup guides, compatibility information, usage tips, troubleshooting, and details about recommended accessories.
