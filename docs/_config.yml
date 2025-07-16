@@ -8,6 +8,7 @@ url: "https://astrometers.eu"
 github_username:  AstroMeters
 permalink: pretty
 theme_color: '#1c305c'
+google_analytics: G-NBPYLMPRY4
 
 markdown: kramdown
 theme: bulma-clean-theme
