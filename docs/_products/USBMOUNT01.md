@@ -1,8 +1,8 @@
 ---
-title: USBMOUNT01
+title: AMUSBMOUNT
 subtitle: Add USB interface to your mount
 description: 'The USBMOUNT - EQmod USB-C Converter allows for direct telescope mount control from your computer. Compatible with a wide range of popular mounts across various brands, this converter elevates your observational capabilities and precision. Simply connect and unlock a new level of astronomical exploration.'
-product_code: USBMOUNT01
+product_code: AMUSBMOUNT01
 layout: product
 image: '/images/products/USBMOUNT01/USBMOUNT01A_render.png'
 price: 42.2 Eur
