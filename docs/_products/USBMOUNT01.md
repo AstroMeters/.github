@@ -5,7 +5,7 @@ description: 'The USBMOUNT - EQmod USB-C Converter allows for direct telescope m
 product_code: USBMOUNT01
 layout: product
 image: '/images/products/USBMOUNT01/USBMOUNT01A_render.png'
-price: 38 Eur
+price: 42.2 Eur
 ---
 
 Maximize the potential of your telescope mount with direct computer control.
