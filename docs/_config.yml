@@ -13,6 +13,14 @@ google_analytics: G-NBPYLMPRY4
 gh_sponsor: false
 hide_footer: true
 
+social:
+  facebook: false
+  instagram: false
+  threads: false
+  tiktok: false
+  x: false
+  youtube: false
+
 markdown: kramdown
 theme: bulma-clean-theme
 plugins:
