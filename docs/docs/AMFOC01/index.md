@@ -13,7 +13,11 @@ toc: false
 
 AMFOC01 features a **red OLED display** and four tactile buttons, allowing for intuitive control and feedback—while preserving your night vision. The focuser can be connected to a computer via USB-C and controlled using any software compatible with the [MoonLite protocol](https://indilib.org/devices/focusers/moonlite-focuser.html), such as [KStars](https://edu.kde.org/kstars/) and [INDI](https://www.indilib.org/). It is also fully operational as a standalone unit, supporting both manual control and temperature-tracking modes without the need for a computer.
 
----
+
+<p align="center">
+  <img alt="AMFOC01 Top" src="/images/products/AMFOC01/amfoc_sky.png" width="80%">
+</p>
+
 
 ## Key Features
 
