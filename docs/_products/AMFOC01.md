@@ -26,7 +26,7 @@ AMFOC01 is designed for seamless integration with a wide array of astronomical t
 AMFOC01 is a fully open-source project. This empowers users to access and modify all aspects, including software, firmware, and hardware design. Custom modifications can also be tailored upon request.
 
 ### Technical Documentation:
-For more detailed technical information and comprehensive instructions, please refer to the [documentation](https://docs.astrometers.eu/).
+For more detailed technical information and comprehensive instructions, please refer to the [documentation](/docs/AMFOC01/).
 
 ### Applications:
 Beyond its primary role in astronomical telescopes, AMFOC01 finds its utility in diverse optical systems where precise focusing is paramount. Whether you're an amateur stargazer or a seasoned astronomer, AMFOC01's versatility makes it an indispensable tool for elevating your observation pursuits.
