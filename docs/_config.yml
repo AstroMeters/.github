@@ -38,3 +38,6 @@ collections:
     image: ''
     hero_image: '/images/docs.jpg'
     show_sidebar: false
+
+paginate: 5
+paginate_path: "/blog/page:num"
