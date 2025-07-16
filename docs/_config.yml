@@ -10,6 +10,9 @@ permalink: pretty
 theme_color: '#1c305c'
 google_analytics: G-NBPYLMPRY4
 
+gh_sponsor: false
+hide_footer: true
+
 markdown: kramdown
 theme: bulma-clean-theme
 plugins:
