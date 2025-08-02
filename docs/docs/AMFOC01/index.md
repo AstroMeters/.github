@@ -2,6 +2,7 @@
 layout: page
 title: AstroMeters documentation page
 subtitle: 'AMFOC01: Advanced focuser for astronomy telescopes'
+description: Complete technical documentation for the AMFOC01 precision telescope focuser. Learn about features, specifications, construction, and usage scenarios for this advanced astronomical focusing solution.
 menubar: docs_menu
 show_sidebar: false
 toc: false

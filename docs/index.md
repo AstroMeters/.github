@@ -2,6 +2,7 @@
 layout: page
 title: AstroMeters.eu
 subtitle: 'AstroMeters: high-quality components for your telescope assembly'
+description: AstroMeters specializes in precision astronomical equipment including the AMFOC01 focuser, AMSKY01 sky sensor, and USBMOUNT01 converter. Open-source designs, rigorous testing, and passion for astronomy drive our high-quality products for professional and amateur astronomers.
 nav_order: 0
 show_sidebar: false
 callouts: home_callouts

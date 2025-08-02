@@ -2,6 +2,7 @@
 layout: page
 title: AstroMeters documentation page
 subtitle: 'AMUSBMOUNT01 – EQmod USB-C Converter Documentation'
+description: Complete setup and usage guide for the AMUSBMOUNT01 USB-C to RJ45 converter. Learn how to connect your Skywatcher mount to your computer for direct control with astronomy software.
 menubar: docs_menu
 show_sidebar: false
 toc: false

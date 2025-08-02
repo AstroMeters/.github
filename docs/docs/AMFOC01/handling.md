@@ -2,6 +2,7 @@
 layout: page
 title: AstroMeters documentation page
 subtitle: 'AMFOC01: Focuser handling'
+description: Comprehensive user guide for operating the AMFOC01 focuser. Learn about button controls, user interface navigation, manual focusing, eyepiece mode, and configuration settings.
 menubar: docs_menu
 show_sidebar: false
 toc: false

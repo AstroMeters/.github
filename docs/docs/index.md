@@ -2,6 +2,7 @@
 layout: page
 title: AstroMeters documentation page
 subtitle: Learn how to behave with AstroMeters instruments.
+description: Comprehensive documentation for AstroMeters astronomical equipment. Find setup guides, technical specifications, troubleshooting tips, and detailed instructions for AMFOC01 focuser, AMSKY01 sky sensor, and USBMOUNT01 converter.
 menubar: docs_menu
 show_sidebar: false
 toc: false

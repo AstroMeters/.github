@@ -2,6 +2,7 @@
 layout: page
 title: AstroMeters documentation page
 subtitle: 'AMFOC01: Firmware'
+description: Learn how to update and manage the AMFOC01 focuser firmware. Step-by-step instructions for firmware updates, version management, and accessing the latest releases from GitHub.
 menubar: docs_menu
 show_sidebar: false
 toc: false
