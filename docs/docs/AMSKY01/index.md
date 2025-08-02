@@ -7,15 +7,11 @@ keywords: 'AMSKY01 sensor, sky quality meter, cloud detection sensor, USB-C weat
 menubar: docs_menu
 show_sidebar: false
 toc: false
+nav_order: 2
+hero_image: '/images/docs.jpg'
 ---
 
 # AMSKY01 – All-in-one Sky Quality and Cloud Sensor
-
-**Manufacturer**: AstroMeters  
-**Model**: AMSKY01  
-**Website**: [https://www.astrometers.eu/products/AMSKY01](https://www.astrometers.eu/products/AMSKY01)
-
-## Overview
 
 The AMSKY01 is a compact, weatherproof sky sensor designed for astronomical and environmental applications. It combines multiple sensors in one unit:
 
