@@ -2,6 +2,8 @@
 layout: page
 title: AstroMeters documentation page
 subtitle: 'AMFOC01: Advanced focuser for astronomy telescopes'
+description: 'Complete AMFOC01 focuser documentation covering setup, operation, features, and technical specifications. Learn how to use this precision astronomical focuser with TMC5130 micro-stepping driver and RP2040 processor for smooth, vibration-free focusing in astrophotography and visual observation. Compatible with MoonLite protocol and major astronomy software.'
+keywords: 'AMFOC01 focuser, telescope focuser documentation, TMC5130 driver, RP2040 processor, MoonLite protocol, astronomical focuser setup, precision focusing, astrophotography focuser, telescope automation, micro-stepping focuser'
 menubar: docs_menu
 show_sidebar: false
 toc: false

@@ -1,8 +1,9 @@
 ---
 title: AMUSBMOUNT
 subtitle: Add USB interface to your mount
-description: 'The USBMOUNT - EQmod USB-C Converter allows for direct telescope mount control from your computer. Compatible with a wide range of popular mounts across various brands, this converter elevates your observational capabilities and precision. Simply connect and unlock a new level of astronomical exploration.'
+description: 'The AMUSBMOUNT01 EQmod USB-C Converter enables direct computer control of your Skywatcher telescope mount through USB-C connectivity. Compatible with EQ8, EQ6, HEQ5, and other popular Skywatcher mounts, this converter transforms your observational setup with automated tracking, precise GoTo functionality, and seamless integration with Stellarium, KStars/INDI, ASCOM, and other astronomy software. Unlock advanced mount automation for enhanced precision in astrophotography and visual observation.'
 product_code: AMUSBMOUNT01
+keywords: 'AMUSBMOUNT01, EQmod converter, USB-C mount controller, Skywatcher mount control, telescope automation, EQ8 controller, EQ6 automation, HEQ5 control, mount interface, Stellarium control, KStars INDI, ASCOM driver, RJ45 converter'
 layout: product
 image: '/images/products/USBMOUNT01/USBMOUNT01A_photo.jpg'
 price: 42.2 Eur

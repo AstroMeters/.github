@@ -2,6 +2,8 @@
 layout: page
 title: AstroMeters documentation page
 subtitle: 'AMUSBMOUNT01 – EQmod USB-C Converter Documentation'
+description: 'AMUSBMOUNT01 EQmod USB-C converter documentation including setup guides, compatibility information, and troubleshooting for Skywatcher telescope mounts. Learn how to connect your EQ8, EQ6, HEQ5, and other compatible mounts to computers for automated control using Stellarium, KStars/INDI, ASCOM, and other astronomy software.'
+keywords: 'AMUSBMOUNT01, EQmod converter, USB-C mount controller, Skywatcher mount control, telescope automation, EQ8 controller, EQ6 automation, HEQ5 control, Stellarium mount control, KStars INDI, ASCOM driver'
 menubar: docs_menu
 show_sidebar: false
 toc: false

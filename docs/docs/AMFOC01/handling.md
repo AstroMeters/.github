@@ -2,6 +2,8 @@
 layout: page
 title: AstroMeters documentation page
 subtitle: 'AMFOC01: Focuser handling'
+description: 'Complete AMFOC01 focuser handling guide covering user interface navigation, button functions, connection procedures, and operational modes. Learn how to effectively control your astronomical focuser for manual focusing, eyepiece mode, and configuration settings.'
+keywords: 'AMFOC01 handling, telescope focuser operation, focuser user interface, manual focusing, eyepiece mode, focuser configuration, astronomy equipment control'
 menubar: docs_menu
 show_sidebar: false
 toc: false
