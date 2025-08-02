@@ -5,4 +5,5 @@ description: 'Discover AstroMeters complete range of precision astronomical prod
 keywords: 'telescope focuser, sky quality meter, mount controller, astronomical products, astrophotography equipment, telescope accessories, precision astronomy, open source hardware, AMFOC01, AMSKY01, AMUSBMOUNT01'
 layout: product-category
 show_sidebar: false
+hero_image: images/am_products.png
 ---
