@@ -1,0 +1,52 @@
+{% comment %}
+Breadcrumb navigation for better SEO and user experience
+{% endcomment %}
+{% assign crumbs = page.url | remove: '/index.html' | split: '/' %}
+{% if crumbs.size > 1 %}
+<nav class="breadcrumb" aria-label="breadcrumbs">
+  <ul>
+    <li><a href="/">Home</a></li>
+    {% assign crumb_path = '' %}
+    {% for crumb in crumbs %}
+      {% unless crumb == blank %}
+        {% assign crumb_path = crumb_path | append: '/' | append: crumb %}
+        {% if forloop.last %}
+          <li class="is-active"><a href="{{ crumb_path }}" aria-current="page">{{ crumb | replace: '-', ' ' | capitalize }}</a></li>
+        {% else %}
+          <li><a href="{{ crumb_path }}">{{ crumb | replace: '-', ' ' | capitalize }}</a></li>
+        {% endif %}
+      {% endunless %}
+    {% endfor %}
+  </ul>
+</nav>
+
+{% comment %} JSON-LD BreadcrumbList structured data {% endcomment %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "{{ site.url }}"
+    }
+    {% assign crumb_path = '' %}
+    {% assign position = 2 %}
+    {% for crumb in crumbs %}
+      {% unless crumb == blank %}
+        {% assign crumb_path = crumb_path | append: '/' | append: crumb %}
+        ,{
+          "@type": "ListItem",
+          "position": {{ position }},
+          "name": "{{ crumb | replace: '-', ' ' | capitalize }}",
+          "item": "{{ site.url }}{{ crumb_path }}"
+        }
+        {% assign position = position | plus: 1 %}
+      {% endunless %}
+    {% endfor %}
+  ]
+}
+</script>
+{% endif %}

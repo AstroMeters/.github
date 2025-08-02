@@ -1,11 +1,20 @@
 lang: en
-title: AstroMeters.eu 
-tagline: AstroMeters.eu
+title: AstroMeters.eu - High-Quality Astronomical Equipment
+tagline: Precision Components for Your Telescope Assembly
 email: romandvorak@mlab.cz
 description: >-
-  Astrometers home page
+  AstroMeters specializes in high-quality astronomical components including precision focusers, 
+  mount controllers, and environmental sensors. Open-source solutions designed by astronomy 
+  enthusiasts for enhanced stargazing and astrophotography experiences.
 baseurl: ""
 url: "https://astrometers.eu"
+author:
+  name: AstroMeters Team
+  email: romandvorak@mlab.cz
+  twitter: 
+  links:
+    - https://github.com/AstroMeters
+    - https://astrometers.eu
 github_username:  AstroMeters
 permalink: pretty
 theme_color: '#1c305c'
@@ -44,3 +53,46 @@ paginate: 5
 paginate_path: "/blog/page:num"
 
 disqus: false
+
+# SEO Configuration
+seo:
+  type: Organization
+  name: AstroMeters
+  links:
+    - https://github.com/AstroMeters
+    - https://astrometers.eu
+
+# Social media defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "AstroMeters Team"
+      image: "/images/docs.jpg"
+  - scope:
+      path: ""
+      type: "products"
+    values:
+      layout: "product"
+      author: "AstroMeters Team"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      author: "AstroMeters Team"
+      image: "/images/docs.jpg"
+
+# Structured data
+organization:
+  name: AstroMeters
+  url: https://astrometers.eu
+  logo: https://astrometers.eu/images/logo.png
+  sameAs:
+    - https://github.com/AstroMeters
+
+# Feed configuration
+feed:
+  posts_limit: 20
+  excerpt_only: false

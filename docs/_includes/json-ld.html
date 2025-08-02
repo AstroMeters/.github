@@ -1,0 +1,89 @@
+{% comment %}
+JSON-LD Structured Data for SEO
+{% endcomment %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "{{ site.organization.name | default: site.title }}",
+  "url": "{{ site.url }}",
+  {% if site.organization.logo %}
+  "logo": "{{ site.organization.logo }}",
+  {% endif %}
+  "description": "{{ site.description | strip_html | strip_newlines }}",
+  "email": "{{ site.email }}",
+  {% if site.organization.sameAs %}
+  "sameAs": {{ site.organization.sameAs | jsonify }},
+  {% endif %}
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "email": "{{ site.email }}",
+    "contactType": "customer service"
+  }
+}
+</script>
+
+{% if page.layout == 'product' %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "{{ page.title }}",
+  "description": "{{ page.description | default: page.subtitle | strip_html | strip_newlines }}",
+  {% if page.image %}
+  "image": "{{ site.url }}{{ page.image }}",
+  {% endif %}
+  "brand": {
+    "@type": "Brand",
+    "name": "AstroMeters"
+  },
+  {% if page.price %}
+  "offers": {
+    "@type": "Offer",
+    "price": "{{ page.price | remove: ' Eur' | remove: ' EUR' }}",
+    "priceCurrency": "EUR",
+    "availability": "https://schema.org/InStock",
+    {% if page.shop_url %}
+    "url": "{{ page.shop_url }}"
+    {% else %}
+    "url": "{{ site.url }}{{ page.url }}"
+    {% endif %}
+  },
+  {% endif %}
+  "manufacturer": {
+    "@type": "Organization",
+    "name": "AstroMeters"
+  },
+  "category": "Astronomical Equipment"
+}
+</script>
+{% endif %}
+
+{% if page.layout == 'post' %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "{{ page.title }}",
+  "description": "{{ page.description | default: page.excerpt | strip_html | strip_newlines | truncate: 160 }}",
+  {% if page.image %}
+  "image": "{{ site.url }}{{ page.image }}",
+  {% endif %}
+  "datePublished": "{{ page.date | date_to_xmlschema }}",
+  "dateModified": "{{ page.last_modified_at | default: page.date | date_to_xmlschema }}",
+  "author": {
+    "@type": "Organization",
+    "name": "{{ page.author | default: site.author.name }}"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ site.organization.name | default: site.title }}",
+    "url": "{{ site.url }}"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ site.url }}{{ page.url }}"
+  }
+}
+</script>
+{% endif %}

@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://astrometers.eu/sitemap.xml
+Sitemap: https://astrometers.eu/feed.xml
+
+# Disallow common non-content paths
+Disallow: /assets/
+Disallow: /_site/
+Disallow: /vendor/
+Disallow: /node_modules/
+
+# Allow specific assets needed for SEO
+Allow: /images/
+Allow: /css/
+Allow: /js/
