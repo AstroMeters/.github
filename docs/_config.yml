@@ -1,5 +1,5 @@
 lang: en
-title: AstroMeters.eu - High-Quality Astronomical Equipment
+title: AstroMeters.eu
 tagline: Precision Components for Your Telescope Assembly
 email: romandvorak@mlab.cz
 description: >-
@@ -9,7 +9,7 @@ description: >-
 baseurl: ""
 url: "https://astrometers.eu"
 author:
-  name: AstroMeters Team
+  name: AstroMeters
   email: romandvorak@mlab.cz
   twitter: 
   links:
