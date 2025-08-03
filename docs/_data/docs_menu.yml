@@ -3,7 +3,7 @@
     - name: AstroMeters documentation
       link: /docs
 
-- label: AMFOC01
+- label: AMFOC
   link: /docs/AMFOC01/
   items:
     - name: General description
@@ -13,10 +13,13 @@
     - name: Focuser handling
       link: /docs/AMFOC01/handling/
 
-- label: AMSKY01
+- label: AMSKY
   link: /docs/AMSKY01/
+  items:
+    - name: AMSKY01 general description
+      link /docs/AMSKY01/
 
-- label: USBMOUNT01
+- label: USBMOUNT
   items:
     - name: USBMOUNT01 general description
       link: /docs/USBMOUNT01/
