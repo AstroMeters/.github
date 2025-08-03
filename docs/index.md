@@ -7,7 +7,7 @@ keywords: 'astronomy, telescope, focuser, mount controller, astrophotography, st
 nav_order: 0
 show_sidebar: false
 callouts: home_callouts
-hero_image: images/man_night.jpg
+hero_image: images/am_home_hero.jpg
 hero_link: /products/
 hero_link_text: Explore our products!
 ---
