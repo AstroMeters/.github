@@ -17,7 +17,7 @@
   link: /docs/AMSKY01/
   items:
     - name: AMSKY01 general description
-      link /docs/AMSKY01/
+      link: /docs/AMSKY01/
 
 - label: USBMOUNT
   items:
