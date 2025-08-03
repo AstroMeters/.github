@@ -13,6 +13,9 @@
     - name: Focuser handling
       link: /docs/AMFOC01/handling/
 
+- label: AMSKY01
+  link: /docs/AMSKY01/
+
 - label: USBMOUNT01
   items:
     - name: USBMOUNT01 general description
