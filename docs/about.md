@@ -5,6 +5,7 @@ description: 'AstroMeters designs and manufactures open-source hardware for astr
 keywords: 'about AstroMeters, astronomy hardware, open source astronomy, telescope accessories, astrophotography tools, sky quality sensor, telescope focuser, mount controller, AMFOC01, AMSKY01, AMUSBMOUNT01'
 layout: page
 show_sidebar: false
+hero_image: /images/am_about.jpg
 ---
 
 # About AstroMeters
