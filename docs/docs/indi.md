@@ -7,7 +7,7 @@ description: 'Installation and usage guide for INDI drivers developed by Astrome
 keywords: 'INDI drivers, AMSKY01, AMFOC01, Astrometers, sky quality meter, cloud detection, focuser, KStars, Ekos, astronomy automation'
 menubar: docs_menu
 show_sidebar: false
-toc: true
+toc: false
 nav_order: 3
 hero_image: '/images/docs.jpg'
 ---
