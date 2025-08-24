@@ -25,5 +25,7 @@
   items:
     - name: USBMOUNT01 general description
       link: /docs/USBMOUNT01/
-- label: INDI drivers
-  link: /docs/indi/
+- label: Drivers
+  items:
+    - name: INDI drivers
+      link: /docs/indi/
