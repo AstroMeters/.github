@@ -20,6 +20,8 @@ The AMSKY01 is a compact, weatherproof sky sensor designed for astronomical and 
 - **Temperature and humidity sensor** – monitors ambient air conditions.
 - **USB-C and RS-485 interfaces** – for easy connection to PCs or automation systems.
 
+<img width="1146" height="965" alt="image" src="https://github.com/user-attachments/assets/d425eac0-dab1-45b2-90b5-168619107dd3" />
+
 ## Key Features
 
 - Real-time **sky quality measurements** (SQM) to assess light pollution.
