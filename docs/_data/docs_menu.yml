@@ -18,6 +18,8 @@
   items:
     - name: AMSKY01 general description
       link: /docs/AMSKY01/
+    - name: AMSKY01 usage in linux setups
+      link: /docs/AMSKY01/sw-linux
 
 - label: USBMOUNT
   items:
