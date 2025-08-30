@@ -97,9 +97,7 @@ The focuser includes an internal thermometer and supports the option to add an e
 
 **Stepper Motor Connection:**
 The focuser uses a 4-pin miniDIN connector to drive the stepper motor.
-*Add diagram or table of pinout here when ready.*
 
-*Planned: Detailed motor parameter recommendations for best results.*
 
 ---
 
@@ -115,10 +113,9 @@ AMFOC01 is **fully open-source**:
 
 ## Resources & Links
 
-* [MoonLite Focuser Protocol Documentation](https://indilib.org/devices/focusers/moonlite-focuser.html)
 * [KStars Planetarium](https://edu.kde.org/kstars/)
 * [INDI Library](https://www.indilib.org/)
-* [Project GitHub Repository](https://github.com/your-repo) (add actual link)
+* [Project GitHub Repository](https://github.com/AstroMeters/AMFOC01)
 * [Contact & Support](mailto:info@astrometers.eu)
 
 ---
