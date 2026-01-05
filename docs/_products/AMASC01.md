@@ -50,6 +50,12 @@ AMASC01 incorporates several internal systems that support autonomous and reliab
 The device supports 1000BASE-T Ethernet communication with **Power over Ethernet (PoE)**, enabling both data transfer and power delivery through a single cable. This simplifies installation, particularly in remote or difficult-to-access locations.
 
 
+<p align="center">
+  <img alt="Example of image captured with AMASC01 allsky camera" src="/images/products/AMASC01/frame.jpg" width="60%">
+  <br>
+  <em>Example of image captured with AMASC01 allsky camera</em>
+</p>
+
 ## Software
 The AMASC01 camera is shipped **fully pre-installed and pre-configured**. All required software components, system settings, and operational parameters are prepared at the factory, allowing the camera to function immediately after installation.  
 No complex modifications or manual configuration steps are needed. Simply connect the device via Ethernet/PoE, access the web interface, and begin operating the system.
