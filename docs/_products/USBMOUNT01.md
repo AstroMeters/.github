@@ -8,8 +8,9 @@ layout: product
 image: '/images/products/USBMOUNT01/USBMOUNT01A_photo.jpg'
 hero_image: '/images/products/USBMOUNT01/am_usbmount_hero.jpg'
 price: 42.2 Eur
-shop_url: https://lectronz.com/products/amusbmount01
-shop_icon: https://lectronz-images.b-cdn.net/static/badges/buy-it-on-lectronz-medium.png
+buttons:
+  - url: https://lectronz.com/products/amusbmount01
+    icon: https://lectronz-images.b-cdn.net/static/badges/buy-it-on-lectronz-medium.png
 ---
 
 Maximize the potential of your telescope mount with direct computer control.

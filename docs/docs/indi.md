@@ -17,6 +17,7 @@ hero_image: '/images/docs.jpg'
 The **indi-astrometers** package provides two INDI drivers for Astrometers devices:
 
 * **[AMSKY01](/products/AMSKY01)** – All-in-one sky quality and cloud sensor
+* **[AMSKY01 - API](/products/AMSKY01)** - API interface of [AMSKY01-viwer](./../AMSKY01/viewer/) GUI app
 * **[AMFOC01](/products/AMFOC01)** – Motorized focuser controller
 
 Both drivers are distributed in the [indi-astrometers GitHub repository](https://github.com/roman-dvorak/indi-astrometers/).

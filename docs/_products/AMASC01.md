@@ -7,7 +7,24 @@ keywords: 'AMASC01, allsky camera, Sony IMX477, allsky imaging, meteor detection
 layout: product
 image: '/images/products/AMASC01/amasc01_front.jpg'
 hero_image: '/images/products/AMASC01/amasc01_hero.jpg'
-price: TBD
+price: 328 Eur
+features:
+    - label: Sony 12.3MP sensor with excellent low-light performance
+      icon: fa-camera
+    - label: Full-frame fisheye f/2 lens with accessible focusing
+      icon: fa-eye
+    - label: Heated dome & active ventilation system
+      icon: fa-wind
+    - label: Integrated temperature, humidity & pressure sensors
+      icon: fa-thermometer-half
+    - label: Power over Ethernet (PoE) single-cable installation
+      icon: fa-ethernet
+    - label: Pre-configured software ready to operate
+      icon: fa-cog
+buttons:
+  - url: /docs/AMASC01/
+    text: Docs
+    icon_class: fas fa-book
 ---
 
 # AMASC01 – AstroMeters AllSky Camera
@@ -48,6 +65,14 @@ Key features include:
 - Web-based user interface
 
 This setup ensures straightforward operation, high stability, and smooth integration into existing AllSky workflows.
+
+
+<p align="center">
+  <img alt="Keogram from AMASC01" src="/images/products/AMASC01/keogram.jpg" width="60%">
+  <br>
+  <em>Keogram from AMASC01 AllSky camera</em>
+</p>
+
 
 ### Optional and Future Software Solutions
 AstroMeters is developing **optional software variants** aimed at specialized observational tasks. Planned extensions include:

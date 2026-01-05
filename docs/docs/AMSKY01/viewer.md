@@ -55,11 +55,24 @@ amsky01_viewer --port /dev/ttyACM0 --debug
 - `--debug` - Enable verbose communication logging
 
 
-## Integration with INDI, EKOS and KStars
+## API interface
 
-The AMSKY01 GUI application can provide a built-in HTTP REST API, which allows sensor data to be accessed directly from INDI-lib, EKOS, and KStars. This means you can automatically attach real-time sky data to your FITS images or use the information to control your observatory automation—such as closing the dome if clouds are detected.
+The AMSKY01 Viewer GUI application provides an HTTP network interface that allows easy access to sensor data over the network. This enables remote monitoring and integration with various astronomy and automation tools.
 
-Configuration is simple: just enable the API endpoint on the third tab of the GUI. Then, in KStars, launch the `indi-amsky01-api` driver, which will automatically connect to the running API and make the data available in your astronomy workflow.
+By default, the API is available on port `8080` and the sensor data can be accessed via the `/data.json` endpoint. For example: `http://localhost:8080/data.json`
+
+
+
+### Integration with INDI, EKOS and KStars
+
+API also allows sensor data to be accessed directly from INDI-lib, EKOS, and KStars for observatory automation and FITS image metadata.
+
+<p align="center">
+  <img alt="AMSKY01 implementation into INDI-lib and KSTARS environment" src="/images/docs/AMSKY01/amsky-indi.png" width="80%">
+</p>
+
+
+Configuration is simple: just enable the API endpoint on the third tab of the GUI. Then, in KStars, launch the `indi-amsky01-api` driver, which will automatically connect to the running API and make the data available in your astronomy workflow. It only require to install astrometers-indi libraries according to [docs](./../../indi/)
 
 Thanks to this integration, AMSKY01 seamlessly extends the capabilities of your observatory software, making advanced sky condition monitoring and automation easy and reliable.
 

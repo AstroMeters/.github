@@ -3,7 +3,7 @@
     - name: AstroMeters documentation
       link: /docs
 
-- label: AMFOC
+- label: Focuser AMFOC
   link: /docs/AMFOC01/
   items:
     - name: General description
@@ -13,7 +13,7 @@
     - name: Focuser handling
       link: /docs/AMFOC01/handling/
 
-- label: AMSKY
+- label: Sky quality sensor AMSKY01
   link: /docs/AMSKY01/
   items:
     - name: AMSKY01 general description
@@ -23,7 +23,15 @@
     - name: AMSKY01 usage in linux setups
       link: /docs/AMSKY01/sw-linux
 
-- label: USBMOUNT
+- label: Allsky Camera AMASC01
+  link: /docs/AMASC01/
+  items:
+    - name: AMASC01 general description
+      link: /docs/AMASC01/
+    - name: AMASC01 Installation Guide
+      link: /docs/AMASC01/installation
+
+- label: USB-to-mount adapter USBMOUNT
   items:
     - name: USBMOUNT01 general description
       link: /docs/USBMOUNT01/
