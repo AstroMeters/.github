@@ -1,7 +1,7 @@
 lang: en
 title: AstroMeters.eu
 tagline: Precision Components for Your Telescope Assembly
-email: romandvorak@mlab.cz
+email: info@astrometers.eu
 description: >-
   AstroMeters specializes in high-quality astronomical components including precision focusers, 
   mount controllers, and environmental sensors. Open-source solutions designed by astronomy 
@@ -10,7 +10,7 @@ baseurl: ""
 url: "https://astrometers.eu"
 author:
   name: AstroMeters
-  email: romandvorak@mlab.cz
+  email: roman.dvorak@astrometers.eu
   twitter: 
   links:
     - https://github.com/AstroMeters
