@@ -20,18 +20,46 @@ The AMSKY01 is a compact, weatherproof sky sensor designed for astronomical and 
 - **Temperature and humidity sensor** – monitors ambient air conditions.
 - **USB-C and RS-485 interfaces** – for easy connection to PCs or automation systems.
 
-<img width="1146" height="965" alt="image" src="https://github.com/user-attachments/assets/d425eac0-dab1-45b2-90b5-168619107dd3" />
+<img width="600" alt="AMSKY01 sensor" src="https://github.com/user-attachments/assets/d425eac0-dab1-45b2-90b5-168619107dd3" />
+
+## Live Cloud Detection Example
+
+The following video demonstrates real-time data from the AMSKY01 sensor as clouds pass through its field of view. The 16×12 pixel thermopile array provides detailed sky temperature mapping with 110° field of view, allowing precise tracking of cloud coverage and movement patterns.
+
+{% include youtube.html video="BXKVQVPBjso" time=26 %}
+
 
 ## Key Features
 
-- Real-time **sky quality measurements** (SQM) to assess light pollution.
-- Fast and reliable **cloud detection** using infrared sky temperature.
-- Accurate **ambient temperature and humidity** monitoring.
-- **USB-C (CDC Serial)** interface for plug-and-play operation with computers.
-- **RS-485** interface for integration with observatory or building automation.
-- **Open protocol** and API documentation for custom applications.
-- Designed for **continuous outdoor use** in observatory conditions.
+* Real-time **sky quality measurements** (SQM) to assess light pollution.
+* Fast and reliable **cloud detection** using infrared sky temperature.
+* Accurate **ambient temperature and humidity** monitoring.
+* **USB-C (CDC Serial)** interface for plug-and-play operation with computers.
+* **RS-485** interface for integration with observatory or building automation.
+* **Open protocol** and API documentation for custom applications.
+* Designed for **continuous outdoor use** in observatory conditions.
 
+## How the Pixel Sensor Works: Detailed cloud Mapping
+
+AMSKY01’s infrared cloud sensor is based on a 16×12 (optionally 32x24) pixel thermopile array, which acts like a low-resolution thermal camera for the sky. Each pixel measures the temperature in a specific direction, producing a real-time “thermal image” of the sky dome.
+
+
+<p align="center">
+  <img alt="AMFOC01 Top" src="/images/docs/AMSKY01/amsky_visualisation.jpg" width="100%">
+  <p align="center" style="font-size:90%">
+    Here is a comparison of an optical image of the night sky with clouds from the AMASC01 allsky camera and the AMSKY01 thermopile pixel sensor.
+    </p>
+</p>
+
+
+**What are the benefits of a pixel sensor?**
+
+* **Spatial cloud detection:** See not only if clouds are present, but exactly where and how many.
+* **Accurate sky background:** By averaging only the coldest pixels, the device can minimize the influence of warm objects (trees, chimneys, buildings) at the edge of the field of view.
+* **Robust automation:** Algorithms can ignore local obstructions and focus on clear-sky regions, improving reliability for observatory control.
+* **Real-time visualization:** Instantly visualize cloud structure and movement on the included GUI or in your own analysis scripts.
+
+The pixel array transforms AMSKY01 from a simple cloud sensor into a powerful tool for detailed, real-time monitoring and automation. This makes it ideal for demanding applications like robotic observatories or advanced weather research.
 ## Applications
 
 - Light pollution monitoring.
