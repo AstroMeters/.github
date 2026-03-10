@@ -1,7 +1,7 @@
 GIT
   remote: https://github.com/roman-dvorak/bulma-clean-theme.git
-  revision: abd9a4a82437945c05157abb91dac009a66c4315
-  branch: Buy_it_button
+  revision: 7590a5a5a50015935bef1c19986261af974038d8
+  branch: feature/related-post-cards
   specs:
     bulma-clean-theme (1.3.0)
       jekyll (>= 4.3, < 5.0)
