@@ -1,0 +1,72 @@
+---
+layout: default
+---
+{{ content }}
+
+{% assign blog_posts = paginator.posts | default: site.posts | where_exp: "post", "post.hidden != true" %}
+
+<style>
+    .blog-grid-card {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .blog-grid-card .card-image img {
+        width: 100%;
+        aspect-ratio: 16 / 9;
+        object-fit: cover;
+        display: block;
+    }
+
+    .blog-grid-card .card-content {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+    }
+
+    .blog-grid-card .content {
+        flex: 1;
+    }
+
+    .blog-grid-card .blog-excerpt {
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
+        overflow: hidden;
+    }
+</style>
+
+<div class="columns is-multiline">
+    {% for post in blog_posts %}
+        <div class="column is-12-mobile is-6-tablet is-4-desktop">
+            <div class="card blog-grid-card">
+                {% if post.image %}
+                    <div class="card-image">
+                        <a href="{{ site.baseurl }}{{ post.url }}">
+                            <img src="{{ post.image }}" alt="{{ post.title }}">
+                        </a>
+                    </div>
+                {% endif %}
+                <div class="card-content">
+                    <div class="content">
+                        <a class="title is-5" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+                        <p class="is-size-7 has-text-grey mb-3">{{ post.date | date: '%b %-d, %Y' }}</p>
+                        <div class="blog-excerpt">
+                            {% if post.description %}
+                                <p>{{ post.description }}</p>
+                            {% elsif post.summary %}
+                                {{ post.summary | markdownify }}
+                            {% else %}
+                                <p>{{ post.excerpt | strip_html | truncate: 180 }}</p>
+                            {% endif %}
+                        </div>
+                    </div>
+                    <div class="mt-4">
+                        <a href="{{ site.baseurl }}{{ post.url }}" class="button is-primary is-small">Read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+</div>

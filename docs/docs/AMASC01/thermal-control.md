@@ -7,7 +7,7 @@ keywords: 'AMASC01 thermal control, dome heating, camera ventilation, anti-dew s
 menubar: docs_menu
 show_sidebar: false
 toc: false
-hero_image: '/images/docs.jpg'
+hero_image: '/images/products/AMASC01/amasc01_hero.jpg'
 ---
 
 # AMASC01 Thermal Control System
@@ -37,4 +37,3 @@ The system utilizes custom-designed hardware components specifically engineered 
 </p>
 
 All thermal control systems are pre-configured from factory with optimal default settings for most environmental conditions. Advanced users can customize these settings for specific deployment scenarios.
-

@@ -2,5 +2,7 @@
   link: /products/
 - name: Docs
   link: /docs/
+- name: Blog
+  link: /blog/
 - name: About
   link: /about/

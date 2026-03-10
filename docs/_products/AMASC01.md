@@ -5,13 +5,13 @@ description: AMASC01 is a robust AllSky camera designed for continuous sky monit
 product_code: AMASC01
 keywords: 'AMASC01, allsky camera, Sony IMX477, allsky imaging, meteor detection, bolide detection, lightning detection, PoE camera, astronomy camera, heated dome, environmental sensors'
 layout: product
-image: '/images/products/AMASC01/amasc01_front.jpg'
+image: '/images/products/AMASC01/amasc01_product_main.png'
 hero_image: '/images/products/AMASC01/amasc01_hero.jpg'
 price: 328 Eur
 features:
     - label: Sony 12.3MP sensor with excellent low-light performance
       icon: fa-camera
-    - label: Full-frame fisheye f/2 lens with accessible focusing
+    - label: 180° fisheye lens with accessible focusing
       icon: fa-eye
     - label: Heated dome & active ventilation system
       icon: fa-wind
@@ -29,7 +29,7 @@ buttons:
 
 # AMASC01 – AstroMeters AllSky Camera
 
-The **AMASC01** is an AllSky camera designed for continuous sky monitoring in astronomical and environmental applications. It integrates the [Sony IMX477](https://www.sony-semicon.com/files/62/pdf/p-13_IMX477-AACK_Flyer.pdf) image sensor with a fisheye f/2 lens, providing high sensitivity required for night-sky imaging and long-term observation.
+The **AMASC01** is an AllSky camera designed for continuous sky monitoring in astronomical and environmental applications. It integrates the [Sony IMX477](https://www.sony-semicon.com/files/62/pdf/p-13_IMX477-AACK_Flyer.pdf) image sensor with a 180° fisheye lens, providing high sensitivity required for night-sky imaging and long-term observation.
 
 ## Durable Construction for Outdoor Deployment
 The camera is housed in a weather-resistant enclosure suitable for year-round outdoor operation. Key design elements include:
@@ -37,6 +37,12 @@ The camera is housed in a weather-resistant enclosure suitable for year-round ou
 - **Wide-angle lens** covering the entire sky.
 - **Accessible precision focusing mechanism** enabling straightforward installation and adjustment.
 - **Heated optical dome** and **active ventilation**, preventing fogging and helping maintain stable internal conditions to ensure long operational life.
+
+<p align="center">
+  <img alt="AMASC01 all-sky camera outdoor installation portrait view" src="/images/products/AMASC01/amasc01_portrait.jpg" width="38%">
+  <br>
+  <em>AMASC01 installed in an outdoor observatory environment.</em>
+</p>
 
 ## Integrated Electronics and Sensors
 AMASC01 incorporates several internal systems that support autonomous and reliable operation:
@@ -51,9 +57,9 @@ The device supports 1000BASE-T Ethernet communication with **Power over Ethernet
 
 
 <p align="center">
-  <img alt="Example of image captured with AMASC01 allsky camera" src="/images/products/AMASC01/frame.jpg" width="60%">
+  <img alt="Example image captured by the AMASC01 all-sky camera" src="/images/products/AMASC01/frame.jpg" width="60%">
   <br>
-  <em>Example of image captured with AMASC01 allsky camera</em>
+  <em>Example image captured by the AMASC01 all-sky camera.</em>
 </p>
 
 ## Software

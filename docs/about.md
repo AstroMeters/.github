@@ -32,4 +32,4 @@ In addition to our standard product line, **AstroMeters offers custom developmen
 
 If you're interested in our products or custom solutions, please don't hesitate to get in touch.
 
-**📧 Contact:** [romandvorak@mlab.cz](mailto:romandvorak@mlab.cz)
+**📧 Contact:** [info@astrometers.eu](mailto:info@astrometers.eu)

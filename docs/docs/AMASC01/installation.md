@@ -7,14 +7,14 @@ keywords: 'AMASC01 installation, AllSky camera setup, camera mounting, PoE setup
 menubar: docs_menu
 show_sidebar: false
 toc: false
-hero_image: '/images/docs.jpg'
+hero_image: '/images/products/AMASC01/amasc01_hero.jpg'
 ---
 
 # AMASC01 Installation Guide
 
 This guide provides complete step-by-step instructions for installing and setting up the AMASC01 AllSky camera.
 
-> Due to various installation configurations and mounting options, mounting hardware and accessories are not included with the camera. Installation kits and PoE injectors are available upon request. Please contact us if you need these components.
+> Due to various installation configurations and mounting options, mounting hardware and accessories are not included with the camera. Installation kits and PoE injectors are available upon request. Please [contact us](/about/) if you need these components.
 
 ## Pre-Installation Checklist
 
@@ -55,6 +55,16 @@ This is the recommended mounting configuration for most installations.
 5. **Tighten all bolts** firmly but avoid over-tightening
 6. **Verify stability** – camera should not move in moderate wind
 
+<p align="center">
+  <img
+    src="/images/docs/AMASC01/vertical-pole-mount.jpg"
+    alt="AMASC01 mounted on a vertical pole using clamp mounts"
+    width="72%"
+  />
+</p>
+<p align="center" style="font-size:90%">
+  Example of a possible AMASC01 installation using clamps mounted to a vertical pole.
+</p>
 
 #### Option 2: Wooden Beam/Structure Mounting
 
@@ -112,6 +122,17 @@ Regardless of mounting method:
 3. **Verify PoE power** – ensure switch/injector provides sufficient power (IEEE 802.3af/at)
 4. **Check power indicator** – one LED on the bottom side of the camera will illuminate approximately 3 seconds after power connection
 5. **Camera will boot automatically** when power is applied (takes ~1-2 minutes)
+
+<p align="center">
+  <img
+    src="/images/docs/AMASC01/poe-adapter-diagram.png"
+    alt="Diagram of PoE adapter and network connection for AMASC01"
+    width="72%"
+  />
+</p>
+<p align="center" style="font-size:90%">
+  Example wiring diagram showing AMASC01 connection through a PoE injector / adapter.
+</p>
 
 ### Verify Network Connection
 

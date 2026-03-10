@@ -8,23 +8,23 @@ menubar: docs_menu
 show_sidebar: false
 toc: false
 nav_order: 3
-hero_image: '/images/docs.jpg'
+hero_image: '/images/products/AMASC01/amasc01_hero.jpg'
 ---
 
 # AMASC01 – AllSky Camera
 
 The AMASC01 is a robust AllSky camera designed for continuous sky monitoring in astronomical and environmental applications. It combines high-sensitivity imaging with integrated environmental sensors and weatherproof construction.
 
-<img width="600" alt="AMASC01 camera" src="/images/products/AMASC01/amasc01_front.jpg" />
+<img width="600" alt="AMASC01 all-sky camera installed outdoors" src="/images/products/AMASC01/amasc01_product_main.png" />
 
 ## Overview
 
-AMASC01 integrates the **Sony IMX477** image sensor (12.3 MP, 1.55 μm pixel size) with a full-frame **fisheye f/2 lens**, providing excellent low-light performance for night-sky imaging. The camera is housed in a weather-resistant enclosure with a heated dome and active ventilation, enabling year-round outdoor operation.
+AMASC01 integrates the **Sony IMX477** image sensor (12.3 MP, 1.55 μm pixel size) with a **180° fisheye lens**, providing excellent low-light performance for night-sky imaging. The camera is housed in a weather-resistant enclosure with a heated dome and active ventilation, enabling year-round outdoor operation.
 
 ## Key Features
 
 * **Sony IMX477 sensor** – 12.3 MP with superior low-light sensitivity
-* **Full-frame fisheye f/2 lens** – complete sky coverage with accessible precision focusing
+* **180° fisheye lens** – complete sky coverage with accessible precision focusing
 * **Heated dome & active ventilation** – prevents fogging and condensation
 * **Integrated environmental sensors** – temperature, humidity, and pressure monitoring
 * **Real-Time Clock (RTC)** – accurate timestamping without internet dependency
