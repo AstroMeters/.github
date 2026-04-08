@@ -6,4 +6,11 @@ keywords: 'telescope focuser, sky quality meter, mount controller, astronomical 
 layout: product-category
 show_sidebar: false
 hero_image: /images/am_products_hero.jpg
+sections:
+  - title: Products
+    description: Precision astronomical instruments and devices designed for astrophotography, sky monitoring, and telescope control.
+    collection: products
+#  - title: Accessories
+#    description: Various small accessories and components for building your own AllSky camera and other DIY astronomical projects.
+#    collection: accessories
 ---
