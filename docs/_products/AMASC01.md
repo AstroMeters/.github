@@ -1,7 +1,7 @@
 ---
 title: AMASC01
 subtitle: AstroMeters AllSky Camera
-description: AMASC01 is a robust AllSky camera designed for continuous sky monitoring. It features the Sony IMX477 sensor, an f/2 full-frame lens, heated dome, environmental sensors, PoE connectivity, and an open-source software stack ideal for astronomical observations and all-sky imaging.
+description: Robust AllSky camera with Sony IMX477 sensor, heated dome, environmental sensors, and PoE connectivity for continuous sky monitoring.
 product_code: AMASC01
 keywords: 'AMASC01, allsky camera, Sony IMX477, allsky imaging, meteor detection, bolide detection, lightning detection, PoE camera, astronomy camera, heated dome, environmental sensors'
 layout: product

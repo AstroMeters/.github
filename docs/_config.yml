@@ -1,5 +1,5 @@
 lang: en
-title: AstroMeters.eu
+title: AstroMeters
 tagline: Precision Components for Your Telescope Assembly
 email: info@astrometers.eu
 description: >-
@@ -40,6 +40,7 @@ plugins:
   - jekyll-seo-tag
   - kramdown-parser-gfm
   - jekyll-redirect-from
+  - jekyll-last-modified-at
 
 collections:
   products: 
@@ -71,6 +72,7 @@ defaults:
       layout: "post"
       author: "AstroMeters Team"
       image: "/images/docs.jpg"
+      permalink: /blog/:title/
   - scope:
       path: ""
       type: "products"

@@ -1,7 +1,7 @@
 ---
-title: About AstroMeters
+title: About
 subtitle: Precision tools for astronomy enthusiasts
-description: 'AstroMeters designs and manufactures open-source hardware for astronomy. Our mission is to provide amateur and professional astronomers with reliable, high-quality tools such as telescope focusers, sky quality sensors, and mount controllers. We believe in transparency, community collaboration, and precision engineering for the night sky.'
+description: 'AstroMeters designs open-source precision hardware for astronomy – focusers, sky sensors, and mount controllers for amateur and professional astronomers.'
 keywords: 'about AstroMeters, astronomy hardware, open source astronomy, telescope accessories, astrophotography tools, sky quality sensor, telescope focuser, mount controller, AMFOC01, AMSKY01, AMUSBMOUNT01'
 layout: page
 show_sidebar: false

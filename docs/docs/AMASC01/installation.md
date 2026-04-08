@@ -2,7 +2,7 @@
 layout: page
 title: AMASC01 Installation Guide
 subtitle: Step-by-step installation and setup instructions
-description: 'Complete step-by-step installation guide for AMASC01 AllSky camera including mounting, power connection, network setup, focusing, and initial configuration.'
+description: 'Step-by-step AMASC01 AllSky camera installation – mounting, PoE connection, network setup, focusing, and configuration.'
 keywords: 'AMASC01 installation, AllSky camera setup, camera mounting, PoE setup, focus adjustment, observatory camera installation'
 menubar: docs_menu
 show_sidebar: false

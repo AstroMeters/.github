@@ -1,8 +1,8 @@
 ---
 layout: page
-title: AstroMeters documentation page
+title: AMFOC01 – Firmware Update
 subtitle: 'AMFOC01: Firmware'
-description: 'AMFOC01 focuser firmware documentation including update procedures, installation guides, and version information. Learn how to update your telescope focuser firmware using the provided Python tool and get the latest features and improvements for optimal performance.'
+description: 'AMFOC01 firmware update guide – procedures, version information, and installation using the provided Python tool.'
 keywords: 'AMFOC01 firmware, telescope focuser firmware update, Python programming tool, firmware installation, focuser software update, astronomy equipment firmware'
 menubar: docs_menu
 show_sidebar: false

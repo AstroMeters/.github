@@ -1,9 +1,9 @@
 ---
 
 layout: page
-title: INDI Astrometers Drivers
+title: INDI Drivers
 subtitle: 'Drivers for AMSKY01 and AMFOC01 devices'
-description: 'Installation and usage guide for INDI drivers developed by Astrometers. Covers AMSKY01 (sky quality & cloud sensor) and AMFOC01 (focuser) drivers with step-by-step instructions for building, installation, and operation with INDI/Ekos.'
+description: 'Installation and usage guide for AstroMeters INDI drivers – AMSKY01 sky sensor and AMFOC01 focuser integration with KStars/Ekos.'
 keywords: 'INDI drivers, AMSKY01, AMFOC01, Astrometers, sky quality meter, cloud detection, focuser, KStars, Ekos, astronomy automation'
 menubar: docs_menu
 show_sidebar: false
@@ -11,9 +11,7 @@ toc: false
 nav_order: 3
 hero_image: '/images/docs.jpg'
 ---
-
-# INDI Astrometers Drivers
-
+The
 The **indi-astrometers** package provides two INDI drivers for Astrometers devices:
 
 * **[AMSKY01](/products/AMSKY01)** – All-in-one sky quality and cloud sensor

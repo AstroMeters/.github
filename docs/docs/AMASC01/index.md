@@ -1,8 +1,8 @@
 ---
 layout: page
-title: AstroMeters documentation page
+title: AMASC01 – AllSky Camera
 subtitle: 'AMASC01: AllSky Camera'
-description: 'Complete AMASC01 camera documentation covering installation, operation, features, and technical specifications. Learn how to use this outdoor AllSky camera with Sony IMX477 sensor, heated dome, environmental sensors, and PoE connectivity for continuous sky monitoring in astronomical and environmental applications.'
+description: 'AMASC01 AllSky camera documentation – installation, operation, and specifications. Sony IMX477 sensor, heated dome, PoE connectivity.'
 keywords: 'AMASC01 camera, AllSky camera, Sony IMX477, meteor detection, bolide detection, astronomical imaging, PoE camera, fisheye camera, sky monitoring, observatory automation, weather-resistant camera'
 menubar: docs_menu
 show_sidebar: false

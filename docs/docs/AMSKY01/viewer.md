@@ -1,8 +1,8 @@
 ---
 layout: page
-title: AMSKY01 Viewer - Real-time Visualization Software
+title: AMSKY01 Viewer
 subtitle: 'AMSKY01: GUI and CLI tools for sensor monitoring'
-description: 'Learn how to install and use AMSKY01 Viewer software for real-time visualization of cloud detection, sky brightness, temperature, and humidity data from your AMSKY01 sensor.'
+description: 'AMSKY01 Viewer – Python GUI for real-time cloud detection, sky brightness, temperature, and humidity visualization.'
 keywords: 'AMSKY01 viewer, PyQt5, sensor visualization, cloud detection software, sky quality monitoring, real-time data, CSV logging, thermal map visualization'
 menubar: docs_menu
 show_sidebar: false

@@ -1,11 +1,14 @@
 ---
 layout: post
-title: "Aurora on January 19, 2026 captured by the AMASC01 camera"
-description: "The AMASC01 all-sky camera recorded a strong aurora on the night of January 19, 2026. This post includes a time-lapse video, a keogram, and two selected frames from the observation."
-keywords: "AMASC01, aurora, northern lights, all-sky camera, keogram, January 19 2026, AstroMeters"
+title: "Aurora Borealis over the Czech Republic on 19 January 2026 | AMASC01 all-sky camera"
+description: "The AMASC01 all-sky camera recorded a strong aurora borealis over the Czech Republic on 19 January 2026. See the northern lights time-lapse video, keogram, selected frames, and the solar activity behind the geomagnetic storm."
+keywords: "AMASC01, aurora borealis, northern lights, Czech Republic aurora, Central Europe aurora, all-sky camera, keogram, geomagnetic storm, January 19 2026, AstroMeters"
 date: 2026-01-24
+author: Roman Dvořák
 lang: en
-subtitle: "All-sky record of a strong geomagnetic storm over Central Europe"
+redirect_from:
+  - /2026/01/24/amasc01-aurora/
+subtitle: "Northern lights recorded over Central Europe during a strong geomagnetic storm"
 image: /images/blog/2026-01-19-amasc01-polarni-zare/image-20260119223453.jpg
 hero_image: /images/blog/2026-01-19-amasc01-polarni-zare/image-20260119223625.jpg
 hero_darken: true
@@ -19,9 +22,9 @@ tags:
   - solar-storm
 ---
 
-# Aurora over the Czech Republic on 19 January 2026 captured by AMASC01
+# Aurora Borealis over the Czech Republic on 19 January 2026 captured by AMASC01
 
-On the night of **19 January 2026**, a strong geomagnetic storm produced a spectacular aurora borealis visible across much of Europe, including the Czech Republic. The event was recorded by the [AMASC01 all-sky camera](/products/AMASC01/), a wide-field astronomical camera developed by AstroMeters.
+On the night of **19 January 2026**, a strong geomagnetic storm produced a spectacular **aurora borealis** visible across much of Europe, including the Czech Republic. This northern lights event was recorded by the [AMASC01 all-sky camera](/products/AMASC01/), a wide-field astronomical camera developed by AstroMeters for continuous night-sky monitoring.
 
 <div style="width: 72%; margin: 0 auto 1.5rem auto;">
   <video
@@ -37,13 +40,13 @@ On the night of **19 January 2026**, a strong geomagnetic storm produced a spect
   </video>
 </div>
 
-The aurora appeared above the northern horizon shortly after 22:30 CET, forming a broad arc with distinct green and red auroral structures visible across the sky.
+The aurora appeared above the northern horizon shortly after 22:30 CET, forming a broad arc with distinct green and red auroral structures visible across the sky. Because strong auroras are relatively rare at this latitude, the event is a useful example of how an all-sky camera can document transient space-weather phenomena over Central Europe.
 
-The full-night recording is available on YouTube: [AMASC01 all-night timelapse from 19 January 2026](https://youtu.be/mBAFyZXwIJk)
+The full-night recording is available on YouTube: [AMASC01 all-night aurora timelapse from 19 January 2026](https://youtu.be/mBAFyZXwIJk)
 
-## Keogram and time evolution
+## Aurora timelapse, keogram and time evolution
 
-The keogram below shows the temporal evolution of the event and helps identify the onset, peak activity, and fading phase of the aurora during the night.
+The keogram below shows the temporal evolution of the aurora event and helps identify the onset, peak activity, and fading phase of the northern lights during the night.
 
 <div class="columns is-variable is-5 is-multiline">
   <div class="column is-6-desktop is-12-tablet">
@@ -71,7 +74,7 @@ The keogram below shows the temporal evolution of the event and helps identify t
 </div>
 
 
-## Solar activity behind the event
+## Solar activity behind the January 2026 aurora
 
 The aurora was triggered by a powerful X1.9-class solar flare that erupted on **18 January 2026** from an active region on the Sun. The flare produced a fast coronal mass ejection (CME) directed toward Earth.
 
@@ -86,7 +89,7 @@ The aurora was triggered by a powerful X1.9-class solar flare that erupted on **
   CME animation. Credits: ESA/NASA (SOHO) &amp; NASA (SDO)
 </p>
 
-When the CME reached Earth about a day later, it triggered a strong geomagnetic storm (G4). During such events, the auroral oval expands toward lower latitudes, allowing auroras to be observed far outside the polar regions, including across Central Europe.
+When the CME reached Earth about a day later, it triggered a strong geomagnetic storm (G4). During such events, the auroral oval expands toward lower latitudes, allowing auroras to be observed far outside the polar regions, including across Central Europe and the Czech Republic.
 
 As a result, the aurora was visible in many Central European countries including Germany, Austria, Poland, and the Czech Republic, where it appeared as red and green arcs above the northern horizon.
 
@@ -104,9 +107,9 @@ The geomagnetic activity was so extensive that the aurora was still visible from
 </p>
 
 
-## AMASC01 all-sky camera
+## AMASC01 all-sky camera for aurora and night-sky monitoring
 
-The [AMASC01](/products/AMASC01/) is a fish-eye all-sky camera designed for continuous monitoring of the night sky. Using a fisheye optical system, it captures the entire sky dome and allows long-term recording of transient atmospheric and astronomical phenomena.
+The [AMASC01 all-sky camera](/products/AMASC01/) is a fish-eye all-sky camera designed for continuous monitoring of the night sky. Using a fisheye optical system, it captures the entire sky dome and allows long-term recording of transient atmospheric and astronomical phenomena.
 
 Such cameras are particularly useful for documenting events such as:
 
@@ -115,8 +118,8 @@ Such cameras are particularly useful for documenting events such as:
 * airglow
 * changes in sky brightness and cloud cover
 
-The aurora recorded on **19 January 2026** demonstrates the capability of the [**AMASC01 camera**](/products/AMASC01/) to document rare atmospheric phenomena visible across the whole sky.
+The aurora recorded on **19 January 2026** demonstrates the capability of the [**AMASC01 all-sky camera**](/products/AMASC01/) to document rare atmospheric phenomena visible across the whole sky, including aurora borealis events in Central Europe.
 
-More information about the camera and other astronomical instruments is available at:
+More information about the camera and other astronomical instruments is available on the [AstroMeters website](https://astrometers.eu).
 
-[https://astrometers.eu](https://astrometers.eu)
+

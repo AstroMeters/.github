@@ -1,8 +1,7 @@
 ---
 title: AMSKY01
 subtitle: Sky Quality, Cloud & Environment Sensor
-description: |
-  AMSKY01 measures night sky brightness (SQM), detects clouds via sky temperature, and monitors ambient temperature and humidity. With USB-C and RS485 interfaces, it is perfect for observatories, sky quality monitoring, and automation systems.
+description: 'Sky quality (SQM), cloud detection, and environmental sensor with USB-C and RS485 interfaces for observatories and automation.'
 product_code: AMSKY01
 keywords: 'AMSKY01, sky quality meter, SQM sensor, cloud detection, sky brightness measurement, environmental sensor, temperature humidity sensor, RS485 interface, USB-C sensor, observatory automation, light pollution monitoring, thermal IR sensor'
 layout: product

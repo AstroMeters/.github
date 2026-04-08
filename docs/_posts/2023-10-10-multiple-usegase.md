@@ -5,6 +5,8 @@ description: 'Explore the versatile uses of the AMFOC01 astronomical focuser des
 keywords: 'AMFOC01, multipurpose focuser, telescope applications, optical devices, open-source astronomy, precision focusing, astronomical equipment'
 date: 2023-10-10
 hidden: true
+redirect_from:
+  - /2023/10/10/multiple-usegase/
 ---
 
 # Hello!

@@ -1,8 +1,8 @@
 ---
 layout: page
-title: AstroMeters.eu
+title: AstroMeters
 subtitle: 'AstroMeters: high-quality components for your telescope assembly'
-description: 'AstroMeters specializes in development, manufacturing, and sale of high-quality astronomical components and telescope accessories. Our precision-engineered products including focusers, mount controllers, and environmental sensors are designed by astronomy enthusiasts for astronomy enthusiasts to enhance your stargazing and astrophotography experience.'
+description: 'AstroMeters develops precision astronomical accessories including focusers, sky sensors, and mount controllers for astrophotography and visual observation.'
 keywords: 'astronomy, telescope, focuser, mount controller, astrophotography, stargazing, astronomical equipment, telescope accessories, precision optics, sky quality meter, environmental sensors'
 nav_order: 0
 show_sidebar: false

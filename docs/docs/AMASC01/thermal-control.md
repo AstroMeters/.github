@@ -2,7 +2,7 @@
 layout: page
 title: Thermal Control
 subtitle: Camera Thermal Management and Climate Control System
-description: 'Complete documentation for AMASC01 thermal control system including dome heating, ventilation, anti-dew protection, and environmental monitoring for reliable all-weather operation.'
+description: 'AMASC01 thermal control – dome heating, ventilation, anti-dew protection, and environmental monitoring for all-weather operation.'
 keywords: 'AMASC01 thermal control, dome heating, camera ventilation, anti-dew system, environmental monitoring, climate control, temperature management'
 menubar: docs_menu
 show_sidebar: false

@@ -1,8 +1,8 @@
 ---
 layout: page
-title: AMSKY01 - software usage on Linux
+title: AMSKY01 – Linux Setup
 subtitle: 'AMSKY01: All-in-one sky quality and cloud sensor'
-description: 'Complete AMSKY01 sensor documentation covering installation, operation, features, and technical specifications. Learn how to use this outdoor sky sensor with brightness, cloud detection, temperature, and humidity monitoring for astronomical and environmental observation. Compatible with USB-C and RS-485 interfaces.'
+description: 'AMSKY01 Linux usage – stable device naming, sensor_viewer.py tool, INDI driver integration, and ser2net TCP streaming.'
 keywords: 'AMSKY01 sensor, sky quality meter, cloud detection sensor, USB-C weather sensor, astronomical weather station, RS-485 sensor, SQM, sky monitoring, environmental sensor, observatory automation'
 menubar: docs_menu
 show_sidebar: false

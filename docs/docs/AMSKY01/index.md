@@ -1,8 +1,8 @@
 ---
 layout: page
-title: AstroMeters documentation page
+title: AMSKY01 – Sky Quality and Cloud Sensor
 subtitle: 'AMSKY01: All-in-one sky quality and cloud sensor'
-description: 'Complete AMSKY01 sensor documentation covering installation, operation, features, and technical specifications. Learn how to use this outdoor sky sensor with brightness, cloud detection, temperature, and humidity monitoring for astronomical and environmental observation. Compatible with USB-C and RS-485 interfaces.'
+description: 'AMSKY01 sky sensor documentation – setup, operation, and specifications. Sky brightness (SQM), cloud detection, temperature and humidity monitoring.'
 keywords: 'AMSKY01 sensor, sky quality meter, cloud detection sensor, USB-C weather sensor, astronomical weather station, RS-485 sensor, SQM, sky monitoring, environmental sensor, observatory automation'
 menubar: docs_menu
 show_sidebar: false
