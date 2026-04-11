@@ -7,7 +7,7 @@ keywords: 'AMASC01, allsky camera, Sony IMX477, allsky imaging, meteor detection
 layout: product
 image: '/images/products/AMASC01/amasc01_product_main.png'
 hero_image: '/images/products/AMASC01/amasc01_hero.jpg'
-price: 408 Eur
+price: 426 Eur
 features:
     - label: Sony 12.3MP sensor with excellent low-light performance
       icon: fa-camera

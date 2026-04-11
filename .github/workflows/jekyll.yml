@@ -39,6 +39,37 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
+      - name: Set post dates from git if missing
+        run: |
+          python3 - <<'PYEOF'
+          import subprocess, os, re
+          posts_dir = "docs/_posts"
+          for fname in os.listdir(posts_dir):
+              if not fname.endswith(".md"):
+                  continue
+              fpath = os.path.join(posts_dir, fname)
+              with open(fpath, "r") as f:
+                  content = f.read()
+              # Skip if date already in front matter
+              fm_match = re.match(r'^---\n(.*?)\n---', content, re.DOTALL)
+              if fm_match and re.search(r'^date:\s*.+', fm_match.group(1), re.MULTILINE):
+                  continue
+              # Get first commit date for this file
+              result = subprocess.run(
+                  ["git", "log", "--follow", "--format=%as", "--", fpath],
+                  capture_output=True, text=True
+              )
+              dates = result.stdout.strip().splitlines()
+              if not dates:
+                  continue
+              commit_date = dates[-1]  # oldest commit
+              # Inject into front matter
+              content = content.replace("---\n", f"---\ndate: {commit_date}\n", 1)
+              with open(fpath, "w") as f:
+                  f.write(content)
+              print(f"Set date {commit_date} for {fname}")
+          PYEOF
+
       - name: Build with Jekyll
         run: bundle exec jekyll build --source docs --destination _site --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
