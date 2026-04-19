@@ -9,6 +9,9 @@ image: '/images/products/USBMOUNT01/USBMOUNT01A_photo.jpg'
 hero_image: '/images/products/USBMOUNT01/am_usbmount_hero.jpg'
 price: 42.2 Eur
 buttons:
+  - url: mailto:info@astrometers.eu?subject=AMUSBMOUNT01%20offer%20request
+    text: Get offer
+    icon_class: fas fa-envelope
   - url: https://lectronz.com/products/amusbmount01
     icon: https://lectronz-images.b-cdn.net/static/badges/buy-it-on-lectronz-medium.png
 ---

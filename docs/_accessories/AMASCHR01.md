@@ -17,6 +17,10 @@ features:
       icon: fa-microchip
     - label: Short cable connections — no complex wiring
       icon: fa-plug
+buttons:
+  - url: mailto:info@astrometers.eu?subject=AMASCHR01%20offer%20request
+    text: Get offer
+    icon_class: fas fa-envelope
 ---
 
 # AMASCHR01 – Heater Ring with Sensor

@@ -25,6 +25,9 @@ buttons:
   - url: /docs/AMSKY01/
     text: Docs
     icon_class: fas fa-book
+  - url: mailto:info@astrometers.eu?subject=AMSKY01%20offer%20request
+    text: Get offer
+    icon_class: fas fa-envelope
 #shop_url: https://lectronz.com/products/amsky01
 #shop_icon: https://lectronz-images.b-cdn.net/static/badges/buy-it-on-lectronz-medium.png
 ---

@@ -8,6 +8,13 @@ layout: product
 image: '/images/products/AMFOC01/amfoc_sky.jpg'
 hero_image: '/images/products/AMFOC01/am_amfoc_hero.jpg'
 price: 253 Eur
+buttons:
+  - url: /docs/AMFOC01/
+    text: Docs
+    icon_class: fas fa-book
+  - url: mailto:info@astrometers.eu?subject=AMFOC01%20offer%20request
+    text: Get offer
+    icon_class: fas fa-envelope
 ---
 
 **AMFOC01 – Advanced Open-Source Telescope Focuser**
