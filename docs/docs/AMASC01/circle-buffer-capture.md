@@ -45,6 +45,17 @@ The Sony IMX296 uses a **global shutter** and supports frame rates of up to **60
 
 The software continuously stores recent image data in a **RAM-based circular buffer**. This means the system always keeps the most recent seconds of recording in memory, even before any trigger occurs.
 
+<p align="center">
+  <img
+    src="/images/docs/AMASC01/circle-buffer-capture-diagram.png"
+    alt="Diagram showing AMASC01 circular buffer capture with pre-trigger and post-trigger frame storage"
+    width="72%"
+  />
+</p>
+<p align="center" style="font-size:90%">
+  Circular buffer principle showing continuous frame rotation, trigger point, and clip export with preserved pre-trigger and post-trigger history.
+</p>
+
 When a trigger is received, the software saves:
 
 - several seconds **before** the trigger
