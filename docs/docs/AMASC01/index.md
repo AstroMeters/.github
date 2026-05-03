@@ -47,22 +47,11 @@ AMASC01 integrates the **Sony IMX477** image sensor (12.3 MP, 1.55 μm pixel siz
 
 The AMASC01 camera is shipped **fully pre-installed and pre-configured**. All required software components, system settings, and operational parameters are prepared at the factory, allowing the camera to function immediately after installation.
 
-### Base Software Stack
+The software section is split into dedicated pages covering the current baseline system and future capture modes:
 
-The included software is based on the open-source project:  
-**AllskyTeam/allsky**: <https://github.com/AllskyTeam/allsky>
-
-In addition to the base software, AMASC01 includes pre-configured settings and **hardware management tools** for controlling camera-specific components such as dome heating, ventilation, and anti-dew systems. Proper hardware control is essential for reliable long-term operation and image quality. For detailed information about the thermal management system, see the [Thermal Control documentation](thermal-control).
-
-Key features include:
-- **Web-based user interface** for configuration and monitoring
-- **Exposure and imaging parameter control**
-- **Image masking capabilities** for excluding unwanted areas
-- **Data processing pipeline** with numerical operations
-- **Modular and customizable architecture**
-- **Image archiving and timelapse generation**
-- **Overlay support** for metadata display
-- **Hardware management interface** for dome heating, ventilation control, and environmental monitoring
+- [AMASC01 Software](/docs/AMASC01/software/) - software overview and navigation hub
+- [Base Software Stack](/docs/AMASC01/base-software-stack/) - overview of the pre-installed software environment and hardware management integration
+- [Circle Buffer Capture](/docs/AMASC01/circle-buffer-capture/) - reserved for continuous pre-trigger event capture workflow documentation
 
 ### Operation
 
@@ -89,7 +78,7 @@ These upcoming modules will expand the potential of the AMASC01 for users requir
 
 ## Installation
 
-For complete step-by-step installation instructions, including mounting, power connection, focusing, and initial configuration, please refer to the [AMASC01 Installation Guide](installation).
+For complete step-by-step installation instructions, including mounting, power connection, focusing, and initial configuration, please refer to the [AMASC01 Installation Guide](/docs/AMASC01/installation/).
 
 
 ## Applications

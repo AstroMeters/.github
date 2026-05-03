@@ -29,7 +29,18 @@
     - name: AMASC01 general description
       link: /docs/AMASC01/
     - name: AMASC01 Installation Guide
-      link: /docs/AMASC01/installation
+      link: /docs/AMASC01/installation/
+    - name: AMASC01 software
+      link: /docs/AMASC01/software/
+      items:
+        - name: Base software stack
+          link: /docs/AMASC01/base-software-stack/
+        - name: indi-allsky
+          link: /docs/AMASC01/indi-allsky/
+        - name: Circle buffer capture
+          link: /docs/AMASC01/circle-buffer-capture/
+        - name: Allsky thermal control
+          link: /docs/AMASC01/thermal-control/
 
 - label: USB-to-mount adapter USBMOUNT
   items:
