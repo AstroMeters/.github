@@ -50,3 +50,8 @@
   items:
     - name: INDI drivers
       link: /docs/indi/
+
+- label: Components
+  items:
+    - name: AMASCHR02 heating ring
+      link: /docs/components/AMASCHR02/
