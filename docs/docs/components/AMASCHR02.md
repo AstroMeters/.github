@@ -8,6 +8,7 @@ menubar: docs_menu
 show_sidebar: false
 toc: false
 hero_image: '/images/am_products_hero.jpg'
+image: '/images/docs/AMASCHR02/AMASCHR02-image.jpg'
 ---
 
 ## AMASCHR02 Heating Ring
