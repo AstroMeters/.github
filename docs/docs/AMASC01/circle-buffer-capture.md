@@ -17,6 +17,12 @@ The **Circle Buffer Capture** mode is intended for situations where the priority
 
 This software is based on **CircularPiCam**, a capture pipeline designed for high-speed event recording with RAM-based circular buffering and trigger-controlled clip saving.
 
+## Sample Recording
+
+The following video was captured using an **AMASC01** prototype equipped with an alternative optical chip capable of **60 FPS**. The recording is slowed down and shows a lightning discharge.
+
+{% include youtube.html video="JxOha68sJhY" time=7 %}
+
 ## Purpose
 
 This mode has the opposite design goal compared to the standard [Base Software Stack](/docs/AMASC01/base-software-stack/), which is built around continuous all-sky monitoring, long-term operation, and regular image generation.
