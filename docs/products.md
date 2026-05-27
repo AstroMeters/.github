@@ -10,7 +10,7 @@ sections:
   - title: Products
     description: Precision astronomical instruments and devices designed for astrophotography, sky monitoring, and telescope control.
     collection: products
-#  - title: Accessories
-#    description: Various small accessories and components for building your own AllSky camera and other DIY astronomical projects.
-#    collection: accessories
+  - title: Components
+    description: Small AstroMeters components for all-sky cameras, observatory builds, and custom astronomical projects.
+    collection: accessories
 ---
