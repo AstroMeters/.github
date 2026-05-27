@@ -8,6 +8,7 @@ layout: product
 image: ''
 hero_image: '/images/am_products_hero.jpg'
 price:
+listed: false
 features:
     - label: SHT4x temperature & humidity sensor
       icon: fa-thermometer-half
