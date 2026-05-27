@@ -18,6 +18,7 @@ show_sidebar: false
 
             {% assign sorted_products = site[section.collection] | sort: page.sort %}
             {% for product in sorted_products %}
+                {% if product.listed == false %}{% continue %}{% endif %}
                 <div class="column is-4-desktop is-6-tablet">
                     <a href="{{ product.url | relative_url }}" class="category-product">
                         <div class="card">
@@ -46,6 +47,7 @@ show_sidebar: false
         {% endif %}
 
         {% for product in sorted_products %}
+            {% if product.listed == false %}{% continue %}{% endif %}
             <div class="column is-4-desktop is-6-tablet">
                 <a href="{{ product.url | relative_url }}" class="category-product">
                     <div class="card">
