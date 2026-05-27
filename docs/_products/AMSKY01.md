@@ -1,18 +1,20 @@
 ---
 title: AMSKY01
 subtitle: Sky Quality, Cloud & Environment Sensor
-description: 'Sky quality (SQM), cloud detection, and environmental sensor with USB-C and RS485 interfaces for observatories and automation.'
+description: 'Dual-sensor sky quality (SQM), cloud detection, and environmental sensor with USB-C and RS485 interfaces for observatories and automation.'
 product_code: AMSKY01
 keywords: 'AMSKY01, sky quality meter, SQM sensor, cloud detection, sky brightness measurement, environmental sensor, temperature humidity sensor, RS485 interface, USB-C sensor, observatory automation, light pollution monitoring, thermal IR sensor'
 layout: product
 hero_image: '/images/am_amsky_hero.png'
-image: '/images/products/AMSKY01_bbq.png'
-price: 185.2 EUR
+image: '/images/products/AMSKY01_bbq.jpg'
+price: 378 EUR
 features:
-    - label: Sky brightness sensor with mag/arcsec² output
+    - label: Dual SQM sensors – 10° and 60° field of view
       icon: fa-moon
-    - label: 16×12 pixel IR cloud sensor (32×24 available)
+    - label: 32×24 pixel IR cloud sensor (64×48 available)
       icon: fa-cloud
+    - label: Water-pooling resistant sensor design
+      icon: fa-tint-slash
     - label: Precision temperature & humidity sensor
       icon: fa-thermometer-half
     - label: Dual interface USB-C & RS485
@@ -32,20 +34,23 @@ buttons:
 #shop_icon: https://lectronz-images.b-cdn.net/static/badges/buy-it-on-lectronz-medium.png
 ---
 
-AMSKY01 is a professional sky quality sensor designed specifically for autonomous and remotely operated observatories.
+AMSKY01 is a professional sky quality sensor designed specifically for autonomous and remotely operated observatories. It is built around a **dual-sensor architecture** that combines two independent SQM channels with a pixel-array infrared cloud detector.
 
-Unlike traditional single-point cloud detectors, AMSKY01 features a **16×12 pixel MLX9064x thermopile array** that provides detailed sky temperature mapping for precise cloud detection and sky clarity assessment. Combined with an optical sky brightness sensor (outputting both lux and mag/arcsec²) and SHT41 environmental sensor, it delivers comprehensive weather monitoring in a single compact unit. A high-resolution 32×24 pixel variant is also available for enhanced spatial analysis.
+Unlike traditional single-point cloud detectors, AMSKY01 features a **32×24 pixel MLX9064x thermopile array** that provides detailed sky temperature mapping for precise cloud detection and sky clarity assessment. Combined with **two sky brightness sensors** (10° narrow-field and 60° wide-field, both outputting lux and mag/arcsec²) and SHT41 environmental sensor, it delivers comprehensive weather monitoring in a single compact unit. A high-resolution 64×48 pixel variant is also available for enhanced spatial analysis. The enclosure is engineered to prevent water pooling on the sensor surface.
 
 With dual connectivity options (USB-C CDC serial and RS485) and an ASCII text-based protocol, AMSKY01 integrates seamlessly into observatory automation systems, SCADA networks, and custom monitoring solutions.
 
 
 ## Key Features
 
+**Dual-Sensor Technology**
+Two independent sky brightness (SQM) sensors with different fields of view — 10° narrow-angle for precise zenith measurement and 60° wide-angle for broader sky coverage — provide redundant and complementary light pollution data.
+
 **Pixel Matrix Thermopile Array (MLX9064x)**
-Advanced 16×12 pixel IR sensor (32×24 variant available) provides detailed sky temperature mapping for superior cloud detection compared to single-point sensors. Enables spatial analysis of cloud coverage and sky conditions.
+Advanced 32×24 pixel IR sensor (64×48 variant available) provides detailed sky temperature mapping for superior cloud detection compared to single-point sensors. Enables spatial analysis of cloud coverage and sky conditions.
 
 **Optical Sky Brightness Measurement**
-Dual-output photometric sensor delivers real-time readings in both lux and mag/arcsec² units for standardized sky quality assessment and light pollution monitoring.
+Both SQM channels deliver real-time readings in lux and mag/arcsec² for standardized sky quality assessment and light pollution monitoring.
 
 **SHT41 Environmental Sensor**
 Precision-calibrated temperature and humidity measurement for comprehensive meteorological data collection.
@@ -57,12 +62,12 @@ USB-C (5V bus-powered) or external 8-13V DC supply. Dual interface: USB CDC seri
 Simple, human-readable command structure enables rapid integration into existing automation systems without complex parsing libraries.
 
 **Outdoor-Rated Design**
-Weatherproof enclosure engineered for continuous 24/7 operation in permanent observatory installations.
+Weatherproof enclosure engineered for continuous 24/7 operation in permanent observatory installations. The sensor head geometry is specifically designed to prevent water pooling on optical surfaces.
 
 
 ## Cloud Detection in Action
 
-The following video shows real-time data from the AMSKY01 sensor as cloud coverage develops overhead. The 16×12 pixel thermopile array captures detailed sky temperature distribution across its 110° field of view, enabling precise detection of cloud movement and coverage patterns. Watch how the sensor responds to changing atmospheric conditions in real-time.
+The following video shows real-time data from the AMSKY01 sensor as cloud coverage develops overhead. The 32×24 pixel thermopile array captures detailed sky temperature distribution across its 150°×110° field of view, enabling precise detection of cloud movement and coverage patterns. Watch how the sensor responds to changing atmospheric conditions in real-time.
 
 {% include youtube.html video="BXKVQVPBjso" time=26 %}
 

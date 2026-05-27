@@ -8,23 +8,24 @@ menubar: docs_menu
 show_sidebar: false
 toc: false
 nav_order: 2
-hero_image: '/images/docs.jpg'
+hero_image: '/images/am_amsky_hero.jpg'
 ---
 
 # AMSKY01 – All-in-one Sky Quality and Cloud Sensor
 
 The AMSKY01 is a compact, weatherproof sky sensor designed for astronomical and environmental applications. It combines multiple sensors in one unit:
 
-- **Sky brightness sensor (SQM)** – measures sky brightness in mag/arcsec².
-- **Infrared cloud sensor** – detects cloud presence by measuring sky temperature.
+- **Dual sky brightness sensors (SQM)** – 10° and 60° field of view, measuring sky brightness in mag/arcsec².
+- **32×24 pixel infrared cloud sensor** – detailed sky temperature mapping (64×48 variant available).
+- **Water-pooling resistant design** – sensor head geometry prevents water accumulation on optical surfaces.
 - **Temperature and humidity sensor** – monitors ambient air conditions.
 - **USB-C and RS-485 interfaces** – for easy connection to PCs or automation systems.
 
-<img width="600" alt="AMSKY01 sensor" src="https://github.com/user-attachments/assets/d425eac0-dab1-45b2-90b5-168619107dd3" />
+<p align="center"><img width="400" alt="AMSKY01 sensor" src="/images/docs/AMSKY01/amsky01_product.jpg" /></p>
 
 ## Live Cloud Detection Example
 
-The following video demonstrates real-time data from the AMSKY01 sensor as clouds pass through its field of view. The 16×12 pixel thermopile array provides detailed sky temperature mapping with 110° field of view, allowing precise tracking of cloud coverage and movement patterns.
+The following video demonstrates real-time data from the AMSKY01 sensor as clouds pass through its field of view. The 32×24 pixel thermopile array provides detailed sky temperature mapping with 150°×110° field of view, allowing precise tracking of cloud coverage and movement patterns.
 
 {% include youtube.html video="BXKVQVPBjso" time=26 %}
 
@@ -41,7 +42,7 @@ The following video demonstrates real-time data from the AMSKY01 sensor as cloud
 
 ## How the Pixel Sensor Works: Detailed cloud Mapping
 
-AMSKY01’s infrared cloud sensor is based on a 16×12 (optionally 32x24) pixel thermopile array, which acts like a low-resolution thermal camera for the sky. Each pixel measures the temperature in a specific direction, producing a real-time “thermal image” of the sky dome.
+AMSKY01's infrared cloud sensor is based on a 32×24 pixel thermopile array (64×48 variant available), which acts like a low-resolution thermal camera for the sky.
 
 
 <p align="center">
@@ -72,8 +73,8 @@ The pixel array transforms AMSKY01 from a simple cloud sensor into a powerful to
 
 | Parameter               | Specification                              |
 |-------------------------|---------------------------------------------|
-| **Sky brightness (SQM)**| Measured in mag/arcsec²                     |
-| **Cloud detection**     | Infrared sky temperature sensor             |
+| **Sky brightness (SQM)**| Dual sensor: 10° and 60° FoV, mag/arcsec²   |
+| **Cloud detection**     | 32×24 px thermopile array (64×48 available) |
 | **Temperature**         | High-accuracy ambient air temperature       |
 | **Humidity**            | Relative humidity sensor                    |
 | **Interfaces**          | USB-C (CDC serial), RS-485                  |
