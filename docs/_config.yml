@@ -55,6 +55,12 @@ collections:
     image: ''
     hero_image: '/images/docs.jpg'
     show_sidebar: false
+  legacy:
+    output: true
+    layout: product
+    image: ''
+    hero_image: '/images/docs.jpg'
+    show_sidebar: false
 
 paginate: 15
 paginate_path: "/blog/page:num"
@@ -88,6 +94,12 @@ defaults:
   - scope:
       path: ""
       type: "accessories"
+    values:
+      layout: "product"
+      author: "AstroMeters Team"
+  - scope:
+      path: ""
+      type: "legacy"
     values:
       layout: "product"
       author: "AstroMeters Team"

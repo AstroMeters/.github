@@ -13,15 +13,15 @@
     - name: Focuser handling
       link: /docs/AMFOC01/handling/
 
-- label: Sky quality sensor AMSKY01
-  link: /docs/AMSKY01/
+- label: Sky quality sensor AMSKY
+  link: /docs/AMSKY/
   items:
-    - name: AMSKY01 general description
-      link: /docs/AMSKY01/
-    - name: AMSKY01 Viewer software
-      link: /docs/AMSKY01/viewer
-    - name: AMSKY01 usage in linux setups
-      link: /docs/AMSKY01/sw-linux
+    - name: AMSKY02 overview
+      link: /docs/AMSKY/
+    - name: AMSKY viewer software
+      link: /docs/AMSKY/viewer
+    - name: AMSKY usage
+      link: /docs/AMSKY/sw-linux
 
 - label: Allsky Camera AMASC01
   link: /docs/AMASC01/

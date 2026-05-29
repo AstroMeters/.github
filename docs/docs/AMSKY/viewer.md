@@ -1,9 +1,9 @@
 ---
 layout: page
-title: AMSKY01 Viewer
-subtitle: 'AMSKY01: GUI and CLI tools for sensor monitoring'
-description: 'AMSKY01 Viewer – Python GUI for real-time cloud detection, sky brightness, temperature, and humidity visualization.'
-keywords: 'AMSKY01 viewer, PyQt5, sensor visualization, cloud detection software, sky quality monitoring, real-time data, CSV logging, thermal map visualization'
+title: AMSKY Viewer
+subtitle: 'AMSKY: GUI and CLI tools for sensor monitoring'
+description: 'AMSKY Viewer – Python GUI for real-time cloud detection, sky brightness, temperature, and humidity visualization. Works with AMSKY01 and AMSKY02.'
+keywords: 'AMSKY viewer, AMSKY01, AMSKY02, PyQt5, sensor visualization, cloud detection software, sky quality monitoring, real-time data, CSV logging, thermal map visualization'
 menubar: docs_menu
 show_sidebar: false
 toc: false
@@ -11,26 +11,26 @@ nav_order: 3
 hero_image: '/images/docs.jpg'
 ---
 
-# AMSKY01 Viewer – Real-time Visualization Software
+# AMSKY Viewer – Real-time Visualization Software
 
-The AMSKY01 Viewer is a Python-based GUI application for real-time monitoring and visualization of data from the AMSKY01 sensor. It provides an intuitive graphical interface for viewing sensor data including thermal maps, environmental conditions, and sky brightness measurements.
+The AMSKY Viewer is a Python-based GUI application for real-time monitoring and visualization of data from AMSKY sensors (both AMSKY01 and AMSKY02). It provides an intuitive graphical interface for viewing sensor data including thermal maps, environmental conditions, and sky brightness measurements.
 
 
 <p align="center">
-  <img alt="AMSKY01 with GUI interface AMSKY01_viewer" src="/images/docs/AMSKY01/python-ui.png" width="80%">
+  <img alt="AMSKY Viewer GUI interface" src="/images/docs/AMSKY01/python-ui.png" width="80%">
 </p>
 
 
-> **Note:** The `amsky01` package also includes command-line tools (`amsky01_cli`) and log analysis utilities (`plot_logs`). See the [AMSKY01 repository](https://github.com/roman-dvorak/AMSKY01) and  [Linux software usage guide](/docs/AMSKY01/sw-linux/) for more information about these additional tools.
+> **Note:** The `amsky01` package also includes command-line tools (`amsky01_cli`) and log analysis utilities (`plot_logs`). See the [AMSKY repository](https://github.com/roman-dvorak/AMSKY01) and [Linux software usage guide](/docs/AMSKY/sw-linux/) for more information about these additional tools.
 
 ## GUI Viewer
 
-<img width="600" alt="AMSKY01 Viewer interface" src="https://github.com/user-attachments/assets/d425eac0-dab1-45b2-90b5-168619107dd3" />
+<img width="600" alt="AMSKY Viewer interface" src="https://github.com/user-attachments/assets/d425eac0-dab1-45b2-90b5-168619107dd3" />
 
 The graphical viewer provides real-time visualization using PyQt5 and PyQtGraph.
 
 **Features:**
-- **16×12 pixel IR thermal map** from MLX90640/MLX90641 thermopile array
+- **Pixel IR thermal map** from MLX90640/MLX90641 thermopile array
 - **Temperature and humidity** from SHT41 sensor including dew point calculation
 - **Light measurements** from TSL2591 photometer with SQM (mag/arcsec²) conversion
 - **Sensor diagnostics** including supply voltage (Vdd) and ambient temperature (Ta)
@@ -57,7 +57,7 @@ amsky01_viewer --port /dev/ttyACM0 --debug
 
 ## API interface
 
-The AMSKY01 Viewer GUI application provides an HTTP network interface that allows easy access to sensor data over the network. This enables remote monitoring and integration with various astronomy and automation tools.
+The AMSKY Viewer GUI application provides an HTTP network interface that allows easy access to sensor data over the network. This enables remote monitoring and integration with various astronomy and automation tools.
 
 By default, the API is available on port `8080` and the sensor data can be accessed via the `/data.json` endpoint. For example: `http://localhost:8080/data.json`
 
@@ -68,23 +68,23 @@ By default, the API is available on port `8080` and the sensor data can be acces
 API also allows sensor data to be accessed directly from INDI-lib, EKOS, and KStars for observatory automation and FITS image metadata.
 
 <p align="center">
-  <img alt="AMSKY01 implementation into INDI-lib and KSTARS environment" src="/images/docs/AMSKY01/amsky-indi.png" width="80%">
+  <img alt="AMSKY implementation into INDI-lib and KSTARS environment" src="/images/docs/AMSKY01/amsky-indi.png" width="80%">
 </p>
 
 
-Configuration is simple: just enable the API endpoint on the third tab of the GUI. Then, in KStars, launch the `indi-amsky01-api` driver, which will automatically connect to the running API and make the data available in your astronomy workflow. It only require to install astrometers-indi libraries according to [docs](./../../indi/)
+Configuration is simple: just enable the API endpoint on the third tab of the GUI. Then, in KStars, launch the `indi-amsky01` driver, which will automatically connect to the running API and make the data available in your astronomy workflow. It only require to install astrometers-indi libraries according to [docs](./../../indi/)
 
-Thanks to this integration, AMSKY01 seamlessly extends the capabilities of your observatory software, making advanced sky condition monitoring and automation easy and reliable.
+Thanks to this integration, AMSKY sensors seamlessly extend the capabilities of your observatory software, making advanced sky condition monitoring and automation easy and reliable.
 
 
 ## Installation
 
-The AMSKY01 software tools are available as a Python package on PyPI and can be installed easily using pip.
+The AMSKY software tools are available as a Python package on PyPI and can be installed easily using pip. The same package works with both AMSKY01 and AMSKY02.
 
 ### Requirements
 
 - Python 3.7 or newer
-- USB-C or RS-485 connection to AMSKY01 sensor
+- USB-C or RS-485 connection to AMSKY sensor
 - Linux, Windows, or macOS
 
 ### Install from PyPI (Recommended)
@@ -135,7 +135,7 @@ amsky01_viewer
 
 ### Device Not Found
 
-If the viewer cannot detect your AMSKY01 sensor:
+If the viewer cannot detect your AMSKY sensor:
 
 1. Check USB connection
 2. Verify device permissions:
@@ -165,7 +165,7 @@ pip install pyserial numpy pyqtgraph PyQt5 pandas matplotlib
 
 ## Source Code and Development
 
-The AMSKY01 software tools are open-source and available on GitHub:
+The AMSKY software tools are open-source and available on GitHub:
 
 🔗 **Repository:** [https://github.com/roman-dvorak/AMSKY01/tree/main/sw](https://github.com/roman-dvorak/AMSKY01/tree/main/sw)
 
@@ -175,6 +175,6 @@ Contributions, bug reports, and feature requests are welcome via GitHub Issues.
 
 ## See Also
 
-- [AMSKY01 Product Page](/products/AMSKY01/) - Sensor specifications and features
-- [AMSKY01 Linux Software Usage](/docs/AMSKY01/sw-linux/) - Advanced Linux integration
-- [AMSKY01 Main Documentation](/docs/AMSKY01/) - Complete technical documentation
+- [AMSKY Product Pages](/products/) - Sensor specifications and features
+- [AMSKY Linux Software Usage](/docs/AMSKY/sw-linux/) - Advanced Linux integration
+- [AMSKY Main Documentation](/docs/AMSKY/) - Complete technical documentation

@@ -1,12 +1,12 @@
 ---
-title: AMSKY01
+title: AMSKY02
 subtitle: Sky Quality, Cloud & Environment Sensor
 description: 'Dual-sensor sky quality (SQM), cloud detection, and environmental sensor with USB-C and RS485 interfaces for observatories and automation.'
-product_code: AMSKY01
-keywords: 'AMSKY01, sky quality meter, SQM sensor, cloud detection, sky brightness measurement, environmental sensor, temperature humidity sensor, RS485 interface, USB-C sensor, observatory automation, light pollution monitoring, thermal IR sensor'
+product_code: AMSKY02
+keywords: 'AMSKY02, sky quality meter, SQM sensor, cloud detection, sky brightness measurement, environmental sensor, temperature humidity sensor, RS485 interface, USB-C sensor, observatory automation, light pollution monitoring, thermal IR sensor'
 layout: product
 hero_image: '/images/am_amsky_hero.png'
-image: '/images/products/AMSKY01_bbq.jpg'
+image: '/images/products/AMSKY02_main.jpg'
 price: 378 EUR
 features:
     - label: Dual SQM sensors – 10° and 60° field of view
@@ -24,21 +24,21 @@ features:
     - label: Designed for autonomous observatories
       icon: fa-satellite-dish
 buttons:
-  - url: /docs/AMSKY01/
+  - url: /docs/AMSKY/
     text: Docs
     icon_class: fas fa-book
-  - url: mailto:info@astrometers.eu?subject=AMSKY01%20offer%20request
+  - url: mailto:info@astrometers.eu?subject=AMSKY02%20offer%20request
     text: Get offer
     icon_class: fas fa-envelope
-#shop_url: https://lectronz.com/products/amsky01
+#shop_url: https://lectronz.com/products/amsky02
 #shop_icon: https://lectronz-images.b-cdn.net/static/badges/buy-it-on-lectronz-medium.png
 ---
 
-AMSKY01 is a professional sky quality sensor designed specifically for autonomous and remotely operated observatories. It is built around a **dual-sensor architecture** that combines two independent SQM channels with a pixel-array infrared cloud detector.
+AMSKY02 is a professional sky quality sensor designed specifically for autonomous and remotely operated observatories. It is built around a **dual-sensor architecture** that combines two independent SQM channels with a pixel-array infrared cloud detector.
 
-Unlike traditional single-point cloud detectors, AMSKY01 features a **32×24 pixel MLX9064x thermopile array** that provides detailed sky temperature mapping for precise cloud detection and sky clarity assessment. Combined with **two sky brightness sensors** (10° narrow-field and 60° wide-field, both outputting lux and mag/arcsec²) and SHT41 environmental sensor, it delivers comprehensive weather monitoring in a single compact unit. A high-resolution 64×48 pixel variant is also available for enhanced spatial analysis. The enclosure is engineered to prevent water pooling on the sensor surface.
+Unlike traditional single-point cloud detectors, AMSKY02 features a **32×24 pixel MLX9064x thermopile array** that provides detailed sky temperature mapping for precise cloud detection and sky clarity assessment. Combined with **two sky brightness sensors** (10° narrow-field and 60° wide-field, both outputting lux and mag/arcsec²) and SHT41 environmental sensor, it delivers comprehensive weather monitoring in a single compact unit. A high-resolution 64×48 pixel variant is also available for enhanced spatial analysis. The enclosure is engineered to prevent water pooling on the sensor surface.
 
-With dual connectivity options (USB-C CDC serial and RS485) and an ASCII text-based protocol, AMSKY01 integrates seamlessly into observatory automation systems, SCADA networks, and custom monitoring solutions.
+With dual connectivity options (USB-C CDC serial and RS485) and an ASCII text-based protocol, AMSKY02 integrates seamlessly into observatory automation systems, SCADA networks, and custom monitoring solutions.
 
 
 ## Key Features
@@ -67,7 +67,7 @@ Weatherproof enclosure engineered for continuous 24/7 operation in permanent obs
 
 ## Cloud Detection in Action
 
-The following video shows real-time data from the AMSKY01 sensor as cloud coverage develops overhead. The 32×24 pixel thermopile array captures detailed sky temperature distribution across its 150°×110° field of view, enabling precise detection of cloud movement and coverage patterns. Watch how the sensor responds to changing atmospheric conditions in real-time.
+The following video shows real-time data from the AMSKY02 sensor as cloud coverage develops overhead. The 32×24 pixel thermopile array captures detailed sky temperature distribution across its 150°×110° field of view, enabling precise detection of cloud movement and coverage patterns. Watch how the sensor responds to changing atmospheric conditions in real-time.
 
 {% include youtube.html video="BXKVQVPBjso" time=26 %}
 

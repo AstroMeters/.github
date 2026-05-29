@@ -1,9 +1,9 @@
 ---
 layout: page
-title: AMSKY01 – Linux Setup
-subtitle: 'AMSKY01: All-in-one sky quality and cloud sensor'
-description: 'AMSKY01 Linux usage – stable device naming, sensor_viewer.py tool, INDI driver integration, and ser2net TCP streaming.'
-keywords: 'AMSKY01 sensor, sky quality meter, cloud detection sensor, USB-C weather sensor, astronomical weather station, RS-485 sensor, SQM, sky monitoring, environmental sensor, observatory automation'
+title: AMSKY – Linux Setup
+subtitle: 'AMSKY: Sky quality and cloud sensors'
+description: 'AMSKY Linux usage – stable device naming, sensor_viewer.py tool, INDI driver integration, and ser2net TCP streaming. Works with AMSKY01 and AMSKY02.'
+keywords: 'AMSKY sensor, AMSKY01, AMSKY02, sky quality meter, cloud detection sensor, USB-C weather sensor, astronomical weather station, RS-485 sensor, SQM, sky monitoring, environmental sensor, observatory automation'
 menubar: docs_menu
 show_sidebar: false
 toc: false
@@ -11,9 +11,9 @@ nav_order: 2
 hero_image: '/images/docs.jpg'
 ---
 
-# AMSKY01 – Software Usage on Linux
+# AMSKY – Software Usage on Linux
 
-This section describes how to use the AMSKY01 sensor under Linux. It covers stable device naming, usage with the `sensor_viewer.py` tool, integration with the INDI driver, and making the sensor available over the network using ser2net. Each method includes guidance on when it is most appropriate to use.
+This section describes how to use AMSKY sensors (AMSKY01 and AMSKY02) under Linux. It covers stable device naming, usage with the `sensor_viewer.py` tool, integration with the INDI driver, and making the sensor available over the network using ser2net. Each method includes guidance on when it is most appropriate to use.
 
 ---
 
@@ -36,25 +36,25 @@ This symlink can be used directly in your applications.
 
 ### Option B – custom symlink using udev
 
-If you prefer shorter names (e.g. `/dev/ttyAMSKY1`), you can create a udev rule based on Vendor ID and Product ID.
+If you prefer shorter names (e.g. `/dev/ttyAMSKY`), you can create a udev rule based on Vendor ID and Product ID.
 
 1. Identify values using `lsusb`:
 
    ```bash
    lsusb
-   # Example: ID 1209:ae02 AstroMeters.eu AMSKY01
+   # Example: ID 1209:ae02 AstroMeters.eu AMSKY
    ```
-2. Create rule `/etc/udev/rules.d/99-amsky01.rules`:
+2. Create rule `/etc/udev/rules.d/99-amsky.rules`:
 
    ```udev
-   SUBSYSTEM=="tty", ATTRS{idVendor}=="1209", ATTRS{idProduct}=="ae02", SYMLINK+="ttyAMSKY1"
+   SUBSYSTEM=="tty", ATTRS{idVendor}=="1209", ATTRS{idProduct}=="ae02", SYMLINK+="ttyAMSKY"
    ```
 3. Apply rule:
 
    ```bash
    sudo udevadm control --reload-rules
    sudo udevadm trigger
-   ls -l /dev/ttyAMSKY1
+   ls -l /dev/ttyAMSKY
    ```
 
 This approach is useful if you want a simple, consistent port name regardless of the specific device serial number.
@@ -63,7 +63,7 @@ This approach is useful if you want a simple, consistent port name regardless of
 
 ## 2) Using `sensor_viewer.py`
 
-`sensor_viewer.py` is intended for users who want to quickly view AMSKY01 data or log it to a CSV file. It supports both serial and TCP connections.
+`sensor_viewer.py` is intended for users who want to quickly view AMSKY data or log it to a CSV file. It supports both serial and TCP connections.
 
 Show help:
 
@@ -83,7 +83,7 @@ Detailed instructions and examples are provided on a dedicated documentation pag
 
 ## 3) Using INDI
 
-The INDI driver is recommended if you want to integrate the AMSKY01 sensor with astronomy software (e.g. KStars/Ekos) or in larger systems where a unified interface for multiple devices is required.
+The INDI driver is recommended if you want to integrate the AMSKY sensor with astronomy software (e.g. KStars/Ekos) or in larger systems where a unified interface for multiple devices is required.
 
 <img width="866" height="653" alt="image" src="https://github.com/user-attachments/assets/2c46e338-ea4b-472f-8d5c-64ea2ba1ef52" />
 
@@ -96,7 +96,7 @@ indiserver indi_amsky01
 
 ### 3.2 Connection options
 
-In the AMSKY01 driver you can choose:
+In the AMSKY driver you can choose:
 
 * **Serial connection** – simple and direct for local use.
 * **TCP connection** – useful if the device is shared over the network via ser2net.
@@ -104,9 +104,9 @@ In the AMSKY01 driver you can choose:
 ### 3.3 Command line configuration
 
 ```bash
-indi_getprop | grep AMSKY01
+indi_getprop | grep AMSKY
 indi_setprop "AMSKY01.CONNECTION.CONNECTION_MODE=Serial"
-indi_setprop "AMSKY01.SERIAL.PORT=/dev/ttyAMSKY1"
+indi_setprop "AMSKY01.SERIAL.PORT=/dev/ttyAMSKY"
 indi_setprop "AMSKY01.CONNECTION.CONNECT=On"
 ```
 
@@ -122,7 +122,7 @@ In some cases, it is advantageous not to access the sensor directly via a serial
 
 Ser2net is useful in the following scenarios:
 
-* You want **multiple applications** (e.g. `sensor_viewer.py` and the INDI driver) to access AMSKY01 at the same time.
+* You want **multiple applications** (e.g. `sensor_viewer.py` and the INDI driver) to access AMSKY at the same time.
 * You need **remote access** to the sensor from another computer.
 * You want to simplify configuration for applications that prefer TCP connections over serial ports.
 
@@ -142,14 +142,14 @@ sudo apt-get install ser2net
 Configuration file `/etc/ser2net/ser2net.yaml`:
 
 ```yaml
-connection: &amsky01
+connection: &amsky
   accepter: tcp,0.0.0.0,2000
   enable: on
   options:
-    banner: "AMSKY01 ready\n"
+    banner: "AMSKY ready\n"
     kickolduser: true
     telnet-brk-on-sync: true
-  connector: serialdev,/dev/ttyAMSKY1,9600n81,local
+  connector: serialdev,/dev/ttyAMSKY,9600n81,local
 ```
 
 ### 4.4 Restarting the service and testing
