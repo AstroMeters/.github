@@ -9,6 +9,8 @@ show_sidebar: false
 toc: false
 nav_order: 2
 hero_image: '/images/am_amsky_hero.jpg'
+redirect_from:
+  - /docs/AMSKY01/
 ---
 
 # AMSKY02 – Sky Quality and Cloud Sensor

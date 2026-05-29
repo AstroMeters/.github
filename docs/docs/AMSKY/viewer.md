@@ -9,6 +9,8 @@ show_sidebar: false
 toc: false
 nav_order: 3
 hero_image: '/images/docs.jpg'
+redirect_from:
+  - /docs/AMSKY01/viewer/
 ---
 
 # AMSKY Viewer – Real-time Visualization Software

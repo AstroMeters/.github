@@ -6,6 +6,8 @@ description: |
 product_code: AMSKY01
 keywords: 'AMSKY01, sky quality meter, SQM sensor, cloud detection, sky brightness measurement, environmental sensor, temperature humidity sensor, RS485 interface, USB-C sensor, observatory automation, light pollution monitoring, thermal IR sensor'
 layout: product
+redirect_from:
+  - /products/AMSKY01/
 hero_image: '/images/am_amsky_hero.png'
 image: '/images/products/AMSKY01_bbq.png'
 price: '<del style="color: #999;">224 EUR</del>'

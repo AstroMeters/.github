@@ -9,6 +9,8 @@ show_sidebar: false
 toc: false
 nav_order: 2
 hero_image: '/images/docs.jpg'
+redirect_from:
+  - /docs/AMSKY01/sw-linux/
 ---
 
 # AMSKY – Software Usage on Linux
