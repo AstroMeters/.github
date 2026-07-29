@@ -70,7 +70,6 @@ Weatherproof enclosure engineered for continuous 24/7 operation in permanent obs
 ## Cloud Detection in Action
 
 The following video shows real-time data from the AMSKY02 sensor as cloud coverage develops overhead. The 64×48 pixel thermopile array captures detailed sky temperature distribution across its 150°×110° field of view, enabling precise detection of cloud movement and coverage patterns. Watch how the sensor responds to changing atmospheric conditions in real-time.
-![Uploading Snímek obrazovky z 2026-07-20 13-45-17.png…]()
 
 {% include youtube.html video="BXKVQVPBjso" time=26 %}
 
