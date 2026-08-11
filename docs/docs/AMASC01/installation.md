@@ -20,7 +20,7 @@ This guide provides complete step-by-step instructions for installing and settin
 
 Before beginning installation, ensure you have:
 
-- PoE-capable Ethernet switch or PoE injector (IEEE 802.3af/at)
+- PoE-capable Ethernet switch or PoE+ injector (IEEE 802.3at)
 - Ethernet cable of appropriate length
 - Stable mounting structure with unobstructed sky view
 - Tools for mounting (depending on your specific mount)
