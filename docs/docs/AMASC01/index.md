@@ -28,13 +28,13 @@ AMASC01 integrates the **Sony IMX477** image sensor (12.3 MP, 1.55 μm pixel siz
 * **Heated dome & active ventilation** – prevents fogging and condensation
 * **Integrated environmental sensors** – temperature, humidity, and pressure monitoring
 * **Real-Time Clock (RTC)** – accurate timestamping without internet dependency
-* **Power over Ethernet (PoE)** – single-cable installation via 1000BASE-T Ethernet
+* **Power over Ethernet (PoE+)** – single-cable installation via 1000BASE-T Ethernet
 * **Pre-configured software** – ships ready to operate with web-based interface
 * Designed for **continuous outdoor use** in observatory conditions
 
 ### Power & Connectivity
 - **Interface**: 1000BASE-T Ethernet (Gigabit)
-- **Power**: Power over Ethernet (PoE) IEEE 802.3af/at
+- **Power**: Power over Ethernet (PoE+) IEEE 802.at
 - **Single Cable**: Combined data and power delivery
 
 > **Separate Power Input**: If you need separated power supply (non-PoE), this can be implemented upon request. There are various cases whet you can't use PoE, and we can accommodate these needs. In that case, please, contact us.
