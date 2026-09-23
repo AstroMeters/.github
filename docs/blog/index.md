@@ -2,7 +2,7 @@
 layout: blog
 title: Blog
 subtitle: AstroMeters blog
-hero_image: /images/blog/hero.png
+hero_image: /images/blog/hero.webp
 hero_image_position: center 70%
 hero_darken: true
 hero_height: is-medium

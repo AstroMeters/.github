@@ -5,8 +5,8 @@ description: 'Dual-sensor sky quality (SQM), cloud detection, and environmental 
 product_code: AMSKY02
 keywords: 'AMSKY02, sky quality meter, SQM sensor, cloud detection, sky brightness measurement, environmental sensor, temperature humidity sensor, RS485 interface, USB-C sensor, observatory automation, light pollution monitoring, thermal IR sensor'
 layout: product
-hero_image: '/images/am_amsky_hero.png'
-image: '/images/products/AMSKY02_main.jpg'
+hero_image: '/images/am_amsky_hero.webp'
+image: '/images/products/AMSKY02_main.webp'
 price: 638 EUR
 features:
     - label: Dual SQM sensors – 10° and 60° field of view

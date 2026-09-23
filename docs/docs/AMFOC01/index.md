@@ -17,7 +17,7 @@ AMFOC01 features a **red OLED display** and four tactile buttons, allowing for i
 
 
 <p align="center">
-  <img alt="AMFOC01 Top" src="/images/products/AMFOC01/amfoc_sky.jpg" width="80%">
+  <img alt="AMFOC01 Top" src="/images/products/AMFOC01/amfoc_sky.webp" width="80%">
 </p>
 
 
@@ -52,7 +52,7 @@ The AMFOC01 focuser includes:
 
 
 <p align="center">
-  <img alt="AMFOC01 Top" src="/images/products/AMFOC01/amfoc_schema.png" width="80%">
+  <img alt="AMFOC01 Top" src="/images/products/AMFOC01/amfoc_schema.webp" width="80%">
 </p>
 
 ## Usage Scenarios
@@ -88,8 +88,8 @@ AMFOC01 is **designed, developed, and assembled entirely in-house**, with no off
 This careful engineering, especially in the electronics, guarantees a **super-smooth, vibration-free focusing experience** for astrophotography or visual observation.
 
 <p align="center">
-  <img alt="AMFOC01 Top" src="/images/products/AMFOC01/AMFOC01-top.png" width="49%">
-  <img alt="AMFOC01 Bottom" src="/images/products/AMFOC01/AMFOC01-bottom.png" width="49%">
+  <img alt="AMFOC01 Top" src="/images/products/AMFOC01/AMFOC01-top.webp" width="49%">
+  <img alt="AMFOC01 Bottom" src="/images/products/AMFOC01/AMFOC01-bottom.webp" width="49%">
 </p>
 
 The red OLED display is designed to minimize impact on night vision.

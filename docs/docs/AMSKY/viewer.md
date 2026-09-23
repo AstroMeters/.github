@@ -8,7 +8,7 @@ menubar: docs_menu
 show_sidebar: false
 toc: false
 nav_order: 3
-hero_image: '/images/docs.jpg'
+hero_image: '/images/docs.webp'
 redirect_from:
   - /docs/AMSKY01/viewer/
 ---
@@ -19,7 +19,7 @@ The AMSKY Viewer is a Python-based GUI application for real-time monitoring and 
 
 
 <p align="center">
-  <img alt="AMSKY Viewer GUI interface" src="/images/docs/AMSKY01/python-ui.png" width="80%">
+  <img alt="AMSKY Viewer GUI interface" src="/images/docs/AMSKY01/python-ui.webp" width="80%">
 </p>
 
 
@@ -70,7 +70,7 @@ By default, the API is available on port `8080` and the sensor data can be acces
 API also allows sensor data to be accessed directly from INDI-lib, EKOS, and KStars for observatory automation and FITS image metadata.
 
 <p align="center">
-  <img alt="AMSKY implementation into INDI-lib and KSTARS environment" src="/images/docs/AMSKY01/amsky-indi.png" width="80%">
+  <img alt="AMSKY implementation into INDI-lib and KSTARS environment" src="/images/docs/AMSKY01/amsky-indi.webp" width="80%">
 </p>
 
 

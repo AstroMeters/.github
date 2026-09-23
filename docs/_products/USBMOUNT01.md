@@ -5,8 +5,8 @@ description: 'EQmod USB-C converter for Skywatcher mounts (EQ8, EQ6, HEQ5). Plug
 product_code: AMUSBMOUNT01
 keywords: 'AMUSBMOUNT01, EQmod converter, USB-C mount controller, Skywatcher mount control, telescope automation, EQ8 controller, EQ6 automation, HEQ5 control, mount interface, Stellarium control, KStars INDI, ASCOM driver, RJ45 converter'
 layout: product
-image: '/images/products/USBMOUNT01/USBMOUNT01A_photo.jpg'
-hero_image: '/images/products/USBMOUNT01/am_usbmount_hero.jpg'
+image: '/images/products/USBMOUNT01/USBMOUNT01A_photo.webp'
+hero_image: '/images/products/USBMOUNT01/am_usbmount_hero.webp'
 price: 42.20 EUR
 buttons:
   - url: mailto:info@astrometers.eu?subject=AMUSBMOUNT01%20offer%20request

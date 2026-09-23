@@ -7,7 +7,7 @@ keywords: 'AMASC01 thermal control, dome heating, camera ventilation, anti-dew s
 menubar: docs_menu
 show_sidebar: false
 toc: false
-hero_image: '/images/products/AMASC01/amasc01_hero.jpg'
+hero_image: '/images/products/AMASC01/amasc01_hero.webp'
 ---
 
 # AMASC01 Thermal Control System
@@ -31,7 +31,7 @@ The thermal control system consists of:
 The system utilizes custom-designed hardware components specifically engineered for long durability in demanding outdoor environments.
 
 <p align="center">
-  <img width="60%" alt="Screenshot of the custom thermal control implementation running in terminal, showing real-time sensor readings and system status" src="/images/docs/AMASC01/thstatus.png">
+  <img width="60%" alt="Screenshot of the custom thermal control implementation running in terminal, showing real-time sensor readings and system status" src="/images/docs/AMASC01/thstatus.webp">
   <br>
   <em>Screenshot of the thermal control status view running in terminal, showing real-time sensor readings and system status.</em>
 </p>

@@ -9,8 +9,8 @@ lang: en
 redirect_from:
   - /2026/01/24/amasc01-aurora/
 subtitle: "Northern lights recorded over Central Europe during a strong geomagnetic storm"
-image: /images/blog/2026-01-19-amasc01-polarni-zare/image-20260119223453.jpg
-hero_image: /images/blog/2026-01-19-amasc01-polarni-zare/image-20260119223625.jpg
+image: /images/blog/2026-01-19-amasc01-polarni-zare/image-20260119223453.webp
+hero_image: /images/blog/2026-01-19-amasc01-polarni-zare/image-20260119223625.webp
 hero_darken: true
 hero_height: is-medium
 tags:
@@ -33,7 +33,7 @@ On the night of **19 January 2026**, a strong geomagnetic storm produced a spect
     loop
     playsinline
     preload="metadata"
-    poster="/images/blog/2026-01-19-amasc01-polarni-zare/image-20260119223453.jpg"
+    poster="/images/blog/2026-01-19-amasc01-polarni-zare/image-20260119223453.webp"
     style="display: block; width: 100%; height: auto; border-radius: 6px;"
   >
     <source src="/images/blog/2026-01-19-amasc01-polarni-zare/allsky_20260119_timelapse.mp4" type="video/mp4" />
@@ -52,7 +52,7 @@ The keogram below shows the temporal evolution of the aurora event and helps ide
   <div class="column is-6-desktop is-12-tablet">
     <figure>
       <img
-        src="/images/blog/2026-01-19-amasc01-polarni-zare/image-20260119223625.jpg"
+        src="/images/blog/2026-01-19-amasc01-polarni-zare/image-20260119223625.webp"
         alt="Aurora structure above the northern horizon captured by AMASC01"
       />
       <figcaption class="has-text-grey is-size-7 mt-2">
@@ -63,7 +63,7 @@ The keogram below shows the temporal evolution of the aurora event and helps ide
   <div class="column is-6-desktop is-12-tablet">
     <figure>
       <img
-        src="/images/blog/2026-01-19-amasc01-polarni-zare/keogram-20260119.jpg"
+        src="/images/blog/2026-01-19-amasc01-polarni-zare/keogram-20260119.webp"
         alt="Keogram of the aurora event recorded on January 19, 2026"
       />
       <figcaption class="has-text-grey is-size-7 mt-2">
@@ -79,11 +79,18 @@ The keogram below shows the temporal evolution of the aurora event and helps ide
 The aurora was triggered by a powerful X1.9-class solar flare that erupted on **18 January 2026** from an active region on the Sun. The flare produced a fast coronal mass ejection (CME) directed toward Earth.
 
 <p align="center">
-  <img
-    src="/images/blog/2026-01-19-amasc01-polarni-zare/cme.gif"
-    alt="Animation of the coronal mass ejection associated with the January 2026 aurora event"
-    width="78%"
-  />
+  <video
+    autoplay
+    muted
+    loop
+    playsinline
+    preload="metadata"
+    poster="/images/blog/2026-01-19-amasc01-polarni-zare/cme-poster.webp"
+    aria-label="Animation of the coronal mass ejection associated with the January 2026 aurora event"
+    style="width: 78%; height: auto;"
+  >
+    <source src="/images/blog/2026-01-19-amasc01-polarni-zare/cme.mp4" type="video/mp4" />
+  </video>
 </p>
 <p class="has-text-centered has-text-grey is-size-7">
   CME animation. Credits: ESA/NASA (SOHO) &amp; NASA (SDO)
@@ -97,7 +104,7 @@ The geomagnetic activity was so extensive that the aurora was still visible from
 
 <p align="center">
   <img
-    src="/images/blog/2026-01-19-amasc01-polarni-zare/image-20260120233452.jpg"
+    src="/images/blog/2026-01-19-amasc01-polarni-zare/image-20260120233452.webp"
     alt="Weaker red aurora visible from the Czech Republic on January 20, 2026"
     width="48%"
   />

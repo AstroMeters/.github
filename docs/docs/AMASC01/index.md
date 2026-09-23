@@ -8,14 +8,14 @@ menubar: docs_menu
 show_sidebar: false
 toc: false
 nav_order: 3
-hero_image: '/images/products/AMASC01/amasc01_hero.jpg'
+hero_image: '/images/products/AMASC01/amasc01_hero.webp'
 ---
 
 # AMASC01 – AllSky Camera
 
 The AMASC01 is a robust AllSky camera designed for continuous sky monitoring in astronomical and environmental applications. It combines high-sensitivity imaging with integrated environmental sensors and weather-resistant construction.
 
-<img width="600" alt="AMASC01 all-sky camera installed outdoors" src="/images/products/AMASC01/amasc01_product_main.png" />
+<img width="600" alt="AMASC01 all-sky camera installed outdoors" src="/images/products/AMASC01/amasc01_product_main.webp" />
 
 ## Overview
 

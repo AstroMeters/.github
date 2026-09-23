@@ -5,8 +5,8 @@ description: Robust AllSky camera with Sony IMX477 sensor, heated dome, environm
 product_code: AMASC01
 keywords: 'AMASC01, allsky camera, Sony IMX477, allsky imaging, meteor detection, bolide detection, lightning detection, PoE camera, PoE+, astronomy camera, heated dome, environmental sensors'
 layout: product
-image: '/images/products/AMASC01/amasc01_product_main.png'
-hero_image: '/images/products/AMASC01/amasc01_hero.jpg'
+image: '/images/products/AMASC01/amasc01_product_main.webp'
+hero_image: '/images/products/AMASC01/amasc01_hero.webp'
 price: 484 EUR
 features:
     - label: Sony 12.3MP sensor with excellent low-light performance
@@ -45,7 +45,7 @@ The camera is housed in a weather-resistant enclosure suitable for year-round ou
 - **Built for permanent sky exposure** – the camera is designed to face the open sky around the clock, so direct sunlight on the dome during the day is part of normal operation.
 
 <p align="center">
-  <img alt="AMASC01 all-sky camera outdoor installation portrait view" src="/images/products/AMASC01/amasc01_portrait.jpg" width="38%">
+  <img alt="AMASC01 all-sky camera outdoor installation portrait view" src="/images/products/AMASC01/amasc01_portrait.webp" width="38%">
   <br>
   <em>AMASC01 installed in an outdoor observatory environment.</em>
 </p>
@@ -63,7 +63,7 @@ The device supports 1000BASE-T Ethernet communication with **Power over Ethernet
 
 
 <p align="center">
-  <img alt="Example image captured by the AMASC01 all-sky camera" src="/images/products/AMASC01/frame.jpg" width="60%">
+  <img alt="Example image captured by the AMASC01 all-sky camera" src="/images/products/AMASC01/frame.webp" width="60%">
   <br>
   <em>Example image captured by the AMASC01 all-sky camera.</em>
 </p>
@@ -86,7 +86,7 @@ This setup ensures straightforward operation, high stability, and smooth integra
 
 
 <p align="center">
-  <img alt="Keogram from AMASC01" src="/images/products/AMASC01/keogram.jpg" width="60%">
+  <img alt="Keogram from AMASC01" src="/images/products/AMASC01/keogram.webp" width="60%">
   <br>
   <em>Keogram from AMASC01 AllSky camera</em>
 </p>

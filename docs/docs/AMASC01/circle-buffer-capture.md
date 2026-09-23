@@ -8,7 +8,7 @@ menubar: docs_menu
 show_sidebar: false
 toc: false
 nav_order: 5
-hero_image: '/images/products/AMASC01/amasc01_hero.jpg'
+hero_image: '/images/products/AMASC01/amasc01_hero.webp'
 ---
 
 # AMASC01 Circle Buffer Capture
@@ -53,7 +53,7 @@ The software continuously stores recent image data in a **RAM-based circular buf
 
 <p align="center">
   <img
-    src="/images/docs/AMASC01/circle-buffer-capture-diagram.png"
+    src="/images/docs/AMASC01/circle-buffer-capture-diagram.webp"
     alt="Diagram showing AMASC01 circular buffer capture with pre-trigger and post-trigger frame storage"
     width="72%"
   />

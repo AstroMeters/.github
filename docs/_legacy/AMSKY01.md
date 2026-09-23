@@ -8,8 +8,8 @@ keywords: 'AMSKY01, sky quality meter, SQM sensor, cloud detection, sky brightne
 layout: product
 redirect_from:
   - /products/AMSKY01/
-hero_image: '/images/am_amsky_hero.png'
-image: '/images/products/AMSKY01_bbq.png'
+hero_image: '/images/am_amsky_hero.webp'
+image: '/images/products/AMSKY01_bbq.webp'
 price: '<del style="color: #999;">224 EUR</del>'
 features:
     - label: Sky brightness sensor with mag/arcsec² output

@@ -5,8 +5,8 @@ description: Open-source precision telescope focuser with TMC5130 driver, USB-C 
 product_code: AMFOC01
 keywords: 'AMFOC01, telescope focuser, astronomical focuser, precision focusing, TMC5130 driver, RP2040 processor, MoonLite protocol, astrophotography focuser, open source focuser, temperature compensation, USB-C focuser, stepper motor focuser'
 layout: product
-image: '/images/products/AMFOC01/amfoc_sky.jpg'
-hero_image: '/images/products/AMFOC01/am_amfoc_hero.jpg'
+image: '/images/products/AMFOC01/amfoc_sky.webp'
+hero_image: '/images/products/AMFOC01/am_amfoc_hero.webp'
 price: 253 EUR
 buttons:
   - url: /docs/AMFOC01/
@@ -39,7 +39,7 @@ Although AMFOC01 is built primarily for astronomical telescopes, its flexible, a
 
 
 <p align="center">
-  <img alt="AMFOC01 Top" src="/images/products/AMFOC01/amfoc_schema.png" width="60%">
+  <img alt="AMFOC01 Top" src="/images/products/AMFOC01/amfoc_schema.webp" width="60%">
 </p>
 
 

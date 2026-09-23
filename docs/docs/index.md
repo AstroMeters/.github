@@ -8,7 +8,7 @@ menubar: docs_menu
 show_sidebar: false
 toc: false
 nav_order: 0
-hero_image: '/images/docs.jpg'
+hero_image: '/images/docs.webp'
 ---
 
 # Welcome to the [AstroMeters](https://www.astrometers.eu) documentation page.

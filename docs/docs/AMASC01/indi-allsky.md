@@ -8,7 +8,7 @@ menubar: docs_menu
 show_sidebar: false
 toc: false
 nav_order: 6
-hero_image: '/images/products/AMASC01/amasc01_hero.jpg'
+hero_image: '/images/products/AMASC01/amasc01_hero.webp'
 ---
 
 # AMASC01 indi-allsky

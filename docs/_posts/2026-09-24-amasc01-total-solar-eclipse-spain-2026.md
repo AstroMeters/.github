@@ -7,8 +7,8 @@ date: 2026-09-24
 author: Roman Dvořák
 lang: en
 subtitle: "All-sky view of the Moon's shadow for the Planetum live stream"
-image: /images/blog/2026-08-12-amasc01-zatmeni/amasc01-totality-shadow-in-atmosphere.jpg
-hero_image: /images/blog/2026-08-12-amasc01-zatmeni/car-roof-amasc01-amsky01.jpg
+image: /images/blog/2026-08-12-amasc01-zatmeni/amasc01-totality-shadow-in-atmosphere.webp
+hero_image: /images/blog/2026-08-12-amasc01-zatmeni/car-roof-amasc01-amsky01.webp
 hero_darken: true
 hero_height: is-medium
 tags:
@@ -26,7 +26,7 @@ On **12 August 2026**, a total solar eclipse crossed the Iberian Peninsula. The 
 
 <p align="center">
   <img
-    src="/images/blog/2026-08-12-amasc01-zatmeni/spain-highway-eclipse-sign.jpg"
+    src="/images/blog/2026-08-12-amasc01-zatmeni/spain-highway-eclipse-sign.webp"
     alt="Spanish highway information sign announcing the eclipse on 12 August"
     width="78%"
   />
@@ -62,7 +62,7 @@ Part of the preparation took place directly at our accommodation in Spain, so a 
 
 <p align="center">
   <img
-    src="/images/blog/2026-08-12-amasc01-zatmeni/preparing-roof-rack-in-spain.jpg"
+    src="/images/blog/2026-08-12-amasc01-zatmeni/preparing-roof-rack-in-spain.webp"
     alt="Aluminium profiles for the roof rack being drilled and assembled at the accommodation in Spain"
     width="72%"
   />
@@ -73,7 +73,7 @@ Part of the preparation took place directly at our accommodation in Spain, so a 
 
 <p align="center">
   <img
-    src="/images/blog/2026-08-12-amasc01-zatmeni/car-roof-amasc01-amsky01.jpg"
+    src="/images/blog/2026-08-12-amasc01-zatmeni/car-roof-amasc01-amsky01.webp"
     alt="AMASC01 all-sky camera and AMSKY01 cloud sensor mounted on the car roof rack at sunset"
     width="90%"
   />
@@ -101,7 +101,7 @@ The whole broadcast was controlled from a mobile control desk inside the car.
   <div class="column is-6-desktop is-12-tablet">
     <figure>
       <img
-        src="/images/blog/2026-08-12-amasc01-zatmeni/mobile-control-desk-partial-phase.jpg"
+        src="/images/blog/2026-08-12-amasc01-zatmeni/mobile-control-desk-partial-phase.webp"
         alt="Mobile control desk in the car with OBS, the Planetum stream and live sensor data during the partial phase"
       />
       <figcaption class="has-text-grey is-size-7 mt-2">
@@ -112,7 +112,7 @@ The whole broadcast was controlled from a mobile control desk inside the car.
   <div class="column is-6-desktop is-12-tablet">
     <figure>
       <img
-        src="/images/blog/2026-08-12-amasc01-zatmeni/mobile-control-desk-allsky-playback.jpg"
+        src="/images/blog/2026-08-12-amasc01-zatmeni/mobile-control-desk-allsky-playback.webp"
         alt="Laptop showing AMASC01 all-sky footage next to the OBS broadcast setup"
       />
       <figcaption class="has-text-grey is-size-7 mt-2">
@@ -142,7 +142,7 @@ In parallel with the stream, the camera saved a **full-resolution frame every 20
     playsinline
     controls
     preload="metadata"
-    poster="/images/blog/2026-08-12-amasc01-zatmeni/amasc01-totality-shadow-in-atmosphere.jpg"
+    poster="/images/blog/2026-08-12-amasc01-zatmeni/amasc01-totality-shadow-in-atmosphere.webp"
     style="display: block; width: 100%; height: auto; border-radius: 6px;"
   >
     <source src="/images/blog/2026-08-12-amasc01-zatmeni/amasc01-eclipse-2015-2045-timelapse.mp4" type="video/mp4" />
@@ -160,7 +160,7 @@ The frame below was taken during totality. The sky above the site is dark, while
 
 <p align="center">
   <img
-    src="/images/blog/2026-08-12-amasc01-zatmeni/amasc01-totality-shadow-in-atmosphere.jpg"
+    src="/images/blog/2026-08-12-amasc01-zatmeni/amasc01-totality-shadow-in-atmosphere.webp"
     alt="AMASC01 all-sky frame during totality of the 12 August 2026 solar eclipse showing the Moon's shadow in the atmosphere"
     width="72%"
   />

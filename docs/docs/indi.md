@@ -9,7 +9,7 @@ menubar: docs_menu
 show_sidebar: false
 toc: false
 nav_order: 3
-hero_image: '/images/docs.jpg'
+hero_image: '/images/docs.webp'
 ---
 The **indi-astrometers** package provides three INDI drivers for AstroMeters devices:
 

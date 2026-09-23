@@ -5,7 +5,7 @@ description: 'Precision astronomical products – focusers, sky sensors, AllSky 
 keywords: 'telescope focuser, sky quality meter, mount controller, astronomical products, astrophotography equipment, telescope accessories, precision astronomy, open source hardware, AMFOC01, AMSKY01, AMSKY02, AMUSBMOUNT01'
 layout: product-category
 show_sidebar: false
-hero_image: /images/am_products_hero.jpg
+hero_image: /images/am_products_hero.webp
 sections:
   - title: Products
     description: Precision astronomical instruments and devices designed for astrophotography, sky monitoring, and telescope control.

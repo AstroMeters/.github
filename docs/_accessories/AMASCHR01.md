@@ -6,7 +6,7 @@ product_code: AMASCHR01
 keywords: 'AMASCHR01, AMASC01, heater ring, dome heater, dew heater, SHT4x, temperature sensor, Raspberry Pi HQ camera, allsky camera accessory, anti-fog, condensation prevention, PCB heater'
 layout: product
 image: ''
-hero_image: '/images/am_products_hero.jpg'
+hero_image: '/images/am_products_hero.webp'
 price:
 listed: false
 features:

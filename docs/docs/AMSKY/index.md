@@ -8,7 +8,7 @@ menubar: docs_menu
 show_sidebar: false
 toc: false
 nav_order: 2
-hero_image: '/images/am_amsky_hero.jpg'
+hero_image: '/images/am_amsky_hero.webp'
 redirect_from:
   - /docs/AMSKY01/
 ---
@@ -23,7 +23,7 @@ The AMSKY02 is a compact, weatherproof sky sensor designed for astronomical and 
 - **Temperature and humidity sensor** – SHT41, monitors ambient air conditions.
 - **USB-C and RS-485 interfaces** – for easy connection to PCs or automation systems.
 
-<p align="center"><img width="400" alt="AMSKY02 sensor" src="/images/docs/AMSKY01/amsky02_product.png" /></p>
+<p align="center"><img width="400" alt="AMSKY02 sensor" src="/images/docs/AMSKY01/amsky02_product.webp" /></p>
 
 > **Note:** AMSKY02 is the successor to the original AMSKY01. Key improvements include dual SQM sensors (instead of a single one), a pair of IR thermopile arrays with redesigned mounting that doubles the resolution and field of view compared to AMSKY01, and an improved water-pooling resistant enclosure. Both models share the same software, protocol, and interfaces — the `amsky01` Python package and INDI driver work with both.
 
@@ -39,7 +39,7 @@ The following video demonstrates real-time data from the AMSKY sensor as clouds 
 The infrared cloud sensor is based on a dual thermopile array with 32×48 pixel combined resolution (2× 32×24 px), acting like a low-resolution thermal camera for the sky.
 
 <p align="center">
-  <img alt="AMSKY cloud visualization" src="/images/docs/AMSKY01/amsky_visualisation.jpg" width="100%">
+  <img alt="AMSKY cloud visualization" src="/images/docs/AMSKY01/amsky_visualisation.webp" width="100%">
   <p align="center" style="font-size:90%">
     Comparison of an optical image of the night sky with clouds from the AMASC01 allsky camera and the AMSKY thermopile pixel sensor.
     </p>

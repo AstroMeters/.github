@@ -5,8 +5,8 @@ description: 'AMASCHR02 autonomous heating ring for all-sky camera domes with bu
 product_code: AMASCHR02
 keywords: 'AMASCHR02, allsky camera heating ring, autonomous dew heater, dome heater, Raspberry Pi camera heater, anti-condensation heater, PID heater ring, telescope camera accessory'
 layout: product
-image: '/images/docs/AMASCHR02/AMASCHR02-image.jpg'
-hero_image: '/images/am_products_hero.jpg'
+image: '/images/docs/AMASCHR02/AMASCHR02-image.webp'
+hero_image: '/images/am_products_hero.webp'
 price: 83 EUR
 features:
     - label: Autonomous PID-controlled heating
@@ -33,7 +33,7 @@ The **AMASCHR02** is a compact heating ring for all-sky camera domes. It is desi
 Unlike a simple passive heater, AMASCHR02 includes its own temperature sensing and regulation electronics. The ring can be powered continuously from a low-voltage supply and regulates its heating output automatically, without software setup or an external controller.
 
 <figure style="text-align: center;">
-  <img src="/images/docs/AMASCHR02/AMASCHR02-image.jpg" alt="AMASCHR02 autonomous heating ring for all-sky cameras" title="AMASCHR02 autonomous heating ring">
+  <img src="/images/docs/AMASCHR02/AMASCHR02-image.webp" alt="AMASCHR02 autonomous heating ring for all-sky cameras" title="AMASCHR02 autonomous heating ring">
   <figcaption>AMASCHR02 autonomous heater for all-sky camera domes.</figcaption>
 </figure>
 

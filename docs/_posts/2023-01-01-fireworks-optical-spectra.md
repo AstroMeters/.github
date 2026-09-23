@@ -9,8 +9,8 @@ lang: en
 redirect_from:
   - /2023/01/01/fireworks-optical-spectra/
 subtitle: "Capturing emission spectra of pyrotechnic compositions with a diffraction grating"
-image: /images/blog/2023-01-01-fireworks-spectra/hero.jpg
-hero_image: /images/blog/2023-01-01-fireworks-spectra/hero.jpg
+image: /images/blog/2023-01-01-fireworks-spectra/hero.webp
+hero_image: /images/blog/2023-01-01-fireworks-spectra/hero.webp
 hero_darken: true
 hero_height: is-medium
 tags:
@@ -113,7 +113,7 @@ The experiment also showed many problems. Focusing was difficult. The depth of f
 The main result is simple. The method works. Even with a simple setup, it is possible to measure spectra of fireworks. The data is usable and shows clear emission lines. But the process is not automated. It still requires manual work.
 
 <p align="center">
-  <img src="/images/blog/2023-01-01-fireworks-spectra/spectrum_analysis.png" width="70%" alt="Spectrum analysis tool — raw frame with spectral lines and intensity profile" />
+  <img src="/images/blog/2023-01-01-fireworks-spectra/spectrum_analysis.webp" width="70%" alt="Spectrum analysis tool — raw frame with spectral lines and intensity profile" />
 </p>
 <p class="has-text-centered has-text-grey is-size-7">Interactive analysis tool: raw frame with spectral lines (top) and the extracted intensity profile (bottom).</p>
 
@@ -126,7 +126,7 @@ There are many ways to improve the system. Better aiming would help a lot. Maybe
 
 
 <p align="center">
-  <img src="/images/blog/2023-01-01-fireworks-spectra/spectrum_calibrated.png" width="75%" alt="Calibrated spectrum with labeled emission line wavelengths" />
+  <img src="/images/blog/2023-01-01-fireworks-spectra/spectrum_calibrated.webp" width="75%" alt="Calibrated spectrum with labeled emission line wavelengths" />
 </p>
 <p class="has-text-centered has-text-grey is-size-7">Calibrated spectrum with labeled emission lines — visible peaks correspond to barium (green) and strontium (red) emission lines.</p>
 

@@ -7,7 +7,7 @@ keywords: 'AMASC01 installation, AllSky camera setup, camera mounting, PoE setup
 menubar: docs_menu
 show_sidebar: false
 toc: false
-hero_image: '/images/products/AMASC01/amasc01_hero.jpg'
+hero_image: '/images/products/AMASC01/amasc01_hero.webp'
 ---
 
 # AMASC01 Installation Guide
@@ -58,7 +58,7 @@ This is the recommended mounting configuration for most installations.
 
 <p align="center">
   <img
-    src="/images/docs/AMASC01/vertical-pole-mount.jpg"
+    src="/images/docs/AMASC01/vertical-pole-mount.webp"
     alt="AMASC01 mounted on a vertical pole using clamp mounts"
     width="72%"
   />
@@ -126,7 +126,7 @@ Regardless of mounting method:
 
 <p align="center">
   <img
-    src="/images/docs/AMASC01/poe-adapter-diagram.png"
+    src="/images/docs/AMASC01/poe-adapter-diagram.webp"
     alt="Diagram of PoE adapter and network connection for AMASC01"
     width="72%"
   />

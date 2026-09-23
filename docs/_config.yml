@@ -48,19 +48,19 @@ collections:
     output: true
     layout: product
     image: ''
-    hero_image: '/images/docs.jpg'
+    hero_image: '/images/docs.webp'
     show_sidebar: false
   accessories:
     output: true
     layout: product
     image: ''
-    hero_image: '/images/docs.jpg'
+    hero_image: '/images/docs.webp'
     show_sidebar: false
   legacy:
     output: true
     layout: product
     image: ''
-    hero_image: '/images/docs.jpg'
+    hero_image: '/images/docs.webp'
     show_sidebar: false
 
 paginate: 15
@@ -84,7 +84,7 @@ defaults:
     values:
       layout: "post"
       author: "AstroMeters Team"
-      image: "/images/docs.jpg"
+      image: "/images/docs.webp"
       permalink: /blog/:title/
   - scope:
       path: ""
@@ -109,7 +109,7 @@ defaults:
       type: "pages"
     values:
       author: "AstroMeters Team"
-      image: "/images/docs.jpg"
+      image: "/images/docs.webp"
 
 # Structured data
 organization:

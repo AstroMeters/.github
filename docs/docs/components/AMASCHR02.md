@@ -7,8 +7,8 @@ keywords: 'AMASCHR02, allsky camera heating ring, dew heater, Raspberry Pi camer
 menubar: docs_menu
 show_sidebar: false
 toc: false
-hero_image: '/images/am_products_hero.jpg'
-image: '/images/docs/AMASCHR02/AMASCHR02-image.jpg'
+hero_image: '/images/am_products_hero.webp'
+image: '/images/docs/AMASCHR02/AMASCHR02-image.webp'
 ---
 
 ## AMASCHR02 Heating Ring
@@ -18,7 +18,7 @@ The AMASCHR02 is an AstroMeters AllSky camera heating ring designed for all-sky 
 Its mechanical concept allows the ring to be mounted directly on the camera module, which simplifies integration and keeps the heating system compact and close to the glass dome that needs protection against condensation.
 
 <figure style="text-align: center;">
-  <img src="/images/docs/AMASCHR02/AMASCHR02-image.jpg" alt="AMASCHR02 autonomous heating ring for all-sky cameras" title="AMASCHR02 Heating Ring – autonomous heater for all-sky camera domes">
+  <img src="/images/docs/AMASCHR02/AMASCHR02-image.webp" alt="AMASCHR02 autonomous heating ring for all-sky cameras" title="AMASCHR02 Heating Ring – autonomous heater for all-sky camera domes">
   <figcaption>AMASCHR02 Heating Ring – autonomous heater for all-sky camera domes</figcaption>
 </figure>
 
