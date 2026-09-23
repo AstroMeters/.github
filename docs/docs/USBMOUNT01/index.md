@@ -9,7 +9,6 @@ show_sidebar: false
 toc: false
 ---
 
-**AMUSBMOUNT01**
 **AMUSBMOUNT01** – an innovative USB-C to RJ45 converter designed to unlock the full potential of your Skywatcher mount. Here you will find setup guides, compatibility information, usage tips, troubleshooting, and details about recommended accessories.
 
 ## Overview
@@ -70,7 +69,7 @@ The AMUSBMOUNT01 allows direct connection of supported Skywatcher mounts to your
 * **Linux:**
   No drivers required. Supported out of the box with INDI/KStars, etc.
 * **Windows:**
-  Driver installation may be required (see [installation guide](#driver-installation)). Compatible with Stellarium, ASCOM, and more.
+  Driver installation may be required (see the [driver installation guide](/products/USBMOUNT01/#driver-installation)). Compatible with Stellarium, ASCOM, and more.
 
 ### 3. Mounting
 

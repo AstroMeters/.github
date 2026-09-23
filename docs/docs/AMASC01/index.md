@@ -13,7 +13,7 @@ hero_image: '/images/products/AMASC01/amasc01_hero.jpg'
 
 # AMASC01 – AllSky Camera
 
-The AMASC01 is a robust AllSky camera designed for continuous sky monitoring in astronomical and environmental applications. It combines high-sensitivity imaging with integrated environmental sensors and weatherproof construction.
+The AMASC01 is a robust AllSky camera designed for continuous sky monitoring in astronomical and environmental applications. It combines high-sensitivity imaging with integrated environmental sensors and weather-resistant construction.
 
 <img width="600" alt="AMASC01 all-sky camera installed outdoors" src="/images/products/AMASC01/amasc01_product_main.png" />
 
@@ -34,10 +34,10 @@ AMASC01 integrates the **Sony IMX477** image sensor (12.3 MP, 1.55 μm pixel siz
 
 ### Power & Connectivity
 - **Interface**: 1000BASE-T Ethernet (Gigabit)
-- **Power**: Power over Ethernet (PoE+) IEEE 802.at
+- **Power**: Power over Ethernet (PoE+) IEEE 802.3at
 - **Single Cable**: Combined data and power delivery
 
-> **Separate Power Input**: If you need separated power supply (non-PoE), this can be implemented upon request. There are various cases whet you can't use PoE, and we can accommodate these needs. In that case, please, contact us.
+> **Separate Power Input**: If you need a separate power supply (non-PoE), this can be implemented upon request. There are various cases where PoE cannot be used, and we can accommodate these needs. In that case, please contact us.
 
 ### Timing
 - **RTC**: Real-Time Clock for accurate timestamping
@@ -124,5 +124,5 @@ For complete step-by-step installation instructions, including mounting, power c
 ## Additional Resources
 
 - [AllskyTeam/allsky GitHub](https://github.com/AllskyTeam/allsky) – open-source software documentation
-- [AMASC01 Product Page](https://astrometers.com/products/AMASC01/) – specifications and purchase information
+- [AMASC01 Product Page](https://astrometers.eu/products/AMASC01/) – specifications and purchase information
 - [Sony IMX477 Datasheet](https://www.sony-semicon.com/files/62/pdf/p-13_IMX477-AACK_Flyer.pdf) – sensor specifications

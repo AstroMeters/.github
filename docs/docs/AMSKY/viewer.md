@@ -74,7 +74,7 @@ API also allows sensor data to be accessed directly from INDI-lib, EKOS, and KSt
 </p>
 
 
-Configuration is simple: just enable the API endpoint on the third tab of the GUI. Then, in KStars, launch the `indi-amsky01` driver, which will automatically connect to the running API and make the data available in your astronomy workflow. It only require to install astrometers-indi libraries according to [docs](./../../indi/)
+Configuration is simple: just enable the API endpoint on the third tab of the GUI. Then, in KStars, launch the `indi_amsky01_api` driver, which will automatically connect to the running API and make the data available in your astronomy workflow. It only requires installing the indi-astrometers drivers according to the [INDI documentation](/docs/indi/).
 
 Thanks to this integration, AMSKY sensors seamlessly extend the capabilities of your observatory software, making advanced sky condition monitoring and automation easy and reliable.
 

@@ -114,7 +114,6 @@ defaults:
 organization:
   name: AstroMeters
   url: https://astrometers.eu
-  logo: https://astrometers.eu/images/logo.png
   sameAs:
     - https://github.com/AstroMeters
 

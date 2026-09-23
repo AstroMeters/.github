@@ -10,7 +10,7 @@ hero_image: /images/am_about.jpg
 
 # About AstroMeters
 
-**AstroMeters** is group of developers and manufacturer of precision astronomical accessories, designed with a deep focus on usability, reliability, and openness. Our products are the result of real-world observing experience, extensive testing, and a strong commitment to the astronomy community.
+**AstroMeters** is a group of developers and a manufacturer of precision astronomical accessories, designed with a deep focus on usability, reliability, and openness. Our products are the result of real-world observing experience, extensive testing, and a strong commitment to the astronomy community.
 
 We are passionate engineers, developers, and observers who understand the unique needs of both amateur and professional astronomers. AstroMeters exists to bridge the gap between industrial-quality instrumentation and community-driven innovation.
 

@@ -18,7 +18,7 @@ redirect_from:
 The AMSKY02 is a compact, weatherproof sky sensor designed for astronomical and environmental applications. It combines multiple sensors in one unit:
 
 - **Dual sky brightness sensors (SQM)** – 10° and 60° field of view, measuring sky brightness in mag/arcsec².
-- **32×24 pixel infrared cloud sensor** – dual thermopile array for detailed sky temperature mapping (64×48 variant available).
+- **32×48 pixel infrared cloud sensor** – dual thermopile array (2× 32×24 px) for detailed sky temperature mapping.
 - **Water-pooling resistant design** – sensor head geometry prevents water accumulation on optical surfaces.
 - **Temperature and humidity sensor** – SHT41, monitors ambient air conditions.
 - **USB-C and RS-485 interfaces** – for easy connection to PCs or automation systems.
@@ -29,14 +29,14 @@ The AMSKY02 is a compact, weatherproof sky sensor designed for astronomical and 
 
 ## Live Cloud Detection Example
 
-The following video demonstrates real-time data from the AMSKY sensor as clouds pass through its field of view. The dual thermopile array with 32×24 pixel combined resolution provides detailed sky temperature mapping with 150°×110° field of view, allowing precise tracking of cloud coverage and movement patterns.
+The following video demonstrates real-time data from the AMSKY sensor as clouds pass through its field of view. The dual thermopile array with 32×48 pixel combined resolution provides detailed sky temperature mapping with 150°×110° field of view, allowing precise tracking of cloud coverage and movement patterns.
 
 {% include youtube.html video="BXKVQVPBjso" time=26 %}
 
 
 ## How the Pixel Sensor Works
 
-The infrared cloud sensor is based on a dual thermopile array with 32×24 pixel combined resolution (64×48 variant available), acting like a low-resolution thermal camera for the sky.
+The infrared cloud sensor is based on a dual thermopile array with 32×48 pixel combined resolution (2× 32×24 px), acting like a low-resolution thermal camera for the sky.
 
 <p align="center">
   <img alt="AMSKY cloud visualization" src="/images/docs/AMSKY01/amsky_visualisation.jpg" width="100%">
@@ -87,7 +87,7 @@ The infrared cloud sensor is based on a dual thermopile array with 32×24 pixel 
     <tr>
       <td><strong>Cloud detection</strong></td>
       <td>Thermopile array 16×12 px<br>75°×110° FoV</td>
-      <td>Dual thermopile array 32×24 px<br>150°×110° FoV<br><em>High-res variant: 64×48 px available</em></td>
+      <td>Dual thermopile array 32×48 px (2× 32×24 px)<br>150°×110° FoV</td>
     </tr>
     <tr>
       <td><strong>Sky brightness (SQM)</strong></td>

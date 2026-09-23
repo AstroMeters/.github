@@ -7,7 +7,7 @@ keywords: 'AMUSBMOUNT01, EQmod converter, USB-C mount controller, Skywatcher mou
 layout: product
 image: '/images/products/USBMOUNT01/USBMOUNT01A_photo.jpg'
 hero_image: '/images/products/USBMOUNT01/am_usbmount_hero.jpg'
-price: 42.2 Eur
+price: 42.20 EUR
 buttons:
   - url: mailto:info@astrometers.eu?subject=AMUSBMOUNT01%20offer%20request
     text: Get offer
@@ -37,13 +37,16 @@ The USBMOUNT features 4 LED indicators. The two red LEDs signal power in the adj
 
 ### Driver Installation
 #### Linux
-USBMOUNT01 seamlessly integrates with modern Linux computers. Just connect the device, and you're set to operate USBMOUNT01 with your go-to control software, such as Indi combined with Kstars.
+USBMOUNT01 seamlessly integrates with modern Linux computers. No driver installation is needed – just connect the device and it appears as a serial port (e.g. `/dev/ttyUSB0` or `/dev/ttyACM0`). You can then operate the mount with your go-to control software, such as INDI combined with KStars.
 
 #### Windows
+After connecting, the converter appears as a COM port – check *Device Manager → Ports (COM & LPT)* for the assigned number. To control the mount from ASCOM-compatible applications, install the [EQMOD ASCOM driver](https://eq-mod.sourceforge.net/) and select this COM port in its settings. If no COM port appears, please [contact us](mailto:info@astrometers.eu).
 
 #### Stellarium
+Enable the *Telescope Control* plugin in Stellarium and add a new telescope. On Windows, choose the ASCOM connection with the EQMOD driver; on Linux, connect through INDI with the *EQMod Mount* driver. Select the serial port assigned to USBMOUNT01.
 
-#### Kstars/Indi/Ekos
+#### KStars/INDI/Ekos
+In the Ekos profile editor, select the **EQMod Mount** driver as the mount. Start INDI, open the *Connection* tab of the EQMod Mount driver in the INDI Control Panel, set the port to the one assigned to USBMOUNT01 and press *Connect*.
 
 ## Compatibility
 
@@ -54,9 +57,9 @@ USBMOUNT01 seamlessly integrates with modern Linux computers. Just connect the d
 | EQ6-R | RJ45 | |
 | NEQ6 PRO | RJ45 | |
 | EQ6 Pro | RJ45 | |
-| EQ6 Synscan | | |
+| EQ6 Synscan | RJ45 | |
 | HEQ5 SynScan | RJ45 | |
-| HEQ5 SynTreck | RJ45 | |
+| HEQ5 SynTrek | RJ45 | |
 | EQ5 Synscan | RJ45 | |
 | EQ4 with Synscan (EQ5) | | |
 | EQ3-2 with Synscan | | |

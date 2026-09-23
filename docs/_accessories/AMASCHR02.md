@@ -7,11 +7,11 @@ keywords: 'AMASCHR02, allsky camera heating ring, autonomous dew heater, dome he
 layout: product
 image: '/images/docs/AMASCHR02/AMASCHR02-image.jpg'
 hero_image: '/images/am_products_hero.jpg'
-price: 83 Eur
+price: 83 EUR
 features:
     - label: Autonomous PID-controlled heating
       icon: fa-fire
-    - label: Selectable 5-40 C target temperature
+    - label: Selectable 5-40 °C target temperature
       icon: fa-thermometer-half
     - label: 8-14 V low-voltage power input
       icon: fa-plug
@@ -41,7 +41,7 @@ Unlike a simple passive heater, AMASCHR02 includes its own temperature sensing a
 
 * **Autonomous operation:** Built-in control electronics regulate the heater output automatically during normal operation.
 * **PID temperature control:** The ring measures its own surface temperature and adjusts heating power to maintain the selected target.
-* **Configurable setpoint:** Three solder jumpers select target temperatures from 5 C to 40 C. The factory default is 20 C.
+* **Configurable setpoint:** Three solder jumpers select target temperatures from 5 °C to 40 °C. The factory default is 20 °C.
 * **Simple power input:** Operates from an 8-14 V supply with a maximum heating power of 4 W.
 * **Camera-module mounting:** The mechanical layout is optimized for compact all-sky camera assemblies and Raspberry Pi camera modules.
 
@@ -62,8 +62,8 @@ No host software, PWM output, or custom control loop is required. The only exter
 
 * **Supply voltage:** 8-14 V DC
 * **Maximum heating power:** 4 W
-* **Temperature presets:** 5 C, 10 C, 15 C, 20 C, 25 C, 30 C, 35 C, 40 C
-* **Default preset:** 20 C
+* **Temperature presets:** 5 °C, 10 °C, 15 °C, 20 °C, 25 °C, 30 °C, 35 °C, 40 °C
+* **Default preset:** 20 °C
 * **Power connector:** 2-pin 2.54 mm header
 * **Inner diameter:** 36 mm
 * **Outer diameter:** 70 mm

@@ -1,3 +1,3 @@
 ---
-redirect_to: 'https://www.astrometers.eu/products/AMFOC01/'
+redirect_to: 'https://astrometers.eu/products/AMFOC01/'
 ---

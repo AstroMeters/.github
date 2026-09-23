@@ -14,13 +14,13 @@ hero_image: '/images/products/AMASC01/amasc01_hero.jpg'
 
 This guide provides complete step-by-step instructions for installing and setting up the AMASC01 AllSky camera.
 
-> Due to various installation configurations and mounting options, mounting hardware and accessories are not included with the camera. Installation kits and PoE injectors are available upon request. Please [contact us](/about/) if you need these components.
+> Due to various installation configurations and mounting options, mounting hardware and accessories are not included with the camera. Installation kits and PoE+ injectors are available upon request. Please [contact us](/about/) if you need these components.
 
 ## Pre-Installation Checklist
 
 Before beginning installation, ensure you have:
 
-- PoE-capable Ethernet switch or PoE+ injector (IEEE 802.3at)
+- PoE+ capable Ethernet switch or PoE+ injector (IEEE 802.3at)
 - Ethernet cable of appropriate length
 - Stable mounting structure with unobstructed sky view
 - Tools for mounting (depending on your specific mount)
@@ -34,9 +34,10 @@ Before beginning installation, ensure you have:
 Choose an installation location that provides:
 - **Unobstructed sky view** – 180° clear view in all directions
 - **Stable support structure** – pole mount, roof mount, or dedicated stand
-- **Protection from direct sunlight** – avoid locations where sun shines directly on dome
 - **Accessibility** – easy access for maintenance and cleaning
 - **Weather consideration** – protected from extreme wind loads if possible
+
+> **Note:** AMASC01 is designed for permanent, round-the-clock exposure to the open sky. Direct sunlight on the dome is part of normal daytime operation and does not harm the camera, so there is no need to shade it or to avoid sunny locations.
 
 ### Physical Mounting
 
@@ -77,8 +78,8 @@ For mounting to wooden beams, rafters, or timber structures:
 3. **Drill pilot holes** in wooden beam (appropriate diameter for wood screw)
 4. **Screw lag screws** into wooden beam until metric thread protrudes
 5. **Attach camera clamp** onto metric threads
-7. **Ensure the camera is level** – adjust clamp position if needed
-8. **Verify stability** – camera should be firmly secured
+6. **Ensure the camera is level** – adjust clamp position if needed
+7. **Verify stability** – camera should be firmly secured
 
 Use appropriate length lag screws to ensure adequate penetration into wood (minimum 50-60 mm into beam)
 
@@ -118,8 +119,8 @@ Regardless of mounting method:
 ### PoE Connection
 
 1. **Connect Ethernet cable** to camera's RJ45 port
-2. **Connect other end** to PoE switch or PoE injector
-3. **Verify PoE power** – ensure switch/injector provides sufficient power (IEEE 802.3af/at)
+2. **Connect other end** to a PoE+ switch or PoE+ injector
+3. **Verify PoE power** – ensure switch/injector supports PoE+ (IEEE 802.3at); PoE (802.3af) alone is not sufficient
 4. **Check power indicator** – one LED on the bottom side of the camera will illuminate approximately 3 seconds after power connection
 5. **Camera will boot automatically** when power is applied (takes ~1-2 minutes)
 
@@ -156,6 +157,8 @@ Regardless of mounting method:
 2. **Navigate to camera IP**: `http://[camera-ip]`
 3. **Login** with default credentials (admin/secret)
 4. **Verify camera is functioning** – you should see live preview
+
+> **Important:** Change the default password immediately after the first login. The default credentials are publicly documented, so leaving them unchanged allows anyone on your network to access and reconfigure the camera.
 
 ### Network Configuration (Optional)
 
@@ -249,4 +252,4 @@ Hardware control settings (dome heating, ventilation, anti-dew) are pre-configur
 
 ## Troubleshooting
 
-For common issues and solutions, see the [FAQ page](../faq).
+If you run into any problems, please contact us at [info@astrometers.eu](mailto:info@astrometers.eu) or ask in [GitHub Discussions](https://github.com/orgs/AstroMeters/discussions).

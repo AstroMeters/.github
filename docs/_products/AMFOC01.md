@@ -7,7 +7,7 @@ keywords: 'AMFOC01, telescope focuser, astronomical focuser, precision focusing,
 layout: product
 image: '/images/products/AMFOC01/amfoc_sky.jpg'
 hero_image: '/images/products/AMFOC01/am_amfoc_hero.jpg'
-price: 253 Eur
+price: 253 EUR
 buttons:
   - url: /docs/AMFOC01/
     text: Docs

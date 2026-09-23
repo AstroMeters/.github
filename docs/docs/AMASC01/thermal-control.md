@@ -24,7 +24,7 @@ The thermal control system consists of:
 - **Environmental Sensors** – comprehensive monitoring system including:
   - **Dome sensor** – optical dome temperature measurement
   - **Body sensor** – camera body temperature, humidity, and atmospheric pressure
-  - **External sensor** – ambient environmental conditions
+  - **External sensor** (not part of the standard configuration) – ambient environmental conditions
 - **Automatic Control** – intelligent climate management based on environmental conditions
 - **Allsky Software Integration** – seamless integration with AllskyTeam/allsky software
 

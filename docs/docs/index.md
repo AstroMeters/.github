@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Documentation
-subtitle: Learn how to behave with AstroMeters instruments.
-description: 'Setup guides, specifications, and troubleshooting for AstroMeters products – AMFOC01 focuser, AMSKY01 sensor, AMASC01 camera, and AMUSBMOUNT01.'
+subtitle: Learn how to set up and use AstroMeters instruments.
+description: 'Setup guides, specifications, and troubleshooting for AstroMeters products – AMFOC01 focuser, AMSKY02 sensor, AMASC01 camera, and AMUSBMOUNT01.'
 keywords: 'AstroMeters documentation, telescope equipment setup, astronomical instrument guides, AMFOC01 manual, AMSKY01 setup, AMUSBMOUNT01 installation, astronomy equipment documentation, telescope accessories manual'
 menubar: docs_menu
 show_sidebar: false

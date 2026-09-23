@@ -17,7 +17,7 @@ AMFOC01 features a **red OLED display** and four tactile buttons, allowing for i
 
 
 <p align="center">
-  <img alt="AMFOC01 Top" src="/images/products/AMFOC01/amfoc_sky.png" width="80%">
+  <img alt="AMFOC01 Top" src="/images/products/AMFOC01/amfoc_sky.jpg" width="80%">
 </p>
 
 

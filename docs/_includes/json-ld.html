@@ -28,8 +28,8 @@ JSON-LD Structured Data for SEO
 {
   "@context": "https://schema.org",
   "@type": "Product",
-  "name": "{{ page.title }}",
-  "description": "{{ page.description | default: page.subtitle | strip_html | strip_newlines }}",
+  "name": {{ page.title | jsonify }},
+  "description": {{ page.description | default: page.subtitle | strip_html | strip_newlines | strip | jsonify }},
   {% if page.image %}
   "image": "{{ site.url }}{{ page.image }}",
   {% endif %}
@@ -40,9 +40,13 @@ JSON-LD Structured Data for SEO
   {% if page.price %}
   "offers": {
     "@type": "Offer",
-    "price": "{{ page.price | remove: ' Eur' | remove: ' EUR' }}",
+    "price": "{{ page.price | strip_html | remove: 'EUR' | remove: 'Eur' | strip }}",
     "priceCurrency": "EUR",
+    {% if page.collection == 'legacy' %}
+    "availability": "https://schema.org/Discontinued",
+    {% else %}
     "availability": "https://schema.org/InStock",
+    {% endif %}
     {% if page.shop_url %}
     "url": "{{ page.shop_url }}"
     {% else %}

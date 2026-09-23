@@ -1,13 +1,13 @@
 ---
 title: AMASC01
 subtitle: AstroMeters AllSky Camera
-description: Robust AllSky camera with Sony IMX477 sensor, heated dome, environmental sensors, and PoE connectivity for continuous sky monitoring.
+description: Robust AllSky camera with Sony IMX477 sensor, heated dome, environmental sensors, and PoE+ connectivity for continuous sky monitoring.
 product_code: AMASC01
-keywords: 'AMASC01, allsky camera, Sony IMX477, allsky imaging, meteor detection, bolide detection, lightning detection, PoE camera, astronomy camera, heated dome, environmental sensors'
+keywords: 'AMASC01, allsky camera, Sony IMX477, allsky imaging, meteor detection, bolide detection, lightning detection, PoE camera, PoE+, astronomy camera, heated dome, environmental sensors'
 layout: product
 image: '/images/products/AMASC01/amasc01_product_main.png'
 hero_image: '/images/products/AMASC01/amasc01_hero.jpg'
-price: 484 Eur
+price: 484 EUR
 features:
     - label: Sony 12.3MP sensor with excellent low-light performance
       icon: fa-camera
@@ -17,7 +17,7 @@ features:
       icon: fa-wind
     - label: Integrated temperature, humidity & pressure sensors
       icon: fa-thermometer-half
-    - label: Power over Ethernet (PoE) single-cable installation
+    - label: Power over Ethernet (PoE+, IEEE 802.3at) single-cable installation
       icon: fa-ethernet
     - label: Pre-configured software ready to operate
       icon: fa-cog
@@ -42,6 +42,7 @@ The camera is housed in a weather-resistant enclosure suitable for year-round ou
 - **Wide-angle lens** covering the entire sky.
 - **Accessible precision focusing mechanism** enabling straightforward installation and adjustment.
 - **Heated optical dome** and **active ventilation**, preventing fogging and helping maintain stable internal conditions to ensure long operational life.
+- **Built for permanent sky exposure** – the camera is designed to face the open sky around the clock, so direct sunlight on the dome during the day is part of normal operation.
 
 <p align="center">
   <img alt="AMASC01 all-sky camera outdoor installation portrait view" src="/images/products/AMASC01/amasc01_portrait.jpg" width="38%">
@@ -52,13 +53,13 @@ The camera is housed in a weather-resistant enclosure suitable for year-round ou
 ## Integrated Electronics and Sensors
 AMASC01 incorporates several internal systems that support autonomous and reliable operation:
 
-- **Environmental sensors** humidity, temperature and pressure.
+- **Environmental sensors**: humidity, temperature and pressure.
 - **RTC (Real-Time Clock)** for accurate timestamping and work without internet connection.
-- **POE power source** for simple installation.
+- **PoE+ power supply** for simple single-cable installation.
 - **Custom control electronics** managing heating, ventilation, and other peripheral components.
 
 ## Connectivity and Power
-The device supports 1000BASE-T Ethernet communication with **Power over Ethernet (PoE)**, enabling both data transfer and power delivery through a single cable. This simplifies installation, particularly in remote or difficult-to-access locations.
+The device supports 1000BASE-T Ethernet communication with **Power over Ethernet (PoE+, IEEE 802.3at)**, enabling both data transfer and power delivery through a single cable. This simplifies installation, particularly in remote or difficult-to-access locations.
 
 
 <p align="center">

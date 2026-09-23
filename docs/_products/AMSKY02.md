@@ -11,7 +11,7 @@ price: 638 EUR
 features:
     - label: Dual SQM sensors – 10° and 60° field of view
       icon: fa-moon
-    - label: 64×48 pixel IR cloud sensor
+    - label: 32×48 pixel IR cloud sensor
       icon: fa-cloud
     - label: Water-pooling resistant sensor design
       icon: fa-tint-slash
@@ -36,7 +36,7 @@ buttons:
 
 AMSKY02 is a professional sky quality sensor designed specifically for autonomous and remotely operated observatories. It is built around a **dual-sensor architecture** that combines two independent SQM channels with a pixel-array infrared cloud detector.
 
-Unlike traditional single-point cloud detectors, AMSKY02 features a **64×48 pixel MLX90642 thermopile array** that provides detailed sky temperature mapping for precise cloud detection and sky clarity assessment. Combined with **two sky brightness sensors** (10° narrow-field and 60° wide-field, both outputting lux and mag/arcsec²) and SHT41 environmental sensor, it delivers comprehensive weather monitoring in a single compact unit. A high-resolution 64×48 pixel variant is also available for enhanced spatial analysis. The enclosure is engineered to prevent water pooling on the sensor surface.
+Unlike traditional single-point cloud detectors, AMSKY02 features a **32×48 pixel thermopile array** (two MLX90642 sensors) that provides detailed sky temperature mapping for precise cloud detection and sky clarity assessment. Combined with **two sky brightness sensors** (10° narrow-field and 60° wide-field, both outputting lux and mag/arcsec²) and SHT41 environmental sensor, it delivers comprehensive weather monitoring in a single compact unit. The enclosure is engineered to prevent water pooling on the sensor surface.
 
 With dual connectivity options (USB-C CDC serial and RS485) and an ASCII text-based protocol, AMSKY02 integrates seamlessly into observatory automation systems, SCADA networks, and custom monitoring solutions.
 
@@ -49,7 +49,7 @@ With dual connectivity options (USB-C CDC serial and RS485) and an ASCII text-ba
 Two independent sky brightness (SQM) sensors with different fields of view — 10° narrow-angle for precise zenith measurement and 60° wide-angle for broader sky coverage — provide redundant and complementary light pollution data.
 
 **Pixel Matrix Thermopile Array (MLX90642)**
-Advanced couple of 32×24 pixel IR sensor (64×48 together) provides detailed sky temperature mapping for superior cloud detection compared to single-point sensors. Enables spatial analysis of cloud coverage and sky conditions.
+A pair of 32×24 pixel IR sensors (32×48 pixels combined) provides detailed sky temperature mapping for superior cloud detection compared to single-point sensors. Enables spatial analysis of cloud coverage and sky conditions.
 
 **Optical Sky Brightness Measurement**
 Both SQM channels deliver real-time readings in lux and mag/arcsec² for standardized sky quality assessment and light pollution monitoring.
@@ -69,7 +69,7 @@ Weatherproof enclosure engineered for continuous 24/7 operation in permanent obs
 
 ## Cloud Detection in Action
 
-The following video shows real-time data from the AMSKY02 sensor as cloud coverage develops overhead. The 64×48 pixel thermopile array captures detailed sky temperature distribution across its 150°×110° field of view, enabling precise detection of cloud movement and coverage patterns. Watch how the sensor responds to changing atmospheric conditions in real-time.
+The following video shows real-time data from the AMSKY02 sensor as cloud coverage develops overhead. The 32×48 pixel thermopile array captures detailed sky temperature distribution across its 150°×110° field of view, enabling precise detection of cloud movement and coverage patterns. Watch how the sensor responds to changing atmospheric conditions in real-time.
 
 {% include youtube.html video="BXKVQVPBjso" time=26 %}
 
