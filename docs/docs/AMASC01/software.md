@@ -19,6 +19,7 @@ This section groups the software-related documentation for the AMASC01 platform:
 
 - [Base Software Stack](/docs/AMASC01/base-software-stack/) - overview of the pre-installed software environment and AstroMeters hardware integration
 - [indi-allsky](/docs/AMASC01/indi-allsky/) - alternative software option with a different feature set and full camera compatibility
+- [caelum](/docs/AMASC01/caelum/) - open-source headless capture engine developed by AstroMeters, with sky-aware auto-exposure, keograms, meteor detection and remote archive upload ([caelum.astrometers.eu](https://caelum.astrometers.eu))
 - [Circle Buffer Capture](/docs/AMASC01/circle-buffer-capture/) - high-frame-rate event-driven buffered capture workflow
 - [Allsky Thermal Control](/docs/AMASC01/thermal-control/) - hardware-specific thermal management integrated into the AMASC01 software environment
 
@@ -27,7 +28,7 @@ This section groups the software-related documentation for the AMASC01 platform:
 The current documentation is divided into:
 
 - the standard operating software delivered with the camera
-- an alternative all-sky software environment with a different workflow and feature set
+- alternative all-sky software environments with a different workflow and feature set (indi-allsky, [caelum](https://caelum.astrometers.eu))
 - hardware-specific integration layers added by AstroMeters
 - future or optional capture and processing modes
 

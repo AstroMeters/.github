@@ -37,6 +37,8 @@
           link: /docs/AMASC01/base-software-stack/
         - name: indi-allsky
           link: /docs/AMASC01/indi-allsky/
+        - name: caelum
+          link: /docs/AMASC01/caelum/
         - name: Circle buffer capture
           link: /docs/AMASC01/circle-buffer-capture/
         - name: Allsky thermal control
@@ -50,6 +52,11 @@
   items:
     - name: INDI drivers
       link: /docs/indi/
+
+- label: Software
+  items:
+    - name: caelum allsky capture engine
+      link: https://caelum.astrometers.eu
 
 - label: Components
   items:

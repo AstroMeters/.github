@@ -92,8 +92,13 @@ This setup ensures straightforward operation, high stability, and smooth integra
 </p>
 
 
+### caelum – AstroMeters Capture Software
+As an alternative, AMASC01 can run [**caelum**](https://caelum.astrometers.eu), an open-source headless capture engine for all-sky cameras developed by AstroMeters. It offers sky-aware auto-exposure driven by Sun and Moon positions, a RAM-first pipeline with raw FITS/DNG output, built-in keograms and meteor detection, and automatic upload to a remote archive.
+
+More details are in the [AMASC01 caelum documentation](/docs/AMASC01/caelum/) and on [caelum.astrometers.eu](https://caelum.astrometers.eu).
+
 ### Optional and Future Software Solutions
-AstroMeters is developing **optional software variants** aimed at specialized observational tasks. Planned extensions include:
+AstroMeters is developing **optional software variants** aimed at specialized observational tasks, many of them built on [caelum](https://caelum.astrometers.eu). Planned extensions include:
 
 - High-precision **meteor and bolide detection**  
 - Enhanced data processing pipelines for event-specific analysis  

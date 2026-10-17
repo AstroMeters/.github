@@ -28,6 +28,10 @@ In addition to the upstream base software, AMASC01 includes pre-configured setti
 
 Proper hardware control is essential for reliable long-term outdoor operation and stable image quality. For details about the thermal subsystem, see the [Thermal Control documentation](/docs/AMASC01/thermal-control/).
 
+## Alternatives
+
+Besides the base stack, AMASC01 can run [indi-allsky](/docs/AMASC01/indi-allsky/) or [caelum](/docs/AMASC01/caelum/), the open-source capture engine developed by AstroMeters (documentation at [caelum.astrometers.eu](https://caelum.astrometers.eu)).
+
 ## Included Capabilities
 
 - **Web-based user interface** for configuration and monitoring

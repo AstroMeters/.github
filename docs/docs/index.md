@@ -18,3 +18,7 @@ Here, you will find useful information about AstroMeters products. You can disco
 At AstroMeters, our team strives to provide the best solutions for your needs. If you have any uncertainties, feel free to contact us through the [discuss](https://github.com/orgs/AstroMeters/discussions) with your problem.
 
 AstroMeters is a team of people, hardware, and software developers with a deep passion for astronomy. We decided to create these products because we were not entirely satisfied with the current solutions available in the market. Therefore, we would appreciate it if you could share your user experiences while using our products. Your feedback is highly valuable to us and will help us continuously improve our offerings.
+
+## Software
+
+Besides hardware, we develop open-source software for our instruments. [**caelum**](https://caelum.astrometers.eu) is a headless capture engine for all-sky cameras such as the [AMASC01](/docs/AMASC01/caelum/) – with sky-aware auto-exposure, keograms, meteor detection and upload to a remote archive. Its documentation is available at [caelum.astrometers.eu](https://caelum.astrometers.eu).
