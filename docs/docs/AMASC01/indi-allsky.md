@@ -15,7 +15,7 @@ hero_image: '/images/products/AMASC01/amasc01_hero.webp'
 
 The **indi-allsky** software can be used as an **alternative software solution** for the [AMASC01](/products/AMASC01/) camera.
 
-Compared to the standard [Base Software Stack](/docs/AMASC01/base-software-stack/), indi-allsky offers a somewhat different workflow and a different set of features, depending on the intended style of operation and integration.
+Compared to the primary software [Caelum](/docs/AMASC01/caelum/), indi-allsky offers a somewhat different workflow and a different set of features, depending on the intended style of operation and integration.
 
 GitHub project: <https://github.com/aaronwmorris/indi-allsky>
 
@@ -23,7 +23,7 @@ AMASC01 is **fully compatible** with indi-allsky.
 
 ## Position in the Software Ecosystem
 
-The standard AMASC01 software environment is based on **AllskyTeam/allsky** and AstroMeters-specific integration tools for long-term outdoor all-sky operation.
+The primary AMASC01 software is [**Caelum**](https://caelum.astrometers.eu), developed by AstroMeters for long-term outdoor all-sky operation. Cameras sold before October 2026 run [AllskyTeam/allsky](/docs/AMASC01/base-software-stack/).
 
 The indi-allsky alternative may be suitable for users who prefer:
 

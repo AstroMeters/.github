@@ -47,10 +47,15 @@ AMASC01 integrates the **Sony IMX477** image sensor (12.3 MP, 1.55 μm pixel siz
 
 The AMASC01 camera is shipped **fully pre-installed and pre-configured**. All required software components, system settings, and operational parameters are prepared at the factory, allowing the camera to function immediately after installation.
 
+<div class="notification is-info is-light">
+  <strong>Default software since October 2026.</strong> AMASC01 cameras sold from October 2026 onwards are shipped with <a href="https://caelum.astrometers.eu">Caelum</a> as the default software.
+</div>
+
 The software section is split into dedicated pages covering the current baseline system and future capture modes:
 
 - [AMASC01 Software](/docs/AMASC01/software/) - software overview and navigation hub
-- [Base Software Stack](/docs/AMASC01/base-software-stack/) - overview of the pre-installed software environment and hardware management integration
+- [Caelum](/docs/AMASC01/caelum/) - primary capture software developed by AstroMeters ([caelum.astrometers.eu](https://caelum.astrometers.eu))
+- [AllskyTeam/allsky stack](/docs/AMASC01/base-software-stack/) - default software for cameras sold before October 2026
 - [Circle Buffer Capture](/docs/AMASC01/circle-buffer-capture/) - reserved for continuous pre-trigger event capture workflow documentation
 
 ### Operation
@@ -65,7 +70,7 @@ No complex modifications or manual configuration steps are required for basic op
 
 ### Optional and Future Software Solutions
 
-AstroMeters is developing **optional software variants** aimed at specialized observational tasks. Planned extensions include:
+AstroMeters is developing **optional software variants** aimed at specialized observational tasks, built on [Caelum](https://caelum.astrometers.eu). Planned extensions include:
 
 - **High-precision meteor and bolide detection** – specialized algorithms for transient event detection
 - **Enhanced data processing pipelines** – event-specific analysis and classification
@@ -123,6 +128,7 @@ For complete step-by-step installation instructions, including mounting, power c
 
 ## Additional Resources
 
-- [AllskyTeam/allsky GitHub](https://github.com/AllskyTeam/allsky) – open-source software documentation
+- [Caelum documentation](https://caelum.astrometers.eu) – primary AMASC01 software
+- [AllskyTeam/allsky GitHub](https://github.com/AllskyTeam/allsky) – software of cameras sold before October 2026
 - [AMASC01 Product Page](https://astrometers.eu/products/AMASC01/) – specifications and purchase information
 - [Sony IMX477 Datasheet](https://www.sony-semicon.com/files/62/pdf/p-13_IMX477-AACK_Flyer.pdf) – sensor specifications

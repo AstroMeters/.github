@@ -14,7 +14,7 @@ hero_image: /images/am_about.webp
 
 We are passionate engineers, developers, and observers who understand the unique needs of both amateur and professional astronomers. AstroMeters exists to bridge the gap between industrial-quality instrumentation and community-driven innovation.
 
-Our hardware and software are developed with an open-source ethos whenever possible, enabling transparency, user-level customization, and long-term maintainability. Our software projects include [caelum](https://caelum.astrometers.eu), an open-source capture engine for all-sky cameras. All our products are carefully crafted, assembled, and tested in-house.
+Our hardware and software are developed with an open-source ethos whenever possible, enabling transparency, user-level customization, and long-term maintainability. Our software projects include [Caelum](https://caelum.astrometers.eu), an open-source capture engine for all-sky cameras. All our products are carefully crafted, assembled, and tested in-house.
 
 
 

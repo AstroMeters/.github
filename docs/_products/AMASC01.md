@@ -72,17 +72,18 @@ The device supports 1000BASE-T Ethernet communication with **Power over Ethernet
 The AMASC01 camera is shipped **fully pre-installed and pre-configured**. All required software components, system settings, and operational parameters are prepared at the factory, allowing the camera to function immediately after installation.  
 No complex modifications or manual configuration steps are needed. Simply connect the device via Ethernet/PoE, access the web interface, and begin operating the system.
 
-The included software stack is based on the open-source project:  
-<https://github.com/AllskyTeam/allsky>
+<div class="notification is-info is-light">
+  <strong>Default software since October 2026.</strong> AMASC01 cameras sold from October 2026 onwards are shipped with <a href="https://caelum.astrometers.eu">Caelum</a> as the default software.
+</div>
 
-Key features include:
-- Configuration of exposure and imaging parameters  
-- Image masking capabilities  
-- Numerical operations for data processing  
-- Modular and customizable architecture  
-- Web-based user interface
+The primary software is [**Caelum**](https://caelum.astrometers.eu), an open-source headless capture engine for all-sky cameras developed by AstroMeters. Key features include:
+- Sky-aware auto-exposure driven by Sun and Moon positions, with separate settings for day, twilight and night
+- RAM-first image pipeline with raw FITS/DNG output and calibration
+- Built-in keograms and meteor detection, extensible with plugins
+- Local storage with retention policy and automatic upload to a remote archive
+- Web-based user interface with live view, recordings by night and updates from the browser
 
-This setup ensures straightforward operation, high stability, and smooth integration into existing AllSky workflows.
+More details are in the [Caelum documentation](/docs/AMASC01/caelum/) and on [caelum.astrometers.eu](https://caelum.astrometers.eu).
 
 
 <p align="center">
@@ -92,13 +93,11 @@ This setup ensures straightforward operation, high stability, and smooth integra
 </p>
 
 
-### caelum – AstroMeters Capture Software
-As an alternative, AMASC01 can run [**caelum**](https://caelum.astrometers.eu), an open-source headless capture engine for all-sky cameras developed by AstroMeters. It offers sky-aware auto-exposure driven by Sun and Moon positions, a RAM-first pipeline with raw FITS/DNG output, built-in keograms and meteor detection, and automatic upload to a remote archive.
-
-More details are in the [AMASC01 caelum documentation](/docs/AMASC01/caelum/) and on [caelum.astrometers.eu](https://caelum.astrometers.eu).
+### Other Software Options
+AMASC01 is also compatible with [AllskyTeam/allsky](https://github.com/AllskyTeam/allsky) (the default software for cameras sold before October 2026) and [indi-allsky](/docs/AMASC01/indi-allsky/).
 
 ### Optional and Future Software Solutions
-AstroMeters is developing **optional software variants** aimed at specialized observational tasks, many of them built on [caelum](https://caelum.astrometers.eu). Planned extensions include:
+AstroMeters is developing **optional software variants** aimed at specialized observational tasks, built on [Caelum](https://caelum.astrometers.eu). Planned extensions include:
 
 - High-precision **meteor and bolide detection**  
 - Enhanced data processing pipelines for event-specific analysis  

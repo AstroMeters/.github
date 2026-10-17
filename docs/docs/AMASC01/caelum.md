@@ -1,9 +1,9 @@
 ---
 layout: page
-title: AMASC01 caelum
-subtitle: 'AMASC01: caelum capture software'
-description: 'caelum – open-source headless capture engine for all-sky cameras developed by AstroMeters, with sky-aware auto-exposure, keograms, meteor detection and remote archive upload.'
-keywords: 'caelum, AMASC01 caelum, all-sky camera software, allsky capture engine, Raspberry Pi allsky, sky-aware auto-exposure, keogram, meteor detection, FITS, DNG'
+title: Caelum
+subtitle: 'All-sky capture software'
+description: 'Caelum – the default AMASC01 software. Open-source headless capture engine for all-sky cameras developed by AstroMeters, with sky-aware auto-exposure, keograms, meteor detection and remote archive upload.'
+keywords: 'Caelum, AMASC01 software, all-sky camera software, allsky capture engine, Raspberry Pi allsky, sky-aware auto-exposure, keogram, meteor detection, FITS, DNG'
 menubar: docs_menu
 show_sidebar: false
 toc: false
@@ -11,15 +11,17 @@ nav_order: 5
 hero_image: '/images/products/AMASC01/amasc01_hero.webp'
 ---
 
-# AMASC01 caelum
+# Caelum
 
-**caelum** is an open-source, headless capture engine for all-sky cameras developed by AstroMeters. It is an **alternative software solution** for the [AMASC01](/products/AMASC01/) camera, designed for long-term unattended operation and scientific data collection.
+**Caelum** is an open-source, headless capture engine for all-sky cameras developed by AstroMeters. It is the **primary software** of the [AMASC01](/products/AMASC01/) camera, designed for long-term unattended operation and scientific data collection.
+
+<div class="notification is-info is-light">
+  <strong>Default software since October 2026.</strong> AMASC01 cameras sold from October 2026 onwards are shipped with Caelum pre-installed and pre-configured. Cameras sold earlier run the <a href="/docs/AMASC01/base-software-stack/">AllskyTeam/allsky stack</a> and can be switched to Caelum on request – <a href="/about/#custom-development-and-contact">contact us</a> if you need help.
+</div>
 
 - Documentation: <https://caelum.astrometers.eu>
 - Getting started: <https://caelum.astrometers.eu/guide/getting-started>
 - Source code: <https://github.com/roman-dvorak/caelum>
-
-AMASC01 is **fully supported** by caelum – its Sony IMX477 sensor runs through the Raspberry Pi camera backend (picamera2/libcamera).
 
 ## Key Features
 
@@ -30,25 +32,23 @@ AMASC01 is **fully supported** by caelum – its Sony IMX477 sensor runs through
 - **Web UI** – live view, recordings by night, file browser, settings, live logs and a web terminal, with admin and viewer accounts. See [web UI](https://caelum.astrometers.eu/guide/web-ui).
 - **Updates from the browser** – releases are installed and rolled back from the web UI. See [updates](https://caelum.astrometers.eu/guide/updates).
 
-## Position in the Software Ecosystem
+## Operation
 
-The standard AMASC01 software environment is the [Base Software Stack](/docs/AMASC01/base-software-stack/) built on **AllskyTeam/allsky**. Another alternative is [indi-allsky](/docs/AMASC01/indi-allsky/).
+1. **Connect** the camera via Ethernet/PoE cable
+2. **Open** the Caelum web interface using the camera's IP address or hostname
+3. **Adjust** capture, storage and upload settings if needed
+4. **Let it run** – Caelum operates unattended day and night
 
-caelum may be suitable for users who need:
+## Other Software Options
 
-- unattended operation on remote or networked observing stations
-- raw scientific data (FITS, DNG) alongside preview images
-- automatic archiving of several cameras to a central server
-- meteor detection and keograms without additional tools
+AMASC01 can also run [AllskyTeam/allsky](/docs/AMASC01/base-software-stack/) (the default software for cameras sold before October 2026) or [indi-allsky](/docs/AMASC01/indi-allsky/).
 
 ## Installation
 
-On a Raspberry Pi running Raspberry Pi OS Bookworm (64-bit), caelum is installed with a single command:
+Caelum comes pre-installed on new AMASC01 cameras. To install it on an older camera or another Raspberry Pi (Raspberry Pi OS Bookworm, 64-bit), run:
 
 ```bash
 curl -fsSL https://github.com/roman-dvorak/caelum/releases/latest/download/install.sh | sudo bash
 ```
 
-The installer sets up caelum as a systemd service and its web interface. Further options and manual installation are described in the [caelum deployment guide](https://caelum.astrometers.eu/guide/deployment).
-
-If you would like your AMASC01 delivered with caelum pre-installed, or want to discuss a suitable configuration, please [contact us](/about/#custom-development-and-contact).
+The installer sets up Caelum as a systemd service together with its web interface. Further options and manual installation are described in the [Caelum deployment guide](https://caelum.astrometers.eu/guide/deployment).

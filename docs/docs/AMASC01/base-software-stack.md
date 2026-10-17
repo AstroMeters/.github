@@ -1,7 +1,7 @@
 ---
 layout: page
-title: AMASC01 Base Software Stack
-subtitle: 'AMASC01: Base Software Stack'
+title: AMASC01 AllskyTeam/allsky Stack
+subtitle: 'AMASC01: AllskyTeam/allsky Stack'
 description: 'AMASC01 base software stack documentation – pre-installed Allsky software, web interface, imaging pipeline, and hardware management integration.'
 keywords: 'AMASC01 software, AllskyTeam allsky, all-sky camera software, web interface, imaging pipeline, dome heating control, ventilation control'
 menubar: docs_menu
@@ -11,9 +11,13 @@ nav_order: 4
 hero_image: '/images/products/AMASC01/amasc01_hero.webp'
 ---
 
-# AMASC01 Base Software Stack
+# AMASC01 AllskyTeam/allsky Stack
 
-The AMASC01 camera is delivered with a complete software environment already installed and configured at the factory. This allows the system to start operating immediately after installation, without requiring manual software setup for standard use.
+<div class="notification is-info is-light">
+  <strong>Default software since October 2026 is <a href="/docs/AMASC01/caelum/">Caelum</a>.</strong> This page describes the AllskyTeam/allsky stack shipped with AMASC01 cameras sold before October 2026.
+</div>
+
+AMASC01 cameras sold before October 2026 are delivered with this software environment already installed and configured at the factory. This allows the system to start operating immediately after installation, without requiring manual software setup for standard use.
 
 ## Software Foundation
 
@@ -28,9 +32,9 @@ In addition to the upstream base software, AMASC01 includes pre-configured setti
 
 Proper hardware control is essential for reliable long-term outdoor operation and stable image quality. For details about the thermal subsystem, see the [Thermal Control documentation](/docs/AMASC01/thermal-control/).
 
-## Alternatives
+## Other Software Options
 
-Besides the base stack, AMASC01 can run [indi-allsky](/docs/AMASC01/indi-allsky/) or [caelum](/docs/AMASC01/caelum/), the open-source capture engine developed by AstroMeters (documentation at [caelum.astrometers.eu](https://caelum.astrometers.eu)).
+The primary AMASC01 software is [Caelum](/docs/AMASC01/caelum/), the open-source capture engine developed by AstroMeters (documentation at [caelum.astrometers.eu](https://caelum.astrometers.eu)). AMASC01 can also run [indi-allsky](/docs/AMASC01/indi-allsky/).
 
 ## Included Capabilities
 
