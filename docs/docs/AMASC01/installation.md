@@ -182,6 +182,59 @@ The AMASC01 features an accessible precision focusing mechanism that can be adju
 
 **Note**: Check focus across the entire frame (edges and center). Make small adjustments – they make significant differences in image quality.
 
+### Advanced (Precise) Focusing
+
+For the sharpest possible focus, you can view a live, zoomed-in preview directly from the camera sensor over SSH. This shows changes immediately as you turn the focus ring, without waiting for the next exposure in the web interface.
+
+**Requirements:**
+
+- SSH access to the camera
+- A local X server for the forwarded preview window – built in on Linux; on macOS install [XQuartz](https://www.xquartz.org/); on Windows use e.g. [MobaXterm](https://mobaxterm.mobatek.net/)
+
+**1. Connect to the camera with X forwarding** (replace the hostname with your camera's hostname or IP address):
+
+```bash
+ssh -X astrometers-allsky
+```
+
+**2. Find out which capture software is running.** Only one program can use the camera at a time, so the capture service has to be stopped first. Depending on the camera, it runs either [Caelum](/docs/AMASC01/caelum/) (service `caelum`) or [AllskyTeam/allsky](/docs/AMASC01/base-software-stack/) (service `allsky`):
+
+```bash
+systemctl status caelum allsky
+```
+
+The one shown as `active (running)` is your capture service.
+
+**3. Stop the capture service** (use `allsky` instead of `caelum` if that is what your camera runs):
+
+```bash
+sudo systemctl stop caelum
+```
+
+If you skip this step, the preview fails with the message `Pipeline handler in use by another process`.
+
+**4. Start the live preview** of the central part of the image:
+
+```bash
+rpicam-hello --qt --roi 0.375,0.375,0.25,0.25 -t 0 --viewfinder-mode 2028:1520:8
+```
+
+- `--roi 0.375,0.375,0.25,0.25` crops the central 25 % of the sensor (x, y, width, height as fractions of the full frame), giving a magnified view in which small focus changes are easy to see
+- `-t 0` keeps the preview running until you stop it
+- `--viewfinder-mode 2028:1520:8` uses the full field of view with 8-bit raw data, which is sufficient for focusing and needs less memory than the default 12-bit mode
+- If the preview is terminated with `Killed` (the camera ran out of memory), also reduce the preview resolution and frame rate by adding `--viewfinder-width 1014 --viewfinder-height 760 --framerate 5`
+- To check focus elsewhere in the field (e.g. near the edge), shift the first two values, for example `--roi 0.05,0.375,0.25,0.25` for the left edge
+
+Turn the focus ring slowly until stars (at night) or fine distant details (during the day) are as small and sharp as possible. Then tighten the lock ring and verify that the focus did not shift.
+
+**5. Stop the preview** with `Ctrl+C` and **start the capture service again**:
+
+```bash
+sudo systemctl start caelum
+```
+
+> **Important:** Do not forget to restart the capture service – the camera does not capture any images while it is stopped.
+
 ## Step 5: Initial Configuration
 
 ### Basic Imaging Parameters
