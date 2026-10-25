@@ -89,3 +89,23 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+  # Tells Bing (and the other IndexNow engines, which share submissions) that
+  # the pages changed, rather than waiting for the next crawl. The key is public
+  # by design: it is served as docs/<key>.txt, which is how the engines check
+  # we own the host. The site is small, so every URL in the sitemap goes in.
+  indexnow:
+    needs: deploy
+    runs-on: ubuntu-latest
+    env:
+      SITE: https://astrometers.eu
+      KEY: de9e7a4c142e71c6cbebdabefb4b52e0
+    steps:
+      - run: |
+          curl -fsS "$SITE/sitemap.xml" | grep -o '<loc>[^<]*</loc>' | sed 's/<[^>]*>//g' \
+            | jq -R . | jq -s --arg key "$KEY" --arg host "${SITE#https://}" --arg site "$SITE" \
+                '{host: $host, key: $key, keyLocation: "\($site)/\($key).txt", urlList: .}' \
+            > body.json
+          jq '.urlList | length' body.json
+          curl -fsS -w '%{http_code}\n' -o /dev/null -X POST https://www.bing.com/indexnow \
+            -H 'Content-Type: application/json; charset=utf-8' --data @body.json
