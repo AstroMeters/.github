@@ -1,0 +1,37 @@
+---
+layout: null
+permalink: /llms.txt
+sitemap: false
+---
+# AstroMeters
+
+> AstroMeters designs and manufactures open-source precision hardware for astronomy: AllSky cameras, telescope focusers, sky quality and cloud sensors, and mount controllers. Products are assembled and tested in-house. Documentation, firmware and hardware designs are openly available.
+
+- Website: {{ site.url }}
+- Contact: info@astrometers.eu (sales, quotes, custom development)
+- Source code: https://github.com/AstroMeters
+- Software: [Caelum](https://caelum.astrometers.eu) – open-source capture engine for all-sky cameras, default software of the AMASC01 camera
+- Prices are in EUR; most products are ordered by e-mail ("Get offer").
+
+## Products
+{% assign products = site.products | sort: "title" %}{% for p in products %}
+- [{{ p.product_code | default: p.title }} – {{ p.subtitle }}]({{ site.url }}{{ p.url }}){% if p.price %} ({{ p.price }}){% endif %}: {{ p.description | strip_newlines | strip }}{% endfor %}
+
+## Components
+{% assign accessories = site.accessories | sort: "title" %}{% for p in accessories %}
+- [{{ p.title }} – {{ p.subtitle }}]({{ site.url }}{{ p.url }}){% if p.price %} ({{ p.price }}){% endif %}: {{ p.description | strip_newlines | strip }}{% endfor %}
+
+## Documentation
+{% assign docs_pages = site.pages | where_exp: "p", "p.url contains '/docs/'" | sort: "url" %}{% for p in docs_pages %}{% if p.title %}
+- [{{ p.title }}]({{ site.url }}{{ p.url }}){% if p.description %}: {{ p.description | strip_newlines | strip }}{% endif %}{% endif %}{% endfor %}
+
+## Blog
+{% for post in site.posts %}
+- [{{ post.title }}]({{ site.url }}{{ post.url }}) ({{ post.date | date: "%Y-%m-%d" }}){% if post.description %}: {{ post.description | strip_newlines | strip }}{% endif %}{% endfor %}
+
+## Optional
+{% assign legacy = site.legacy | sort: "title" %}{% for p in legacy %}
+- [{{ p.title }} – {{ p.subtitle }} (previous generation)]({{ site.url }}{{ p.url }}): {{ p.description | strip_newlines | strip }}{% endfor %}
+- [About AstroMeters]({{ site.url }}/about/): Company background, mission and custom development.
+- [Blog feed]({{ site.url }}/feed.xml)
+- [Sitemap]({{ site.url }}/sitemap.xml)
