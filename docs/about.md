@@ -34,4 +34,4 @@ If you're interested in our products or custom solutions, please don't hesitate 
 
 **📧 Contact:** [info@astrometers.eu](mailto:info@astrometers.eu)
 
-**🏢 Company details:** [Company Information](/company/) – operator, address and IČO
+**🏢 Business information:** [Business Information](/company/)

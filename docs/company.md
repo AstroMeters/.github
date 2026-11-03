@@ -1,5 +1,5 @@
 ---
-title: Company Information
+title: Business Information
 subtitle: Legal and business details of AstroMeters
 description: 'Legal information about AstroMeters: operator, registered address, company ID (IČO) and trade register details.'
 keywords: 'AstroMeters company information, legal notice, IČO, operator, contact'
@@ -9,7 +9,7 @@ hero_image: /images/am_about.webp
 permalink: /company/
 ---
 
-# Company Information
+# Business Information
 
 AstroMeters is a brand based in České Budějovice, Czech Republic. Our legal and business details are below.
 
