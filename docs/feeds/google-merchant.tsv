@@ -1,0 +1,12 @@
+---
+layout: null
+permalink: /feeds/google-merchant.tsv
+sitemap: false
+---
+{%- assign items = site.products | concat: site.accessories -%}
+id	title	description	link	image_link	additional_image_link	availability	price	brand	mpn	gtin	identifier_exists	condition	google_product_category	product_type	shipping
+{% for item in items -%}{%- include merchant-item.html -%}{%- if m_ok -%}
+{%- assign extra = "" -%}{%- for img in m.additional_images -%}{%- assign one = site.url | append: img -%}{%- if forloop.first -%}{%- assign extra = one -%}{%- else -%}{%- assign extra = extra | append: "," | append: one -%}{%- endif -%}{%- endfor -%}
+{%- assign ship = "" -%}{%- if site.merchant.shipping_country != "" and m_shipping != "" -%}{%- assign ship = site.merchant.shipping_country | append: ":" | append: site.merchant.shipping_service | append: ":" | append: m_shipping -%}{%- endif -%}
+{{ m_code }}	{{ m_title | replace: "	", " " }}	{{ m_desc | replace: "	", " " }}	{{ m_link }}	{{ m_image }}	{{ extra }}	{{ m_availability }}	{{ m_price }}	{{ site.merchant.brand }}	{{ m_mpn }}	{{ m.gtin }}	{{ m_idexists }}	{{ m_condition }}	{{ m.google_product_category }}	{{ m.product_type }}	{{ ship }}
+{% endif %}{% endfor -%}

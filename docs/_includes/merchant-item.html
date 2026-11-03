@@ -1,0 +1,27 @@
+{%- comment -%}
+Computes feed fields for `item` (a product/accessory document) into variables prefixed m_.
+Skips items without numeric price/image (m_ok = false).
+{%- endcomment -%}
+{%- assign m = item.merchant -%}
+{%- assign m_amount = item.price | remove: "EUR" | remove: "Eur" | strip -%}
+{%- assign m_ok = true -%}
+{%- if m_amount == "" or item.image == "" or item.image == nil or m.exclude -%}{%- assign m_ok = false -%}{%- endif -%}
+{%- if m_ok -%}
+  {%- assign m_cents = m_amount | times: 100 | round -%}
+  {%- assign m_frac = m_cents | modulo: 100 -%}
+  {%- if m_frac < 10 -%}{%- assign m_frac = m_frac | prepend: "0" -%}{%- endif -%}
+  {%- assign m_price = m_cents | divided_by: 100 | append: "." | append: m_frac | append: " " | append: site.merchant.currency -%}
+  {%- assign m_code = item.product_code | default: item.title -%}
+  {%- assign m_mpn = m.mpn | default: m_code -%}
+  {%- assign m_title = item.title | append: " – " | append: item.subtitle -%}
+  {%- if item.revision -%}{%- assign m_title = m_title | append: " (rev. " | append: item.revision | append: ")" -%}{%- endif -%}
+  {%- assign m_desc = item.description | strip_newlines | strip -%}
+  {%- assign m_link = m.link | default: item.url -%}
+  {%- unless m_link contains "://" -%}{%- assign m_link = site.url | append: m_link -%}{%- endunless -%}
+  {%- assign m_image = site.url | append: item.image -%}
+  {%- assign m_availability = m.availability | default: site.merchant.availability -%}
+  {%- assign m_condition = m.condition | default: site.merchant.condition -%}
+  {%- assign m_shipping = m.shipping_price | default: site.merchant.shipping_price -%}
+  {%- assign m_idexists = "false" -%}
+  {%- if m.gtin -%}{%- assign m_idexists = "true" -%}{%- endif -%}
+{%- endif -%}

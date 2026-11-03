@@ -122,3 +122,16 @@ organization:
 feed:
   posts_limit: 20
   excerpt_only: false
+
+# Product feeds (feeds/google-merchant.xml, feeds/google-merchant.tsv)
+# Per-product overrides go into a `merchant:` block in the product front matter:
+#   gtin, mpn, google_product_category, product_type, availability, condition,
+#   shipping_price, link, additional_images (list), exclude (true to omit)
+merchant:
+  brand: AstroMeters
+  currency: EUR
+  condition: new
+  availability: in_stock
+  shipping_country: ''      # e.g. CZ - shipping is emitted only when country and price are set
+  shipping_service: Standard
+  shipping_price: ''        # e.g. 15.00 EUR (default for all items, override per product)

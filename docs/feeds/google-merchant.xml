@@ -1,0 +1,43 @@
+---
+layout: null
+permalink: /feeds/google-merchant.xml
+sitemap: false
+---
+{%- assign items = site.products | concat: site.accessories -%}
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0">
+<channel>
+<title>{{ site.title | xml_escape }}</title>
+<link>{{ site.url }}</link>
+<description>{{ site.description | strip_newlines | strip | xml_escape }}</description>
+{% for item in items -%}{%- include merchant-item.html -%}{%- if m_ok -%}
+<item>
+<g:id>{{ m_code | xml_escape }}</g:id>
+<g:title>{{ m_title | xml_escape }}</g:title>
+<g:description>{{ m_desc | xml_escape }}</g:description>
+<g:link>{{ m_link | xml_escape }}</g:link>
+<g:image_link>{{ m_image | xml_escape }}</g:image_link>
+{% for img in m.additional_images %}<g:additional_image_link>{{ site.url }}{{ img | xml_escape }}</g:additional_image_link>
+{% endfor -%}
+<g:availability>{{ m_availability }}</g:availability>
+<g:price>{{ m_price }}</g:price>
+<g:brand>{{ site.merchant.brand | xml_escape }}</g:brand>
+<g:mpn>{{ m_mpn | xml_escape }}</g:mpn>
+{% if m.gtin %}<g:gtin>{{ m.gtin }}</g:gtin>
+{% endif -%}
+<g:identifier_exists>{{ m_idexists }}</g:identifier_exists>
+<g:condition>{{ m_condition }}</g:condition>
+{% if m.google_product_category %}<g:google_product_category>{{ m.google_product_category | xml_escape }}</g:google_product_category>
+{% endif -%}
+{% if m.product_type %}<g:product_type>{{ m.product_type | xml_escape }}</g:product_type>
+{% endif -%}
+{% if site.merchant.shipping_country != "" and m_shipping != "" %}<g:shipping>
+<g:country>{{ site.merchant.shipping_country }}</g:country>
+<g:service>{{ site.merchant.shipping_service | xml_escape }}</g:service>
+<g:price>{{ m_shipping }}</g:price>
+</g:shipping>
+{% endif -%}
+</item>
+{% endif %}{% endfor -%}
+</channel>
+</rss>

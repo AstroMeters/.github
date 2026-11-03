@@ -7,7 +7,19 @@ keywords: 'AMASC01, allsky camera, Sony IMX477, allsky imaging, meteor detection
 layout: product
 image: '/images/products/AMASC01/amasc01_product_main.webp'
 hero_image: '/images/products/AMASC01/amasc01_hero.webp'
-price: 564 EUR
+price: 632 EUR
+revision: AMASC01D
+merchant:
+  google_product_category: Electronics > Cameras & Optics > Cameras
+  product_type: AllSky cameras
+  mpn: AMASC01
+  # gtin: ''
+  # availability: in_stock
+  # shipping_price: 0.00 EUR
+  # link: https://lectronz.com/products/amasc01
+  additional_images:
+    - /images/products/AMASC01/amasc01_portrait.webp
+    - /images/products/AMASC01/frame.webp
 features:
     - label: Sony 12.3MP sensor with excellent low-light performance
       icon: fa-camera
@@ -34,7 +46,21 @@ buttons:
 
 # AMASC01 – AstroMeters AllSky Camera
 
+<div class="notification is-light">
+  <strong>Current revision: AMASC01D.</strong> Cameras ordered today are shipped in revision D.
+</div>
+
 The **AMASC01** is an AllSky camera designed for continuous sky monitoring in astronomical and environmental applications. It integrates the [Sony IMX477](https://www.sony-semicon.com/files/62/pdf/p-13_IMX477-AACK_Flyer.pdf) image sensor with a 180° fisheye lens, providing high sensitivity required for night-sky imaging and long-term observation.
+
+## Applications
+
+- **Astronomy and astrophotography** – continuous all-sky monitoring, timelapses of the whole night and Milky Way imaging from your observatory.
+- **Meteor and bolide detection** – every frame is stored with an accurate timestamp, so fireballs and meteor showers are caught and can be analysed or shared with networks.
+- **Cloud cover and observing conditions** – decide at a glance whether to open the roof, or feed the data into observatory automation together with [AMSKY02](/products/AMSKY02/).
+- **Remote and robotic observatories** – single PoE+ cable, RTC and unattended operation make it suitable for sites without a reliable internet connection.
+- **Atmospheric phenomena** – aurora, airglow, noctilucent clouds, halo phenomena and lightning, with the sensor data to correlate them.
+- **Education and outreach** – live sky view for schools, public observatories and planetariums.
+- **Environmental and research monitoring** – long-term sky brightness and weather records, with raw FITS/DNG output for scientific processing.
 
 ## Durable Construction for Outdoor Deployment
 The camera is housed in a weather-resistant enclosure suitable for year-round outdoor operation. Key design elements include:
@@ -83,6 +109,12 @@ The primary software is [**Caelum**](https://caelum.astrometers.eu), an open-sou
 - Local storage with retention policy and automatic upload to a remote archive
 - Web-based user interface with live view, recordings by night and updates from the browser
 
+<p align="center">
+  <img alt="Caelum Viewer web interface showing a night-sky frame from AMASC01 with metadata, timeline and export options" src="/images/products/AMASC01/caelum_viewer.webp" width="80%">
+  <br>
+  <em>Caelum web interface: live view, night playback, per-frame metadata (exposure, Sun/Moon position, focus score) and RAW/DNG download.</em>
+</p>
+
 More details are in the [Caelum documentation](/docs/AMASC01/caelum/) and on [caelum.astrometers.eu](https://caelum.astrometers.eu).
 
 
@@ -105,3 +137,9 @@ AstroMeters is developing **optional software variants** aimed at specialized ob
 - **Outputs based on customers requests**, feel free to contact us with your requirements
 
 These upcoming modules will expand the potential of the AMASC01 for users requiring advanced analytical features or specialized observational capabilities.
+
+## Customization
+
+Need a modified version of AMASC01? Whether it is **software/firmware**, **hardware**, or **camera parameters** (e.g. lens and field of view, sensor, interface, power, or mounting), we are happy to adapt it to your needs. Since the design, development, and manufacturing are all done in-house, such modifications can be made quickly and easily.
+
+If you are interested, please [contact us](/about/#custom-development-and-contact).
