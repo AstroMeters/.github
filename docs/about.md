@@ -33,3 +33,5 @@ In addition to our standard product line, **AstroMeters offers custom developmen
 If you're interested in our products or custom solutions, please don't hesitate to get in touch.
 
 **📧 Contact:** [info@astrometers.eu](mailto:info@astrometers.eu)
+
+**🏢 Company details:** [Company Information](/company/) – operator, address and IČO
